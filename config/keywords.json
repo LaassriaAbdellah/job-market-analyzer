@@ -1,0 +1,8 @@
+{
+    "languages": ["python", "sql", "java", "c++", "c#", "typescript", "javascript", "go", "rust", "php", "r", "ruby"],
+    "databases": ["postgresql", "mysql", "mongodb", "redis", "elasticsearch", "oracle", "dynamodb", "sqlite"],
+    "cloud_devops": ["aws", "azure", "gcp", "docker", "kubernetes", "terraform", "ci/cd", "linux", "bash", "ansible"],
+    "web_frameworks": ["react", "vue", "angular", "django", "flask", "fastapi", "spring", "node.js", "express", "symfony"],
+    "data_engineering_ai": ["spark", "airflow", "snowflake", "dbt", "kafka", "pandas", "numpy", "scikit-learn", "tensorflow", "pytorch", "llm"],
+    "security_tools": ["siem", "wireshark", "burp suite", "iso 27001", "pentest", "soc"]
+}

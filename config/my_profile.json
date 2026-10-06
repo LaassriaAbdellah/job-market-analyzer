@@ -1,0 +1,20 @@
+{
+    "name": "Candidat IT / Data & Dev",
+    "target_roles": ["Software Engineer", "Data Engineer", "DevOps Engineer", "Data Analyst"],
+    "skills": [
+        "python",
+        "sql",
+        "postgresql",
+        "pandas",
+        "git",
+        "docker",
+        "linux",
+        "javascript",
+        "html",
+        "css",
+        "requests",
+        "beautifulsoup",
+        "streamlit"
+    ],
+    "preferred_locations": ["remote", "france", "paris", "worldwide"]
+}

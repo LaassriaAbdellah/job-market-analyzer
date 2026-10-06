@@ -1,0 +1,24 @@
+# Environnement virtuel
+venv/
+.venv/
+
+# Variables d'environnement / secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Données locales générées
+data/*.json
+data/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
