@@ -1,8 +1,9 @@
-import os
 import json
 import logging
 import requests
+from pathlib import Path
 from typing import List, Dict, Any
+from common import BASE_DIR, DATA_DIR, deduplicate_jobs, stable_job_id
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -26,8 +27,9 @@ def fetch_remotive_tech_jobs(categories: List[str]) -> List[Dict[str, Any]]:
             raw_jobs = response.json().get("jobs", [])
             
             for job in raw_jobs:
+                job_url = job.get("url")
                 all_jobs.append({
-                    "id": f"remotive_{job.get('id')}",
+                    "id": f"remotive_{job['id']}" if job.get("id") is not None else stable_job_id("remotive", job_url, job.get("title"), job.get("company_name")),
                     "title": job.get("title"),
                     "company": job.get("company_name", "Inconnue"),
                     "category": job.get("category", cat),
@@ -53,8 +55,9 @@ def fetch_jobicy_tech_jobs(industries: List[str]) -> List[Dict[str, Any]]:
             raw_jobs = response.json().get("jobs", [])
             
             for job in raw_jobs:
+                job_url = job.get("url")
                 all_jobs.append({
-                    "id": f"jobicy_{job.get('id')}",
+                    "id": f"jobicy_{job['id']}" if job.get("id") is not None else stable_job_id("jobicy", job_url, job.get("jobTitle"), job.get("companyName")),
                     "title": job.get("jobTitle"),
                     "company": job.get("companyName", "Inconnue"),
                     "category": ind,
@@ -86,11 +89,23 @@ def run_broad_tech_collector(limit: int = 100) -> List[Dict[str, Any]]:
     logging.info(f"Collecte terminée : {len(unique_jobs)} offres IT brutes récupérées.")
     return unique_jobs
 
-def save_raw_jobs(jobs: List[Dict[str, Any]], filepath: str = "data/raw_jobs.json") -> None:
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(jobs, f, ensure_ascii=False, indent=4)
-    logging.info(f"Fichier '{filepath}' enregistré avec succès.")
+def save_raw_jobs(jobs: List[Dict[str, Any]], filepath: Path = DATA_DIR / "raw_jobs.json") -> None:
+    output_path = Path(filepath)
+    if not output_path.is_absolute():
+        output_path = BASE_DIR / output_path
+    existing_jobs = []
+    if output_path.exists():
+        try:
+            with output_path.open("r", encoding="utf-8") as f:
+                existing_jobs = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            logging.error("Impossible de lire les offres existantes dans '%s': %s", output_path, e)
+            raise
+    unique_jobs = deduplicate_jobs([*existing_jobs, *jobs])
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", encoding="utf-8") as f:
+        json.dump(unique_jobs, f, ensure_ascii=False, indent=4)
+    logging.info("Fichier '%s' enregistré : %s offres uniques.", output_path, len(unique_jobs))
 
 if __name__ == "__main__":
     jobs = run_broad_tech_collector(limit=100)

@@ -1,10 +1,11 @@
-import os
 import re
 import json
 import logging
 import spacy
 from bs4 import BeautifulSoup
 from typing import List, Dict, Any, Set
+from pathlib import Path
+from common import BASE_DIR, CONFIG_DIR, DATA_DIR
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -88,16 +89,20 @@ def calculate_score(extracted_skills: Dict[str, List[str]], user_skills: List[st
     return round((len(matched_skills) / len(all_job_skills)) * 100, 2)
 
 def run_filtered_parser(
-    raw_path: str = "data/raw_jobs.json",
-    keywords_path: str = "config/keywords.json",
-    profile_path: str = "config/my_profile.json",
-    output_path: str = "data/parsed_jobs.json"
+    raw_path: Path = DATA_DIR / "raw_jobs.json",
+    keywords_path: Path = CONFIG_DIR / "keywords.json",
+    profile_path: Path = CONFIG_DIR / "my_profile.json",
+    output_path: Path = DATA_DIR / "parsed_jobs.json"
 ):
     logging.info("--- DÉMARRAGE DU PARSER FILTRÉ (Nettoyage + Filtre Sémantique Tech) ---")
     
-    raw_jobs = load_json(raw_path)
-    keywords = load_json(keywords_path)
-    profile = load_json(profile_path)
+    def project_path(path: Any) -> Path:
+        candidate = Path(path)
+        return candidate if candidate.is_absolute() else BASE_DIR / candidate
+
+    raw_jobs = load_json(str(project_path(raw_path)))
+    keywords = load_json(str(project_path(keywords_path)))
+    profile = load_json(str(project_path(profile_path)))
     user_skills = profile.get("skills", [])
     
     parsed_jobs = []
@@ -133,11 +138,12 @@ def run_filtered_parser(
         }
         parsed_jobs.append(parsed_job)
         
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
+    resolved_output = project_path(output_path)
+    resolved_output.parent.mkdir(parents=True, exist_ok=True)
+    with resolved_output.open("w", encoding="utf-8") as f:
         json.dump(parsed_jobs, f, ensure_ascii=False, indent=4)
         
-    logging.info(f"Parsing filtré réussi ! {len(parsed_jobs)} offres enregistrées.")
+    logging.info("Parsing filtré réussi : %s offres enregistrées dans '%s'.", len(parsed_jobs), resolved_output)
 
 if __name__ == "__main__":
     run_filtered_parser()

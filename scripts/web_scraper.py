@@ -1,10 +1,12 @@
-import os
 import time
 import json
 import logging
 import requests
 from bs4 import BeautifulSoup
+from urllib.parse import quote_plus
 from typing import List, Dict, Any
+from pathlib import Path
+from common import BASE_DIR, DATA_DIR, canonicalize_url, deduplicate_jobs, stable_job_id
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -29,7 +31,7 @@ def scrape_freework_broad_tech(keywords: List[str], max_pages_per_keyword: int =
         logging.info(f"Recherche sur le domaine / mot-clé : '{kw}'")
         
         for page in range(1, max_pages_per_keyword + 1):
-            url = f"https://www.free-work.com/fr/tech-it/jobs?query={kw}&page={page}"
+            url = f"https://www.free-work.com/fr/tech-it/jobs?query={quote_plus(kw)}&page={page}"
             
             try:
                 response = requests.get(url, headers=HEADERS, timeout=10)
@@ -51,12 +53,19 @@ def scrape_freework_broad_tech(keywords: List[str], max_pages_per_keyword: int =
                     link = card.get("href") if card.name == "a" else None
                     if not link and card.find("a"):
                         link = card.find("a").get("href")
+
+                    # La recherche Free-Work mélange aussi articles et pages de villes.
+                    if not link or title == "Titre non spécifié" or "/blog/" in link:
+                        continue
                     
-                    full_url = f"https://www.free-work.com{link}" if link and link.startswith("/") else link or "URL non disponible"
+                    full_url = f"https://www.free-work.com{link}" if link and link.startswith("/") else link or ""
                     text_content = card.get_text(" ", strip=True)
 
-                    # Génération d'un ID stable basé sur l'URL ou le hash du titre
-                    job_id = f"freework_{kw}_{page}_{index}_{abs(hash(title)) % 10000}"
+                    # L'URL canonique produit un identifiant stable entre les exécutions.
+                    full_url = canonicalize_url(full_url)
+                    if not full_url:
+                        continue
+                    job_id = stable_job_id("freework", full_url, title, text_content)
 
                     scraped_jobs.append({
                         "id": job_id,
@@ -77,24 +86,28 @@ def scrape_freework_broad_tech(keywords: List[str], max_pages_per_keyword: int =
     logging.info(f"Scraping HTML terminé : {len(scraped_jobs)} offres Tech extraites du Web.")
     return scraped_jobs
 
-def append_to_raw_jobs(new_jobs: List[Dict[str, Any]], filepath: str = "data/raw_jobs.json") -> None:
+def append_to_raw_jobs(new_jobs: List[Dict[str, Any]], filepath: Path = DATA_DIR / "raw_jobs.json") -> None:
     """Combine les nouvelles offres avec le fichier JSON brut existant en dédupliquant."""
     existing_jobs = []
-    if os.path.exists(filepath):
-        with open(filepath, "r", encoding="utf-8") as f:
+    output_path = Path(filepath)
+    if not output_path.is_absolute():
+        output_path = BASE_DIR / output_path
+    if output_path.exists():
+        with output_path.open("r", encoding="utf-8") as f:
             try:
                 existing_jobs = json.load(f)
-            except json.JSONDecodeError:
-                existing_jobs = []
+            except json.JSONDecodeError as e:
+                logging.error("Le fichier '%s' contient un JSON invalide: %s", output_path, e)
+                raise
 
     # Fusion et déduplication par ID unique
-    all_jobs = existing_jobs + new_jobs
-    unique_jobs = list({job["id"]: job for job in all_jobs}.values())
+    unique_jobs = deduplicate_jobs([*existing_jobs, *new_jobs])
 
-    with open(filepath, "w", encoding="utf-8") as f:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", encoding="utf-8") as f:
         json.dump(unique_jobs, f, ensure_ascii=False, indent=4)
 
-    logging.info(f"Fichier '{filepath}' mis à jour ! Total cumulé : {len(unique_jobs)} offres IT brutes.")
+    logging.info("Fichier '%s' mis à jour : %s offres IT brutes uniques.", output_path, len(unique_jobs))
 
 if __name__ == "__main__":
     # Liste de domaines couvrant tout le secteur Tech / IT
