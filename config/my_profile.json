@@ -1,20 +1,53 @@
 {
-    "name": "Candidat IT / Data & Dev",
-    "target_roles": ["Software Engineer", "Data Engineer", "DevOps Engineer", "Data Analyst"],
+    "name": "Candidat Data Science & Data Engineering",
+
+    "target_roles": [
+        "Data Scientist",
+        "Data Engineer",
+        "Machine Learning Engineer",
+        "Junior Data Scientist",
+        "Junior Data Engineer",
+        "Data Analyst"
+    ],
+
     "skills": [
         "python",
         "sql",
         "postgresql",
+        "mysql",
         "pandas",
-        "git",
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "xgboost",
+        "machine learning",
+        "classification",
+        "regression",
+        "clustering",
+        "etl",
+        "data pipeline",
+        "data warehouse",
+        "web scraping",
+        "fastapi",
+        "rest api",
         "docker",
+        "git",
+        "github",
         "linux",
-        "javascript",
-        "html",
-        "css",
-        "requests",
-        "beautifulsoup",
-        "streamlit"
+        "ci/cd",
+        "mlflow",
+        "shap",
+        "streamlit",
+        "langchain",
+        "langgraph",
+        "llm",
+        "sentence transformers"
     ],
-    "preferred_locations": ["remote", "france", "paris", "worldwide"]
+
+    "preferred_locations": [
+        "morocco",
+        "rabat",
+        "casablanca",
+        "remote"
+    ]
 }

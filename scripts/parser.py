@@ -126,19 +126,20 @@ def run_filtered_parser(
         score = calculate_score(extracted_skills, user_skills)
         
         parsed_job = {
-            "id": job.get("id"),
-            "title": job.get("title"),
-            "company": job.get("company"),
-            "location": job.get("location"),
-            "url": job.get("url"),
-            "published_at": job.get("published_at"),
-            "source": job.get("source"),
-            "extracted_skills": extracted_skills,
-            "total_skills_count": sum(len(v) for v in extracted_skills.values()),
-            "matching_score": score
-        }
+        "id": job.get("id"),
+        "title": job.get("title"),
+        "company": job.get("company"),
+        "location": job.get("location"),
+        "description": clean_desc,
+        "url": job.get("url"),
+        "published_at": job.get("published_at"),
+        "source": job.get("source"),
+        "extracted_skills": extracted_skills,
+        "total_skills_count": sum(len(v) for v in extracted_skills.values()),
+        "matching_score": score
+    }
         parsed_jobs.append(parsed_job)
-        
+
     resolved_output = project_path(output_path)
     resolved_output.parent.mkdir(parents=True, exist_ok=True)
     with resolved_output.open("w", encoding="utf-8") as f:
