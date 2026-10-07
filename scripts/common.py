@@ -7,6 +7,8 @@ from urllib.parse import urlsplit, urlunsplit
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
+PROCESSED_DIR = DATA_DIR / "processed"
+NORMALIZED_JOBS_PATH = PROCESSED_DIR / "normalized_jobs.json"
 CONFIG_DIR = BASE_DIR / "config"
 
 
@@ -38,11 +40,12 @@ def deduplicate_jobs(jobs: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]]:
     for job in jobs:
         job_id = str(job.get("id") or "").strip()
         canonical_url = canonicalize_url(job.get("url"))
-        if (job_id and job_id in seen_ids) or (canonical_url and canonical_url in seen_urls):
-            continue
+        duplicate = (job_id and job_id in seen_ids) or (canonical_url and canonical_url in seen_urls)
         if job_id:
             seen_ids.add(job_id)
         if canonical_url:
             seen_urls.add(canonical_url)
+        if duplicate:
+            continue
         unique.append(job)
     return unique

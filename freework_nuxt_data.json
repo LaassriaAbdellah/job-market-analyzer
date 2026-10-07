@@ -1,0 +1,6950 @@
+[
+  [
+    "ShallowReactive",
+    1
+  ],
+  {
+    "data": 2,
+    "state": 1474,
+    "once": 1486,
+    "_errors": 1487,
+    "serverRendered": 308,
+    "path": 1489,
+    "pinia": 1490
+  },
+  [
+    "ShallowReactive",
+    3
+  ],
+  {
+    "jobs-page-init-/fr/tech-it/jobs": 4,
+    "jobs-search-/fr/tech-it/jobs": 425
+  },
+  {
+    "jobPostingCount": 5,
+    "lastTopics": 6,
+    "popularBlogPosts": 266,
+    "locationFilterOptions": 421
+  },
+  10100,
+  [
+    7,
+    31,
+    44,
+    63,
+    81,
+    97,
+    109,
+    122,
+    139,
+    163,
+    181,
+    193,
+    205,
+    220,
+    237,
+    249
+  ],
+  {
+    "@id": 8,
+    "@type": 9,
+    "id": 10,
+    "category": 11,
+    "title": 17,
+    "slug": 18,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 21
+  },
+  "/forum_topics/tjm-bas",
+  "ForumTopic",
+  61786,
+  {
+    "@id": 12,
+    "@type": 13,
+    "id": 14,
+    "title": 15,
+    "slug": 16
+  },
+  "/forum_categories/vos-projets",
+  "ForumCategory",
+  38,
+  "Vos projets",
+  "vos-projets",
+  "Tjm Bas ",
+  "tjm-bas",
+  null,
+  false,
+  {
+    "@id": 22,
+    "@type": 23,
+    "id": 24,
+    "nickname": 25,
+    "nicknameSlug": 26,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 27,
+    "forumPostsCount": 28,
+    "createdAt": 29,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 30,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/802549",
+  "User",
+  802549,
+  "Free-Worker-802549",
+  "free-worker-802549",
+  18,
+  66,
+  "2024-02-29T19:36:40+01:00",
+  2,
+  {
+    "@id": 32,
+    "@type": 9,
+    "id": 33,
+    "category": 34,
+    "title": 35,
+    "slug": 36,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 37
+  },
+  "/forum_topics/une-crise-sur-le-marche-dexpertise-en-aws-ou-cest-partout",
+  61847,
+  {
+    "@id": 12,
+    "@type": 13,
+    "id": 14,
+    "title": 15,
+    "slug": 16
+  },
+  "Une crise sur le marché d'expertise en AWS ou c'est partout?",
+  "une-crise-sur-le-marche-dexpertise-en-aws-ou-cest-partout",
+  {
+    "@id": 38,
+    "@type": 23,
+    "id": 39,
+    "nickname": 40,
+    "nicknameSlug": 40,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 27,
+    "createdAt": 42,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 43,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/384214",
+  384214,
+  "brag80",
+  0,
+  "2013-12-11T23:36:22+01:00",
+  1,
+  {
+    "@id": 45,
+    "@type": 9,
+    "id": 46,
+    "category": 47,
+    "title": 52,
+    "slug": 53,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 54
+  },
+  "/forum_topics/attention-aux-faux-recrutements-quand-des-plateformes-aspirent-vos-donnees-projet-nda-et-vos-contacts",
+  61835,
+  {
+    "@id": 48,
+    "@type": 13,
+    "id": 49,
+    "title": 50,
+    "slug": 51
+  },
+  "/forum_categories/vos-problemes-les-pieges-a-eviter",
+  27,
+  "Vos problèmes, les pièges à éviter",
+  "vos-problemes-les-pieges-a-eviter",
+  "Attention aux faux recrutements : quand des plateformes aspirent vos données projet (NDA) et vos contacts",
+  "attention-aux-faux-recrutements-quand-des-plateformes-aspirent-vos-donnees-projet-nda-et-vos-contacts",
+  {
+    "@id": 55,
+    "@type": 23,
+    "id": 56,
+    "nickname": 57,
+    "nicknameSlug": 57,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 58,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 59,
+    "forumPostsCount": 60,
+    "createdAt": 61,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 62,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/516413",
+  516413,
+  "free-worker52",
+  "Tarik\nMake The World Better At My Little Position",
+  97,
+  116,
+  "2020-12-17T20:59:57+01:00",
+  3,
+  {
+    "@id": 64,
+    "@type": 9,
+    "id": 65,
+    "category": 66,
+    "title": 71,
+    "slug": 72,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 73
+  },
+  "/forum_topics/ne-laissez-plus-dormir-votre-treso-2-84-dinterets-quotidiens-et-liquidite-immediate",
+  61788,
+  {
+    "@id": 67,
+    "@type": 13,
+    "id": 68,
+    "title": 69,
+    "slug": 70
+  },
+  "/forum_categories/cafe-des-freelances",
+  36,
+  "Café des Freelances",
+  "cafe-des-freelances",
+  "Ne laissez plus dormir votre tréso : 2,84 % d'intérêts quotidiens et liquidité immédiate ! 🚀",
+  "ne-laissez-plus-dormir-votre-treso-2-84-dinterets-quotidiens-et-liquidite-immediate",
+  {
+    "@id": 74,
+    "@type": 23,
+    "id": 75,
+    "nickname": 76,
+    "nicknameSlug": 77,
+    "jobTitle": 19,
+    "website": 78,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 30,
+    "forumPostsCount": 79,
+    "createdAt": 80,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/359129",
+  359129,
+  "eric.s.",
+  "eric-s-1",
+  "https://www.spiko.io/fr/?refer=0E4EA058C7",
+  6,
+  "2010-11-23T22:59:04+01:00",
+  {
+    "@id": 82,
+    "@type": 9,
+    "id": 83,
+    "category": 84,
+    "title": 89,
+    "slug": 90,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 91
+  },
+  "/forum_topics/avis-esn-ce-type-de-veille-post-attribution-aurait-il-une-valeur-pour-vous",
+  61765,
+  {
+    "@id": 85,
+    "@type": 13,
+    "id": 86,
+    "title": 87,
+    "slug": 88
+  },
+  "/forum_categories/votre-activite",
+  29,
+  "Votre activité",
+  "votre-activite",
+  "Avis ESN : ce type de veille post-attribution aurait-il une valeur pour vous ?",
+  "avis-esn-ce-type-de-veille-post-attribution-aurait-il-une-valeur-pour-vous",
+  {
+    "@id": 92,
+    "@type": 23,
+    "id": 93,
+    "nickname": 94,
+    "nicknameSlug": 95,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 30,
+    "createdAt": 96,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/1555482",
+  1555482,
+  "FTechFR",
+  "ftechfr",
+  "2026-09-21T17:25:29+02:00",
+  {
+    "@id": 98,
+    "@type": 9,
+    "id": 99,
+    "category": 100,
+    "title": 101,
+    "slug": 102,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 103
+  },
+  "/forum_topics/vous-avez-trouve-un-outil-vraiment-simple-pour-les-devis-factures",
+  59944,
+  {
+    "@id": 48,
+    "@type": 13,
+    "id": 49,
+    "title": 50,
+    "slug": 51
+  },
+  "Vous avez trouvé un outil vraiment simple pour les devis/factures ?",
+  "vous-avez-trouve-un-outil-vraiment-simple-pour-les-devis-factures",
+  {
+    "@id": 104,
+    "@type": 23,
+    "id": 105,
+    "nickname": 106,
+    "nicknameSlug": 107,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 43,
+    "createdAt": 108,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/1513716",
+  1513716,
+  "Free-Worker-1513716",
+  "free-worker-1513716",
+  "2026-05-23T12:59:15+02:00",
+  {
+    "@id": 110,
+    "@type": 9,
+    "id": 111,
+    "category": 112,
+    "title": 113,
+    "slug": 114,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 115
+  },
+  "/forum_topics/contacter-par-une-rh",
+  61779,
+  {
+    "@id": 48,
+    "@type": 13,
+    "id": 49,
+    "title": 50,
+    "slug": 51
+  },
+  "Contacter par une RH",
+  "contacter-par-une-rh",
+  {
+    "@id": 116,
+    "@type": 23,
+    "id": 117,
+    "nickname": 118,
+    "nicknameSlug": 119,
+    "jobTitle": 120,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 43,
+    "createdAt": 121,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/85588",
+  85588,
+  "Free-Worker-85588",
+  "free-worker-85588",
+  "Expert ANALYSTE PROGRAMMEUR VBA ~ VB6 ~ SQL",
+  "2014-03-24T11:25:18+01:00",
+  {
+    "@id": 123,
+    "@type": 9,
+    "id": 124,
+    "category": 125,
+    "title": 130,
+    "slug": 131,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 132
+  },
+  "/forum_topics/alerte-entreprise-malhonnete",
+  57519,
+  {
+    "@id": 126,
+    "@type": 13,
+    "id": 127,
+    "title": 128,
+    "slug": 129
+  },
+  "/forum_categories/candidatures-et-recherche-demploi",
+  14,
+  "Candidatures et recherche d'emploi",
+  "candidatures-et-recherche-demploi",
+  "Alerte Entreprise malhonnête",
+  "alerte-entreprise-malhonnete",
+  {
+    "@id": 133,
+    "@type": 23,
+    "id": 134,
+    "nickname": 135,
+    "nicknameSlug": 136,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 68,
+    "forumPostsCount": 137,
+    "createdAt": 138,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 43,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/299804",
+  299804,
+  "Arnoldo31",
+  "arnoldo31",
+  40,
+  "2022-03-04T11:47:13+01:00",
+  {
+    "@id": 140,
+    "@type": 9,
+    "id": 141,
+    "category": 142,
+    "title": 147,
+    "slug": 148,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 149
+  },
+  "/forum_topics/petite-presentation-pour-jouer-le-jeu-sur-le-forum",
+  61749,
+  {
+    "@id": 143,
+    "@type": 13,
+    "id": 144,
+    "title": 145,
+    "slug": 146
+  },
+  "/forum_categories/presentez-vous-a-la-communaute",
+  34,
+  "Présentez-vous à la communauté",
+  "presentez-vous-a-la-communaute",
+  "Petite présentation pour jouer le jeu sur le forum",
+  "petite-presentation-pour-jouer-le-jeu-sur-le-forum",
+  {
+    "@id": 150,
+    "@type": 23,
+    "id": 151,
+    "nickname": 152,
+    "nicknameSlug": 153,
+    "jobTitle": 154,
+    "website": 155,
+    "signature": 156,
+    "avatar": 157,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 30,
+    "forumPostsCount": 161,
+    "createdAt": 162,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 43,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/732708",
+  732708,
+  "Mathieu.U",
+  "mathieu-u",
+  "Enterprise Architect · Fractional CTO · AI Transformation",
+  "https://architecture-strategique-ia.com/",
+  "Architecture d'entreprise, direction technique partagée et transformation IA — de la stratégie jusqu'à l'exploitation, avec une gouvernance qui vit au rythme de l'exécution.",
+  {
+    "xSmall": 158,
+    "small": 159,
+    "medium": 160
+  },
+  "https://api.free-work.com/media/cache/resolve/user_avatar_x_small/avatar-vTs1kDoVUvstQ4bV.jpg",
+  "https://api.free-work.com/media/cache/resolve/user_avatar_small/avatar-vTs1kDoVUvstQ4bV.jpg",
+  "https://api.free-work.com/media/cache/resolve/user_avatar_medium/avatar-vTs1kDoVUvstQ4bV.jpg",
+  10,
+  "2023-09-19T09:59:59+02:00",
+  {
+    "@id": 164,
+    "@type": 9,
+    "id": 165,
+    "category": 166,
+    "title": 171,
+    "slug": 172,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 173
+  },
+  "/forum_topics/besoin-de-rex-paiment-csg-sasu-ir",
+  61757,
+  {
+    "@id": 167,
+    "@type": 13,
+    "id": 168,
+    "title": 169,
+    "slug": 170
+  },
+  "/forum_categories/statut-juridique-sarl-ei-ae-portage",
+  20,
+  "Statut juridique : SARL, EI, AE, portage",
+  "statut-juridique-sarl-ei-ae-portage",
+  "Besoin de REX paiment CSG SASU IR",
+  "besoin-de-rex-paiment-csg-sasu-ir",
+  {
+    "@id": 174,
+    "@type": 23,
+    "id": 175,
+    "nickname": 176,
+    "nicknameSlug": 177,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 178,
+    "forumPostsCount": 179,
+    "createdAt": 180,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 43,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/509893",
+  509893,
+  "Free-Worker-509893",
+  "free-worker-509893",
+  4,
+  32,
+  "2020-11-03T18:57:27+01:00",
+  {
+    "@id": 182,
+    "@type": 9,
+    "id": 183,
+    "category": 184,
+    "title": 185,
+    "slug": 186,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 187
+  },
+  "/forum_topics/facturation-dheure",
+  61845,
+  {
+    "@id": 85,
+    "@type": 13,
+    "id": 86,
+    "title": 87,
+    "slug": 88
+  },
+  "Facturation d'heure",
+  "facturation-dheure",
+  {
+    "@id": 188,
+    "@type": 23,
+    "id": 189,
+    "nickname": 190,
+    "nicknameSlug": 191,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 43,
+    "createdAt": 192,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/1562356",
+  1562356,
+  "Free-Worker-Tomailhawk",
+  "free-worker-tomailhawk",
+  "2026-10-05T11:55:50+02:00",
+  {
+    "@id": 194,
+    "@type": 9,
+    "id": 195,
+    "category": 196,
+    "title": 197,
+    "slug": 198,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 199
+  },
+  "/forum_topics/freelance-etudiants-comment-trouver-des-clients",
+  45366,
+  {
+    "@id": 85,
+    "@type": 13,
+    "id": 86,
+    "title": 87,
+    "slug": 88
+  },
+  "Freelance + Etudiants : Comment trouver des clients ? ",
+  "freelance-etudiants-comment-trouver-des-clients",
+  {
+    "@id": 200,
+    "@type": 23,
+    "id": 201,
+    "nickname": 202,
+    "nicknameSlug": 203,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 43,
+    "createdAt": 204,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/1320702",
+  1320702,
+  "Alexandre_H",
+  "alexandre-h-1",
+  "2025-01-09T16:17:54+01:00",
+  {
+    "@id": 206,
+    "@type": 9,
+    "id": 207,
+    "category": 208,
+    "title": 213,
+    "slug": 214,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 215
+  },
+  "/forum_topics/comment-eviter-que-le-html-genere-par-ia-parte-en-vrac-chez-le-client",
+  61837,
+  {
+    "@id": 209,
+    "@type": 13,
+    "id": 210,
+    "title": 211,
+    "slug": 212
+  },
+  "/forum_categories/les-meilleurs-outils-utilises-par-les-developpeurs",
+  46,
+  "Les meilleurs outils utilisés par les développeurs",
+  "les-meilleurs-outils-utilises-par-les-developpeurs",
+  "Comment éviter que le HTML généré par IA parte en vrac chez le client",
+  "comment-eviter-que-le-html-genere-par-ia-parte-en-vrac-chez-le-client",
+  {
+    "@id": 216,
+    "@type": 23,
+    "id": 217,
+    "nickname": 218,
+    "nicknameSlug": 218,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 43,
+    "createdAt": 219,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/1561758",
+  1561758,
+  "nosworkspace",
+  "2026-10-03T17:11:18+02:00",
+  {
+    "@id": 221,
+    "@type": 9,
+    "id": 222,
+    "category": 223,
+    "title": 228,
+    "slug": 229,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 230
+  },
+  "/forum_topics/eurl-versus-sasu-la-sasu-surcotee",
+  61824,
+  {
+    "@id": 224,
+    "@type": 13,
+    "id": 225,
+    "title": 226,
+    "slug": 227
+  },
+  "/forum_categories/conditions-dacces-au-statut",
+  33,
+  "Les différents statuts du freelance IT",
+  "conditions-dacces-au-statut",
+  "EURL versus SASU --> La SASU surcôtée?",
+  "eurl-versus-sasu-la-sasu-surcotee",
+  {
+    "@id": 231,
+    "@type": 23,
+    "id": 232,
+    "nickname": 233,
+    "nicknameSlug": 234,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 235,
+    "createdAt": 236,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/425798",
+  425798,
+  "Oujikun",
+  "oujikun",
+  7,
+  "2018-05-10T08:44:05+02:00",
+  {
+    "@id": 238,
+    "@type": 9,
+    "id": 239,
+    "category": 240,
+    "title": 241,
+    "slug": 242,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 243
+  },
+  "/forum_topics/parrainage-expert-comptable-2026",
+  61840,
+  {
+    "@id": 67,
+    "@type": 13,
+    "id": 68,
+    "title": 69,
+    "slug": 70
+  },
+  "Parrainage Expert-Comptable 2026",
+  "parrainage-expert-comptable-2026",
+  {
+    "@id": 244,
+    "@type": 23,
+    "id": 245,
+    "nickname": 246,
+    "nicknameSlug": 247,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 43,
+    "createdAt": 248,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/542574",
+  542574,
+  "Free-Worker-542574",
+  "free-worker-542574",
+  "2021-06-20T15:54:33+02:00",
+  {
+    "@id": 250,
+    "@type": 9,
+    "id": 251,
+    "category": 252,
+    "title": 257,
+    "slug": 258,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "pinned": 20,
+    "author": 259
+  },
+  "/forum_topics/redressement-massif-pour-les-sasu-a-lir",
+  52988,
+  {
+    "@id": 253,
+    "@type": 13,
+    "id": 254,
+    "title": 255,
+    "slug": 256
+  },
+  "/forum_categories/actualites",
+  8,
+  "Actualités",
+  "actualites",
+  "Redressement  massif pour les SASU à l’IR",
+  "redressement-massif-pour-les-sasu-a-lir",
+  {
+    "@id": 260,
+    "@type": 23,
+    "id": 261,
+    "nickname": 262,
+    "nicknameSlug": 263,
+    "jobTitle": 19,
+    "website": 19,
+    "signature": 19,
+    "avatar": 19,
+    "displayAvatar": 20,
+    "forumPostUpvotesCount": 41,
+    "forumPostsCount": 264,
+    "createdAt": 265,
+    "deletedAt": 19,
+    "deleted": 20,
+    "forumRank": 41,
+    "admin": 20,
+    "forumAdmin": 20
+  },
+  "/users/151223",
+  151223,
+  "Free-Worker-151223",
+  "free-worker-151223",
+  5,
+  "2017-11-19T19:41:28+01:00",
+  [
+    267,
+    309,
+    342,
+    361,
+    380,
+    398
+  ],
+  {
+    "id": 268,
+    "title": 269,
+    "slug": 270,
+    "excerpt": 271,
+    "category": 272,
+    "tags": 276,
+    "readingTimeMinutes": 264,
+    "image": 302,
+    "imageAlt": 305,
+    "publishedAt": 306,
+    "updatedAt": 307,
+    "modified": 308
+  },
+  2554,
+  "Le CV Tech en 2026 : les tendances incontournables",
+  "le-cv-tech-en-2026-les-tendances-incontournables",
+  "En 2026, votre CV Tech doit séduire les ATS et convaincre les recruteurs : minimaliste, axé sur vos technos clés et certifications reconnues. Découvrez les règles d’or d’un CV percutant, pensé pour l’ère des tests techniques et du continuous learning.",
+  {
+    "id": 273,
+    "name": 274,
+    "slug": 275
+  },
+  17,
+  "Talents IT",
+  "talents-it",
+  [
+    277,
+    283,
+    288,
+    293
+  ],
+  {
+    "id": 278,
+    "name": 279,
+    "slug": 280,
+    "locales": 281
+  },
+  13,
+  "Recrutement",
+  "recrutement",
+  [
+    282
+  ],
+  "fr_FR",
+  {
+    "id": 284,
+    "name": 285,
+    "slug": 286,
+    "locales": 287
+  },
+  16,
+  "Outils",
+  "outils",
+  [
+    282
+  ],
+  {
+    "id": 289,
+    "name": 290,
+    "slug": 291,
+    "locales": 292
+  },
+  31,
+  "Conseils",
+  "conseils",
+  [
+    282
+  ],
+  {
+    "id": 294,
+    "name": 295,
+    "slug": 296,
+    "locales": 297
+  },
+  117,
+  "ATS",
+  "ats",
+  [
+    282,
+    298,
+    299,
+    300,
+    301
+  ],
+  "fr_CH",
+  "fr_LU",
+  "fr_BE",
+  "en_GB",
+  {
+    "medium": 303,
+    "large": 304
+  },
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_medium/le-cv-tech-en-2025-les-tendances-incontournables-rwEByEgZBIkkXPhE.jpg",
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_large/le-cv-tech-en-2025-les-tendances-incontournables-rwEByEgZBIkkXPhE.jpg",
+  "CV Tech en 2026",
+  "2025-03-24T10:00:00+01:00",
+  "2026-07-01T10:00:00+02:00",
+  true,
+  {
+    "id": 310,
+    "title": 311,
+    "slug": 312,
+    "excerpt": 313,
+    "category": 314,
+    "tags": 317,
+    "readingTimeMinutes": 254,
+    "image": 336,
+    "imageAlt": 339,
+    "publishedAt": 340,
+    "updatedAt": 341,
+    "modified": 308
+  },
+  2503,
+  "Top 6 des meilleures sociétés de portage salarial",
+  "top-6-des-meilleures-societes-de-portage-salarial",
+  "Découvrez les 6 meilleures sociétés de portage salarial pour les freelances IT ! Admissions, OpenWork, Superindep, et d'autres acteurs incontournables vous offrent flexibilité, sécurité sociale et outils performants pour optimiser votre activité. Faites le bon choix !",
+  {
+    "id": 43,
+    "name": 315,
+    "slug": 316
+  },
+  "Actualités Informatiques",
+  "actualites-informatiques",
+  [
+    318,
+    323,
+    327,
+    332
+  ],
+  {
+    "id": 319,
+    "name": 320,
+    "slug": 321,
+    "locales": 322
+  },
+  25,
+  "Freelance",
+  "freelance",
+  [
+    282
+  ],
+  {
+    "id": 49,
+    "name": 324,
+    "slug": 325,
+    "locales": 326
+  },
+  "Indépendant",
+  "independant",
+  [
+    282
+  ],
+  {
+    "id": 328,
+    "name": 329,
+    "slug": 330,
+    "locales": 331
+  },
+  28,
+  "Statut juridique",
+  "statut-juridique",
+  [
+    282
+  ],
+  {
+    "id": 86,
+    "name": 333,
+    "slug": 334,
+    "locales": 335
+  },
+  "Administratif",
+  "administratif",
+  [
+    282
+  ],
+  {
+    "medium": 337,
+    "large": 338
+  },
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_medium/top-6-des-meilleures-societes-de-portage-salarial-kwmbCk4YMwvN7tX1.jpg",
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_large/top-6-des-meilleures-societes-de-portage-salarial-kwmbCk4YMwvN7tX1.jpg",
+  "Top 6 des boîtes de portage salarial",
+  "2024-12-12T09:29:00+01:00",
+  "2026-07-09T10:02:00+02:00",
+  {
+    "id": 343,
+    "title": 344,
+    "slug": 345,
+    "excerpt": 346,
+    "category": 347,
+    "tags": 348,
+    "readingTimeMinutes": 235,
+    "image": 356,
+    "imageAlt": 19,
+    "publishedAt": 359,
+    "updatedAt": 360,
+    "modified": 308
+  },
+  3096,
+  "Un an après ChatGPT au bureau des recruteurs : ce qui a vraiment changé pour les candidats tech",
+  "un-an-apres-chatgpt-au-bureau-des-recruteurs-ce-qui-a-vraiment-change-pour-les-candidats-tech",
+  "En 2026, l’IA s’est imposée dans le recrutement tech, mais la maîtrise des outils ne suffit plus. Les recruteurs valorisent surtout la vérification des faits, l’esprit critique, la collaboration et la capacité à expliquer son usage de l’IA avec transparence.",
+  {
+    "id": 273,
+    "name": 274,
+    "slug": 275
+  },
+  [
+    349,
+    351
+  ],
+  {
+    "id": 278,
+    "name": 279,
+    "slug": 280,
+    "locales": 350
+  },
+  [
+    282
+  ],
+  {
+    "id": 352,
+    "name": 353,
+    "slug": 354,
+    "locales": 355
+  },
+  19,
+  "IA",
+  "ia",
+  [
+    282
+  ],
+  {
+    "medium": 357,
+    "large": 358
+  },
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_medium/un-an-apres-chatgpt-au-bureau-des-recruteurs-ce-qui-a-vraiment-change-pour-les-candidats-tech-elMxKcGj0IiPrr6U.jpg",
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_large/un-an-apres-chatgpt-au-bureau-des-recruteurs-ce-qui-a-vraiment-change-pour-les-candidats-tech-elMxKcGj0IiPrr6U.jpg",
+  "2026-09-21T14:06:00+02:00",
+  "2026-09-21T14:42:00+02:00",
+  {
+    "id": 362,
+    "title": 363,
+    "slug": 364,
+    "excerpt": 365,
+    "category": 366,
+    "tags": 367,
+    "readingTimeMinutes": 264,
+    "image": 375,
+    "imageAlt": 19,
+    "publishedAt": 378,
+    "updatedAt": 379,
+    "modified": 308
+  },
+  3100,
+  "TypeScript en 2026 : premier sur GitHub, encore sous-estimé sur les CV",
+  "typescript-en-2026-premier-sur-github-encore-sous-estime-sur-les-cv",
+  "En 2026, TypeScript s’impose comme un incontournable du web : premier langage sur GitHub, très demandé avec React, Next.js ou Node.js et valorisé salarialement. Pour en tirer parti, mieux vaut le relier à une stack précise et à des projets concrets sur son CV.",
+  {
+    "id": 43,
+    "name": 315,
+    "slug": 316
+  },
+  [
+    368,
+    370
+  ],
+  {
+    "id": 284,
+    "name": 285,
+    "slug": 286,
+    "locales": 369
+  },
+  [
+    282
+  ],
+  {
+    "id": 371,
+    "name": 372,
+    "slug": 373,
+    "locales": 374
+  },
+  22,
+  "Développeur",
+  "developpeur",
+  [
+    282
+  ],
+  {
+    "medium": 376,
+    "large": 377
+  },
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_medium/typescript-en-2026-premier-sur-github-encore-sous-estime-sur-les-cv-ulMjPK1Qkyc5kkft.jpg",
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_large/typescript-en-2026-premier-sur-github-encore-sous-estime-sur-les-cv-ulMjPK1Qkyc5kkft.jpg",
+  "2026-09-24T11:56:00+02:00",
+  "2026-09-24T12:32:38+02:00",
+  {
+    "id": 381,
+    "title": 382,
+    "slug": 383,
+    "excerpt": 384,
+    "category": 385,
+    "tags": 386,
+    "readingTimeMinutes": 79,
+    "image": 393,
+    "imageAlt": 19,
+    "publishedAt": 396,
+    "updatedAt": 397,
+    "modified": 308
+  },
+  3099,
+  "Mission ou CDI : les 5 clauses de contrat à vérifier avant de signer (que personne ne vous explique)",
+  "mission-ou-cdi-les-5-clauses-de-contrat-a-verifier-avant-de-signer-que-personne-ne-vous-explique",
+  "Avant de signer un CDI ou une mission freelance, certaines clauses méritent une vraie vérification : préavis, non-concurrence, non-débauchage, propriété intellectuelle, pénalités, confidentialité et responsabilité. Bien les lire évite des coûts et blocages futurs.",
+  {
+    "id": 273,
+    "name": 274,
+    "slug": 275
+  },
+  [
+    387,
+    391
+  ],
+  {
+    "id": 178,
+    "name": 388,
+    "slug": 389,
+    "locales": 390
+  },
+  "Marché de l'emploi",
+  "marche-de-lemploi",
+  [
+    282
+  ],
+  {
+    "id": 289,
+    "name": 290,
+    "slug": 291,
+    "locales": 392
+  },
+  [
+    282
+  ],
+  {
+    "medium": 394,
+    "large": 395
+  },
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_medium/mission-ou-cdi-les-5-clauses-de-contrat-a-verifier-avant-de-signer-que-personne-ne-vous-explique-tivnvjOygvyEzqJI.jpg",
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_large/mission-ou-cdi-les-5-clauses-de-contrat-a-verifier-avant-de-signer-que-personne-ne-vous-explique-tivnvjOygvyEzqJI.jpg",
+  "2026-09-22T14:23:00+02:00",
+  "2026-09-22T15:35:27+02:00",
+  {
+    "id": 399,
+    "title": 400,
+    "slug": 401,
+    "excerpt": 402,
+    "category": 403,
+    "tags": 404,
+    "readingTimeMinutes": 414,
+    "image": 415,
+    "imageAlt": 418,
+    "publishedAt": 419,
+    "updatedAt": 420,
+    "modified": 308
+  },
+  2785,
+  "Quels sont les meilleurs éditeurs HTML WYSIWYG ?",
+  "quels-sont-les-meilleurs-editeurs-html-wysiwyg",
+  "Choisir un éditeur WYSIWYG en 2026 ne se limite plus à l’ergonomie. TinyMCE et CKEditor dominent l’enterprise, Tiptap devient la référence open source moderne, Editor.js s’impose pour le contenu structuré. Licences, JSON, accessibilité et dette technique changent désormais totalement le choix.",
+  {
+    "id": 43,
+    "name": 315,
+    "slug": 316
+  },
+  [
+    405,
+    409
+  ],
+  {
+    "id": 62,
+    "name": 406,
+    "slug": 407,
+    "locales": 408
+  },
+  "Programmation",
+  "programmation",
+  [
+    282
+  ],
+  {
+    "id": 410,
+    "name": 411,
+    "slug": 412,
+    "locales": 413
+  },
+  30,
+  "Web",
+  "web",
+  [
+    282
+  ],
+  9,
+  {
+    "medium": 416,
+    "large": 417
+  },
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_medium/quels-sont-les-meilleurs-editeurs-html-wysiwyg-56OCQbW3UZw2Qxdk.jpg",
+  "https://api.free-work.com/media/cache/resolve/blog_post_image_large/quels-sont-les-meilleurs-editeurs-html-wysiwyg-56OCQbW3UZw2Qxdk.jpg",
+  "Quels sont les meilleurs éditeurs HTML WYSIWYG en 2026 ?",
+  "2026-05-26T11:18:00+02:00",
+  "2026-05-26T11:48:00+02:00",
+  [
+    422
+  ],
+  {
+    "label": 423,
+    "value": 424,
+    "postalCode": 19,
+    "locality": 19
+  },
+  "France",
+  "fr~~~",
+  {
+    "jobs": 426,
+    "totalItems": 1471,
+    "filters": 1472,
+    "page": 43
+  },
+  [
+    427,
+    486,
+    537,
+    589,
+    670,
+    720,
+    783,
+    860,
+    919,
+    991,
+    1072,
+    1120,
+    1163,
+    1326,
+    1377,
+    1433
+  ],
+  {
+    "id": 428,
+    "slug": 429,
+    "title": 430,
+    "description": 431,
+    "publishedAt": 432,
+    "annualSalary": 19,
+    "dailySalary": 433,
+    "contracts": 434,
+    "jobPostingType": 435,
+    "durationValue": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 438,
+    "location": 445,
+    "company": 447,
+    "job": 455,
+    "elasticHighlights": 457,
+    "premium": 308,
+    "cardProps": 460,
+    "cardAltProps": 477
+  },
+  675472,
+  "developpeur-front-end-angular-astro-strapi",
+  "Développeur Front-End (Angular / Astro / Strapi)",
+  "<p>Notre client, un groupe français majeur du secteur des services, recherche un(e) Développeur(se) Front-End expérimenté(e) dans le cadre de la refonte globale de sa plateforme web institutionnelle. Ce projet stratégique vise à optimiser le référencement naturel (SEO), la conversion et la génération de leads, tout en proposant une expérience utilisateur (UX/UI) performante.</p><p><strong>Missions principales :</strong></p><p></p><ul><li><p>Participer à la conception et au développement de la nouvelle plateforme web institutionnelle.</p></li><li><p>Concevoir et développer les composants front-end en utilisant <strong>Angular</strong> et <strong>Astro</strong>.</p></li><li><p>Concevoir et maintenir le CMS <strong>Strapi</strong> ainsi que ses modèles de contenus.</p></li><li><p>Développer et consommer les API REST nécessaires au fonctionnement du site.</p></li><li><p>Garantir la qualité, la performance, l&#039;accessibilité et la maintenabilité du code.</p></li><li><p>Participer aux phases de recettes, de corrections et de mises en production.</p></li><li><p>Être force de proposition sur le choix des frameworks CSS et des bibliothèques UI (Tailwind, Bootstrap, DaisyUI, etc.).</p></li></ul>",
+  "2026-10-05T00:45:09+02:00",
+  "400-500 €",
+  [
+    435
+  ],
+  "contractor",
+  "year",
+  "partial",
+  [
+    439,
+    442
+  ],
+  {
+    "name": 440,
+    "slug": 441,
+    "displayed": 308,
+    "main": 20
+  },
+  "Angular",
+  "angular",
+  {
+    "name": 443,
+    "slug": 444,
+    "displayed": 308,
+    "main": 20
+  },
+  "CMS",
+  "cms",
+  {
+    "label": 446
+  },
+  "Centre-Val de Loire, France",
+  {
+    "name": 448,
+    "slug": 449,
+    "logo": 450,
+    "coverPicture": 453
+  },
+  "KUBE Partners S.L. - Pixie Services",
+  "pixie-services-france",
+  {
+    "medium": 451,
+    "small": 452
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/vrPVG9uf-logo.png",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/vrPVG9uf-logo.png",
+  {
+    "medium": 454
+  },
+  "https://api.free-work.com/media/cache/resolve/company_picture_image_medium/picture-GWK3KUERb6ZEO78S.jpg",
+  {
+    "slug": 456
+  },
+  "developpeur-front-end-javascript-node-react-angular-vue",
+  {
+    "descriptionText": 458,
+    "title": 459
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 428,
+    "company": 461,
+    "description": 466,
+    "skills": 467,
+    "publishedAt": 432,
+    "title": 430,
+    "location": 446,
+    "salary": 19,
+    "dailyRate": 433,
+    "remoteMode": 437,
+    "contracts": 472,
+    "jobPostingType": 435,
+    "to": 473,
+    "duration": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 474
+  },
+  {
+    "name": 448,
+    "slug": 449,
+    "logo": 462,
+    "coverPicture": 465
+  },
+  {
+    "medium": 463,
+    "small": 464
+  },
+  "https://statics.free-work.com/company_logo_medium/vrPVG9uf-logo.png",
+  "https://statics.free-work.com/company_logo_small/vrPVG9uf-logo.png",
+  {
+    "medium": 454
+  },
+  "Notre client, un groupe français majeur du secteur des services, recherche un(e) Développeur(se) Front-End expérimenté(e) dans le cadre de la refonte globale de sa plateforme web institutionnelle. Ce projet stratégique vise à optimiser le référencement naturel (SEO), la conversion et la génération de leads, tout en proposant une expérience utilisateur (UX/UI) performante.\nMissions principales :\n\nParticiper à la conception et au développement de la nouvelle plateforme web institutionnelle.\n\nConcevoir et développer les composants front-end en utilisant Angular et Astro.\n\nConcevoir et maintenir le CMS Strapi ainsi que ses modèles de contenus.\n\nDévelopper et consommer les API REST nécessaires au fonctionnement du site.\n\nGarantir la qualité, la performance, l'accessibilité et la maintenabilité du code.\n\nParticiper aux phases de recettes, de corrections et de mises en production.\n\nÊtre force de proposition sur le choix des frameworks CSS et des bibliothèques UI (Tailwind, Bootstrap, DaisyUI, etc.).",
+  [
+    468,
+    470
+  ],
+  {
+    "name": 440,
+    "slug": 441,
+    "displayed": 308,
+    "main": 20,
+    "url": 469
+  },
+  "/fr/tech-it/jobs/angular",
+  {
+    "name": 443,
+    "slug": 444,
+    "displayed": 308,
+    "main": 20,
+    "url": 471
+  },
+  "/fr/tech-it/jobs/cms",
+  [
+    435
+  ],
+  "/fr/tech-it/job-mission/developpeur-front-end-javascript-node-react-angular-vue/developpeur-front-end-angular-astro-strapi",
+  {
+    "descriptionText": 475,
+    "title": 476
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 428,
+    "title": 430,
+    "description": 466,
+    "location": 446,
+    "publishedAt": 432,
+    "salary": 19,
+    "dailyRate": 433,
+    "companyName": 448,
+    "logoUrl": 464,
+    "coverUrl": 478,
+    "contracts": 479,
+    "jobPostingType": 435,
+    "skills": 480,
+    "to": 473,
+    "duration": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 483
+  },
+  "https://statics.free-work.com/company_picture_image_medium/picture-GWK3KUERb6ZEO78S.jpeg",
+  [
+    435
+  ],
+  [
+    481,
+    482
+  ],
+  {
+    "name": 440,
+    "slug": 441,
+    "displayed": 308,
+    "main": 20,
+    "url": 469
+  },
+  {
+    "name": 443,
+    "slug": 444,
+    "displayed": 308,
+    "main": 20,
+    "url": 471
+  },
+  {
+    "descriptionText": 484,
+    "title": 485
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 487,
+    "slug": 488,
+    "title": 489,
+    "description": 490,
+    "publishedAt": 491,
+    "annualSalary": 19,
+    "dailySalary": 492,
+    "contracts": 493,
+    "jobPostingType": 435,
+    "durationValue": 62,
+    "durationPeriod": 494,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 495,
+    "location": 502,
+    "company": 504,
+    "job": 510,
+    "elasticHighlights": 512,
+    "premium": 308,
+    "cardProps": 514,
+    "cardAltProps": 529
+  },
+  677724,
+  "developpeur-abap-fiori-13",
+  "Développeur ABAP / Fiori",
+  "<p>Le besoin porte principalement sur des activités de développement et d’évolution de solutions SAP, avec un focus particulier sur ABAP et SAP Fiori.</p>🔹 Contexte de la mission<p>Aujourd’hui, Fiori est utilisé principalement sur le processus de création et de validation des demandes d’achat, avec l’utilisation de catalogues internes et externes (PunchOut).</p><p>Quelques évolutions sont à prévoir, notamment :</p><ul><li><p>Ajout de filtres ;</p></li><li><p>Affichage d’informations complémentaires ;</p></li><li><p>Adaptation et amélioration des fonctionnalités existantes ;</p></li><li><p>Gestion et développement des interfaces.</p></li></ul><p>L’équipe estime que ces évolutions représentent une charge relativement limitée, de l’ordre de 4 à 6 jours de travail. Toutefois, Fiori étant encore relativement nouveau pour l’équipe, elle souhaite pouvoir s’appuyer sur une personne expérimentée afin de sécuriser les développements et apporter son expertise.</p><p>Il n’est pas prévu de créer de nouvelles tuiles Fiori en 2026. L’objectif est plutôt d’avoir un profil capable de prendre en charge les évolutions ponctuelles existantes, tout en accompagnant l’équipe sur les aspects techniques liés à Fiori.</p>",
+  "2026-10-02T12:04:44+02:00",
+  "100-500 €",
+  [
+    435
+  ],
+  "month",
+  [
+    496,
+    499
+  ],
+  {
+    "name": 497,
+    "slug": 498,
+    "displayed": 308,
+    "main": 20
+  },
+  "ABAP",
+  "abap",
+  {
+    "name": 500,
+    "slug": 501,
+    "displayed": 308,
+    "main": 20
+  },
+  "SAP Fiori",
+  "sap-fiori",
+  {
+    "label": 503
+  },
+  "Île-de-France, France",
+  {
+    "name": 505,
+    "slug": 506,
+    "logo": 507
+  },
+  "ASENIUM",
+  "asenium-9",
+  {
+    "medium": 508,
+    "small": 509
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/av2uk76r-logo.jpg",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/av2uk76r-logo.jpg",
+  {
+    "slug": 511
+  },
+  "developpeur-autre-langage-cobol-perl-vba-ruby-shell",
+  {
+    "title": 513
+  },
+  [
+    372
+  ],
+  {
+    "id": 487,
+    "company": 515,
+    "description": 519,
+    "skills": 520,
+    "publishedAt": 491,
+    "title": 489,
+    "location": 503,
+    "salary": 19,
+    "dailyRate": 492,
+    "remoteMode": 437,
+    "contracts": 525,
+    "jobPostingType": 435,
+    "to": 526,
+    "duration": 62,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 527
+  },
+  {
+    "name": 505,
+    "slug": 506,
+    "logo": 516
+  },
+  {
+    "medium": 517,
+    "small": 518
+  },
+  "https://statics.free-work.com/company_logo_medium/av2uk76r-logo.jpg",
+  "https://statics.free-work.com/company_logo_small/av2uk76r-logo.jpg",
+  "Le besoin porte principalement sur des activités de développement et d’évolution de solutions SAP, avec un focus particulier sur ABAP et SAP Fiori.\n🔹 Contexte de la missionAujourd’hui, Fiori est utilisé principalement sur le processus de création et de validation des demandes d’achat, avec l’utilisation de catalogues internes et externes (PunchOut).\nQuelques évolutions sont à prévoir, notamment :\nAjout de filtres ;\n\nAffichage d’informations complémentaires ;\n\nAdaptation et amélioration des fonctionnalités existantes ;\n\nGestion et développement des interfaces.\n\nL’équipe estime que ces évolutions représentent une charge relativement limitée, de l’ordre de 4 à 6 jours de travail. Toutefois, Fiori étant encore relativement nouveau pour l’équipe, elle souhaite pouvoir s’appuyer sur une personne expérimentée afin de sécuriser les développements et apporter son expertise.\nIl n’est pas prévu de créer de nouvelles tuiles Fiori en 2026. L’objectif est plutôt d’avoir un profil capable de prendre en charge les évolutions ponctuelles existantes, tout en accompagnant l’équipe sur les aspects techniques liés à Fiori.",
+  [
+    521,
+    523
+  ],
+  {
+    "name": 497,
+    "slug": 498,
+    "displayed": 308,
+    "main": 20,
+    "url": 522
+  },
+  "/fr/tech-it/jobs/abap",
+  {
+    "name": 500,
+    "slug": 501,
+    "displayed": 308,
+    "main": 20,
+    "url": 524
+  },
+  "/fr/tech-it/jobs/sap-fiori",
+  [
+    435
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/developpeur-abap-fiori-13",
+  {
+    "title": 528
+  },
+  [
+    372
+  ],
+  {
+    "id": 487,
+    "title": 489,
+    "description": 519,
+    "location": 503,
+    "publishedAt": 491,
+    "salary": 19,
+    "dailyRate": 492,
+    "companyName": 505,
+    "logoUrl": 518,
+    "coverUrl": 530,
+    "contracts": 531,
+    "jobPostingType": 435,
+    "skills": 532,
+    "to": 526,
+    "duration": 62,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 535
+  },
+  "",
+  [
+    435
+  ],
+  [
+    533,
+    534
+  ],
+  {
+    "name": 497,
+    "slug": 498,
+    "displayed": 308,
+    "main": 20,
+    "url": 522
+  },
+  {
+    "name": 500,
+    "slug": 501,
+    "displayed": 308,
+    "main": 20,
+    "url": 524
+  },
+  {
+    "title": 536
+  },
+  [
+    372
+  ],
+  {
+    "id": 538,
+    "slug": 539,
+    "title": 540,
+    "description": 541,
+    "publishedAt": 542,
+    "annualSalary": 543,
+    "dailySalary": 544,
+    "contracts": 545,
+    "jobPostingType": 547,
+    "durationValue": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 548,
+    "location": 552,
+    "company": 554,
+    "job": 562,
+    "elasticHighlights": 563,
+    "premium": 308,
+    "cardProps": 566,
+    "cardAltProps": 581
+  },
+  679192,
+  "developpeur-senior-servicenow-irm",
+  "Développeur Senior ServiceNow IRM ",
+  "<p>Expertise de Développeur Senior sur le périmètre IRM de ServiceNow.</p><p>La mission s&#039;inscrit dans un contexte de convergence applicative et comprend notamment la migration de modules Back-Office vers l&#039;environnement Workspace IRM, la construction de flux réglementaires ainsi que les évolutions d&#039;une solution couvrant les domaines Risques et Conformité.</p><p>Dans le cadre de l&#039;évolution de son écosystème ServiceNow, le Client souhaite bénéficier d&#039;une expertise en conception et développement sur le périmètre Integrated Risk Management (IRM).</p><p>La Prestation pourra également contribuer aux activités de support et d&#039;évolution sur les modules ITSM et CSM, intégrés au périmètre global de la plateforme.</p><p>Dans ce cadre, la Prestation de conception et développement consiste à contribuer à/au(x) :</p><p>•\tLa réalisation des activités de conception technique et fonctionnelle des solutions ;</p><p>•\tLa supervision et accompagnement des implémentations IRM en cohérence avec les besoins métiers ;</p><p>•\tLa réalisation des développements standards sur les périmètres confiés ;</p><p>•\tConseil et accompagnement du Client sur les choix de mise en œuvre.</p><p>Expertises attendues :</p><p>Modules ServiceNow IRM et, idéalement, d&#039;au moins un autre module de la plateforme (ITSM ou CSM) :</p><p>•\tArchitecture Workspace (prérequis obligatoire) : gestion de la structure Expérience, Pages, Variants, Components, Data Resources, Events ;</p><p>•\tRoutage, les URL, paramètres de route, contextes et pages record/list ;</p><p>•\tUtilisation avancée de UI Builder ;</p><p>•\tEnvironnement Workspace, constituant un prérequis indispensable ;</p><p>•\tClient Side/ JS : Clients Scripts compatibles Workspace, g form et API, UI builder Client Script, Event Handlers... ;</p><p>•\tServer Side : Script include, BR, ACL, Flow Designer, Rôles, groupes.</p><p>•\tActions et expérience utilisateur : Déclarative action... ;</p><p>•\tDataBroker / Data Resources / GraphQL ;</p><p>•\tSécurité, performance et debugging ;</p><p>•\tWorkspace</p><p>•\tMise en œuvre des mécanismes GraphQL et des Data Resources.</p><p>•\tConception et supervision d’implémentations IRM ;</p><p>•\tDéveloppements standards ;</p><p>Enjeux du RUN (délais de traitement, priorisation des sujets, remontée d’alerte pour traitement des incidents, etc.) et suivi des alertes.</p><p></p>",
+  "2026-10-06T18:56:03+02:00",
+  "40k-58k €",
+  "400-420 €",
+  [
+    435,
+    546
+  ],
+  "permanent",
+  "worker",
+  [
+    549
+  ],
+  {
+    "name": 550,
+    "slug": 551,
+    "displayed": 308,
+    "main": 20
+  },
+  "ServiceNow",
+  "servicenow",
+  {
+    "label": 553
+  },
+  "Paris, Île-de-France",
+  {
+    "name": 555,
+    "slug": 556,
+    "logo": 557,
+    "coverPicture": 560
+  },
+  "HN SERVICES",
+  "hn-services-3",
+  {
+    "medium": 558,
+    "small": 559
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/logo-mzV6sGkX4tMVrdQe.png",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/logo-mzV6sGkX4tMVrdQe.png",
+  {
+    "medium": 561
+  },
+  "https://api.free-work.com/media/cache/resolve/company_picture_image_medium/picture-ffstzLr3Zo3P5Kwj.png",
+  {
+    "slug": 511
+  },
+  {
+    "descriptionText": 564,
+    "title": 565
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 538,
+    "company": 567,
+    "description": 572,
+    "skills": 573,
+    "publishedAt": 542,
+    "title": 540,
+    "location": 553,
+    "salary": 543,
+    "dailyRate": 544,
+    "remoteMode": 437,
+    "contracts": 576,
+    "jobPostingType": 547,
+    "to": 577,
+    "duration": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 578
+  },
+  {
+    "name": 555,
+    "slug": 556,
+    "logo": 568,
+    "coverPicture": 571
+  },
+  {
+    "medium": 569,
+    "small": 570
+  },
+  "https://statics.free-work.com/company_logo_medium/logo-mzV6sGkX4tMVrdQe.png",
+  "https://statics.free-work.com/company_logo_small/logo-mzV6sGkX4tMVrdQe.png",
+  {
+    "medium": 561
+  },
+  "Expertise de Développeur Senior sur le périmètre IRM de ServiceNow.\nLa mission s'inscrit dans un contexte de convergence applicative et comprend notamment la migration de modules Back-Office vers l'environnement Workspace IRM, la construction de flux réglementaires ainsi que les évolutions d'une solution couvrant les domaines Risques et Conformité.\nDans le cadre de l'évolution de son écosystème ServiceNow, le Client souhaite bénéficier d'une expertise en conception et développement sur le périmètre Integrated Risk Management (IRM).\nLa Prestation pourra également contribuer aux activités de support et d'évolution sur les modules ITSM et CSM, intégrés au périmètre global de la plateforme.\nDans ce cadre, la Prestation de conception et développement consiste à contribuer à/au(x) :\n•\tLa réalisation des activités de conception technique et fonctionnelle des solutions ;\n•\tLa supervision et accompagnement des implémentations IRM en cohérence avec les besoins métiers ;\n•\tLa réalisation des développements standards sur les périmètres confiés ;\n•\tConseil et accompagnement du Client sur les choix de mise en œuvre.\nExpertises attendues :\nModules ServiceNow IRM et, idéalement, d'au moins un autre module de la plateforme (ITSM ou CSM) :\n•\tArchitecture Workspace (prérequis obligatoire) : gestion de la structure Expérience, Pages, Variants, Components, Data Resources, Events ;\n•\tRoutage, les URL, paramètres de route, contextes et pages record/list ;\n•\tUtilisation avancée de UI Builder ;\n•\tEnvironnement Workspace, constituant un prérequis indispensable ;\n•\tClient Side/ JS : Clients Scripts compatibles Workspace, g form et API, UI builder Client Script, Event Handlers... ;\n•\tServer Side : Script include, BR, ACL, Flow Designer, Rôles, groupes.\n•\tActions et expérience utilisateur : Déclarative action... ;\n•\tDataBroker / Data Resources / GraphQL ;\n•\tSécurité, performance et debugging ;\n•\tWorkspace\n•\tMise en œuvre des mécanismes GraphQL et des Data Resources.\n•\tConception et supervision d’implémentations IRM ;\n•\tDéveloppements standards ;\nEnjeux du RUN (délais de traitement, priorisation des sujets, remontée d’alerte pour traitement des incidents, etc.) et suivi des alertes.",
+  [
+    574
+  ],
+  {
+    "name": 550,
+    "slug": 551,
+    "displayed": 308,
+    "main": 20,
+    "url": 575
+  },
+  "/fr/tech-it/jobs/servicenow",
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/developpeur-senior-servicenow-irm",
+  {
+    "descriptionText": 579,
+    "title": 580
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 538,
+    "title": 540,
+    "description": 572,
+    "location": 553,
+    "publishedAt": 542,
+    "salary": 543,
+    "dailyRate": 544,
+    "companyName": 555,
+    "logoUrl": 570,
+    "coverUrl": 582,
+    "contracts": 583,
+    "jobPostingType": 547,
+    "skills": 584,
+    "to": 577,
+    "duration": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 586
+  },
+  "https://statics.free-work.com/company_picture_image_medium/picture-ffstzLr3Zo3P5Kwj.jpeg",
+  [
+    435,
+    546
+  ],
+  [
+    585
+  ],
+  {
+    "name": 550,
+    "slug": 551,
+    "displayed": 308,
+    "main": 20,
+    "url": 575
+  },
+  {
+    "descriptionText": 587,
+    "title": 588
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 590,
+    "slug": 591,
+    "title": 592,
+    "description": 593,
+    "publishedAt": 594,
+    "annualSalary": 19,
+    "dailySalary": 19,
+    "contracts": 595,
+    "jobPostingType": 596,
+    "durationValue": 43,
+    "durationPeriod": 436,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 597,
+    "location": 616,
+    "company": 618,
+    "job": 626,
+    "elasticHighlights": 627,
+    "premium": 308,
+    "cardProps": 632,
+    "cardAltProps": 657
+  },
+  676630,
+  "alternant-e-developpeur-se-full-stack",
+  "Alternant(e) développeur(se) full stack",
+  "<p>Le poste à pourvoir est <strong>en interne</strong> chez Free-Work (job board spécialisé dans l’IT et la tech) et Turnover-IT (plateforme de recrutement dédiée aux recruteurs IT et digital), des solutions incontournables du recrutement tech en France et à l’international, réunissant une communauté de centaines de milliers de profils IT qualifiés et plus de 4 000 recruteurs actifs. </p><p>Au sein de l&#039;équipe tech, encadré(e) par des développeurs seniors et notre product manager, vous contribuez à l&#039;ensemble de la chaîne de développement :</p><ul><li><p>Développer de nouvelles fonctionnalités côté back-end (PHP, Symfony) et côté front-end (Vue.js, Nuxt, TypeScript, React Native) sur nos plateformes candidats et recruteurs.</p></li><li><p>Corriger des anomalies, améliorer les performances et la qualité du code existant, avec des tests et des revues de code.</p></li><li><p>Participer au développement de notre application mobile, un chantier récent où vous pourrez apporter votre regard et monter en compétences.</p></li></ul>",
+  "2026-10-06T14:29:00+02:00",
+  [
+    596
+  ],
+  "apprenticeship",
+  [
+    598,
+    601,
+    604,
+    607,
+    610,
+    613
+  ],
+  {
+    "name": 599,
+    "slug": 600,
+    "displayed": 308,
+    "main": 20
+  },
+  "Nuxt.js",
+  "nuxt-js",
+  {
+    "name": 602,
+    "slug": 603,
+    "displayed": 308,
+    "main": 20
+  },
+  "PHP",
+  "php",
+  {
+    "name": 605,
+    "slug": 606,
+    "displayed": 308,
+    "main": 20
+  },
+  "React Native",
+  "react-native",
+  {
+    "name": 608,
+    "slug": 609,
+    "displayed": 308,
+    "main": 20
+  },
+  "Symfony",
+  "symfony",
+  {
+    "name": 611,
+    "slug": 612,
+    "displayed": 308,
+    "main": 20
+  },
+  "TypeScript",
+  "typescript",
+  {
+    "name": 614,
+    "slug": 615,
+    "displayed": 308,
+    "main": 20
+  },
+  "Vue.js",
+  "vue-js-11",
+  {
+    "label": 617
+  },
+  "Boulogne-Billancourt, Île-de-France",
+  {
+    "name": 619,
+    "slug": 620,
+    "logo": 621,
+    "coverPicture": 624
+  },
+  "Free-Work",
+  "freework-7",
+  {
+    "medium": 622,
+    "small": 623
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/logo-umQmGDw5Zm6ajtcX.png",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/logo-umQmGDw5Zm6ajtcX.png",
+  {
+    "medium": 625
+  },
+  "https://api.free-work.com/media/cache/resolve/company_picture_image_medium/picture-zfs9kFEO75bK4kZz.png",
+  {
+    "slug": 511
+  },
+  {
+    "descriptionText": 628,
+    "title": 630
+  },
+  [
+    629
+  ],
+  "développeurs",
+  [
+    631
+  ],
+  "développeur",
+  {
+    "id": 590,
+    "company": 633,
+    "description": 638,
+    "skills": 639,
+    "publishedAt": 594,
+    "title": 592,
+    "location": 617,
+    "salary": 19,
+    "dailyRate": 19,
+    "remoteMode": 437,
+    "contracts": 652,
+    "jobPostingType": 596,
+    "to": 653,
+    "duration": 43,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 654
+  },
+  {
+    "name": 619,
+    "slug": 620,
+    "logo": 634,
+    "coverPicture": 637
+  },
+  {
+    "medium": 635,
+    "small": 636
+  },
+  "https://statics.free-work.com/company_logo_medium/logo-umQmGDw5Zm6ajtcX.png",
+  "https://statics.free-work.com/company_logo_small/logo-umQmGDw5Zm6ajtcX.png",
+  {
+    "medium": 625
+  },
+  "Le poste à pourvoir est en interne chez Free-Work (job board spécialisé dans l’IT et la tech) et Turnover-IT (plateforme de recrutement dédiée aux recruteurs IT et digital), des solutions incontournables du recrutement tech en France et à l’international, réunissant une communauté de centaines de milliers de profils IT qualifiés et plus de 4 000 recruteurs actifs.\nAu sein de l'équipe tech, encadré(e) par des développeurs seniors et notre product manager, vous contribuez à l'ensemble de la chaîne de développement :\nDévelopper de nouvelles fonctionnalités côté back-end (PHP, Symfony) et côté front-end (Vue.js, Nuxt, TypeScript, React Native) sur nos plateformes candidats et recruteurs.\n\nCorriger des anomalies, améliorer les performances et la qualité du code existant, avec des tests et des revues de code.\n\nParticiper au développement de notre application mobile, un chantier récent où vous pourrez apporter votre regard et monter en compétences.",
+  [
+    640,
+    642,
+    644,
+    646,
+    648,
+    650
+  ],
+  {
+    "name": 599,
+    "slug": 600,
+    "displayed": 308,
+    "main": 20,
+    "url": 641
+  },
+  "/fr/tech-it/jobs/nuxt-js",
+  {
+    "name": 602,
+    "slug": 603,
+    "displayed": 308,
+    "main": 20,
+    "url": 643
+  },
+  "/fr/tech-it/jobs/php",
+  {
+    "name": 605,
+    "slug": 606,
+    "displayed": 308,
+    "main": 20,
+    "url": 645
+  },
+  "/fr/tech-it/jobs/react-native",
+  {
+    "name": 608,
+    "slug": 609,
+    "displayed": 308,
+    "main": 20,
+    "url": 647
+  },
+  "/fr/tech-it/jobs/symfony",
+  {
+    "name": 611,
+    "slug": 612,
+    "displayed": 308,
+    "main": 20,
+    "url": 649
+  },
+  "/fr/tech-it/jobs/typescript",
+  {
+    "name": 614,
+    "slug": 615,
+    "displayed": 308,
+    "main": 20,
+    "url": 651
+  },
+  "/fr/tech-it/jobs/vue-js-11",
+  [
+    596
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/alternant-e-developpeur-se-full-stack",
+  {
+    "descriptionText": 655,
+    "title": 656
+  },
+  [
+    629
+  ],
+  [
+    631
+  ],
+  {
+    "id": 590,
+    "title": 592,
+    "description": 638,
+    "location": 617,
+    "publishedAt": 594,
+    "salary": 19,
+    "dailyRate": 19,
+    "companyName": 619,
+    "logoUrl": 636,
+    "coverUrl": 658,
+    "contracts": 659,
+    "jobPostingType": 596,
+    "skills": 660,
+    "to": 653,
+    "duration": 43,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 667
+  },
+  "https://statics.free-work.com/company_picture_image_medium/picture-zfs9kFEO75bK4kZz.jpeg",
+  [
+    596
+  ],
+  [
+    661,
+    662,
+    663,
+    664,
+    665,
+    666
+  ],
+  {
+    "name": 599,
+    "slug": 600,
+    "displayed": 308,
+    "main": 20,
+    "url": 641
+  },
+  {
+    "name": 602,
+    "slug": 603,
+    "displayed": 308,
+    "main": 20,
+    "url": 643
+  },
+  {
+    "name": 605,
+    "slug": 606,
+    "displayed": 308,
+    "main": 20,
+    "url": 645
+  },
+  {
+    "name": 608,
+    "slug": 609,
+    "displayed": 308,
+    "main": 20,
+    "url": 647
+  },
+  {
+    "name": 611,
+    "slug": 612,
+    "displayed": 308,
+    "main": 20,
+    "url": 649
+  },
+  {
+    "name": 614,
+    "slug": 615,
+    "displayed": 308,
+    "main": 20,
+    "url": 651
+  },
+  {
+    "descriptionText": 668,
+    "title": 669
+  },
+  [
+    629
+  ],
+  [
+    631
+  ],
+  {
+    "id": 671,
+    "slug": 672,
+    "title": 673,
+    "description": 674,
+    "publishedAt": 675,
+    "annualSalary": 19,
+    "dailySalary": 19,
+    "contracts": 676,
+    "jobPostingType": 547,
+    "durationValue": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 677,
+    "location": 684,
+    "company": 686,
+    "job": 692,
+    "elasticHighlights": 693,
+    "premium": 308,
+    "cardProps": 696,
+    "cardAltProps": 712
+  },
+  678494,
+  "developpeur-talend-confirme-senior-h-f-freelance",
+  "Développeur Talend confirmé / senior (H/F), Freelance",
+  "<p>Pour l&#039;un de nos clients grand compte, nous recherchons un <strong>Développeur Talend</strong> pour intervenir sur un projet stratégique. Tu rejoindras une petite équipe agile, en lien direct avec un Proxy Product Owner (PPO).</p><p><strong>Tes missions</strong></p><ul><li><p>Analyser techniquement les besoins exprimés</p></li><li><p>Participer aux chiffrages</p></li><li><p>Développer les traitements d&#039;intégration de données sous Talend</p></li><li><p>Réaliser les tests unitaires</p></li><li><p>Assurer la maintenance de la solution (RUN)</p></li><li><p>Piloter l&#039;activité de l&#039;équipe dédiée</p></li><li><p>Rendre compte au PPO ainsi qu&#039;au management</p></li></ul>",
+  "2026-10-05T16:01:15+02:00",
+  [
+    435,
+    546
+  ],
+  [
+    678,
+    681
+  ],
+  {
+    "name": 679,
+    "slug": 680,
+    "displayed": 308,
+    "main": 20
+  },
+  "Agile Scrum",
+  "agile-scrum",
+  {
+    "name": 682,
+    "slug": 683,
+    "displayed": 308,
+    "main": 20
+  },
+  "Talend",
+  "talend",
+  {
+    "label": 685
+  },
+  "Chartres, Centre-Val de Loire",
+  {
+    "name": 687,
+    "slug": 688,
+    "logo": 689
+  },
+  "CAT-AMANIA",
+  "cat-amania-8",
+  {
+    "medium": 690,
+    "small": 691
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/AyfKgynH-logo.png",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/AyfKgynH-logo.png",
+  {
+    "slug": 511
+  },
+  {
+    "descriptionText": 694,
+    "title": 695
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 671,
+    "company": 697,
+    "description": 701,
+    "skills": 702,
+    "publishedAt": 675,
+    "title": 673,
+    "location": 685,
+    "salary": 19,
+    "dailyRate": 19,
+    "remoteMode": 437,
+    "contracts": 707,
+    "jobPostingType": 547,
+    "to": 708,
+    "duration": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 709
+  },
+  {
+    "name": 687,
+    "slug": 688,
+    "logo": 698
+  },
+  {
+    "medium": 699,
+    "small": 700
+  },
+  "https://statics.free-work.com/company_logo_medium/AyfKgynH-logo.png",
+  "https://statics.free-work.com/company_logo_small/AyfKgynH-logo.png",
+  "Pour l'un de nos clients grand compte, nous recherchons un Développeur Talend pour intervenir sur un projet stratégique. Tu rejoindras une petite équipe agile, en lien direct avec un Proxy Product Owner (PPO).\nTes missions\nAnalyser techniquement les besoins exprimés\n\nParticiper aux chiffrages\n\nDévelopper les traitements d'intégration de données sous Talend\n\nRéaliser les tests unitaires\n\nAssurer la maintenance de la solution (RUN)\n\nPiloter l'activité de l'équipe dédiée\n\nRendre compte au PPO ainsi qu'au management",
+  [
+    703,
+    705
+  ],
+  {
+    "name": 679,
+    "slug": 680,
+    "displayed": 308,
+    "main": 20,
+    "url": 704
+  },
+  "/fr/tech-it/jobs/agile-scrum",
+  {
+    "name": 682,
+    "slug": 683,
+    "displayed": 308,
+    "main": 20,
+    "url": 706
+  },
+  "/fr/tech-it/jobs/talend",
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/developpeur-talend-confirme-senior-h-f-freelance",
+  {
+    "descriptionText": 710,
+    "title": 711
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 671,
+    "title": 673,
+    "description": 701,
+    "location": 685,
+    "publishedAt": 675,
+    "salary": 19,
+    "dailyRate": 19,
+    "companyName": 687,
+    "logoUrl": 700,
+    "coverUrl": 530,
+    "contracts": 713,
+    "jobPostingType": 547,
+    "skills": 714,
+    "to": 708,
+    "duration": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 717
+  },
+  [
+    435,
+    546
+  ],
+  [
+    715,
+    716
+  ],
+  {
+    "name": 679,
+    "slug": 680,
+    "displayed": 308,
+    "main": 20,
+    "url": 704
+  },
+  {
+    "name": 682,
+    "slug": 683,
+    "displayed": 308,
+    "main": 20,
+    "url": 706
+  },
+  {
+    "descriptionText": 718,
+    "title": 719
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 721,
+    "slug": 722,
+    "title": 723,
+    "description": 724,
+    "publishedAt": 432,
+    "annualSalary": 725,
+    "dailySalary": 726,
+    "contracts": 727,
+    "jobPostingType": 547,
+    "durationValue": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 728,
+    "location": 744,
+    "company": 746,
+    "job": 749,
+    "elasticHighlights": 750,
+    "premium": 308,
+    "cardProps": 753,
+    "cardAltProps": 772
+  },
+  675483,
+  "developpeur-ibm-i-rpg-free-h-f",
+  "Développeur IBM i / RPG Free H/F",
+  "<strong>Contexte</strong><p><strong>Notre client recherche un développeur pour renforcer son équipe en charge du WMS Generix, fonctionnant sur IBM i. Le poste vise notamment à remplacer un départ en retraite prévu début 2027.</strong></p><strong>Missions</strong><ul><li><p>Développer et maintenir les programmes du WMS Generix.</p></li><li><p>Intervenir sur des demandes d’évolution et des corrections d’incidents de niveau 3.</p></li><li><p>Développer des interfaces avec les systèmes externes des clients.</p></li><li><p>Adapter les processus standards aux besoins spécifiques des nouveaux entrepôts.</p></li><li><p>Participer aux échanges avec les équipes métiers, les équipes SI et les clients.</p></li><li><p>Réaliser les tests et vérifier la bonne communication entre les programmes.</p></li><li><p>Participer à la planification des travaux et au suivi des engagements.</p></li></ul><strong>Environnement technique</strong><ul><li><p><strong>IBM i / IBM iSeries.</strong></p></li><li><p><strong>RPG Free.</strong></p></li><li><p><strong>CL et SQL.</strong></p></li><li><p><strong>Base de données DB2.</strong></p></li><li><p><strong>WMS Generix.</strong></p></li><li><p><strong>Jira pour les demandes d’évolution.</strong></p></li><li><p><strong>ServiceNow pour la gestion des tickets.</strong></p></li></ul>",
+  "40k-50k €",
+  "450-550 €",
+  [
+    435,
+    546
+  ],
+  [
+    729,
+    732,
+    735,
+    738,
+    741
+  ],
+  {
+    "name": 730,
+    "slug": 731,
+    "displayed": 308,
+    "main": 20
+  },
+  "IBM Db2",
+  "ibm-db2",
+  {
+    "name": 733,
+    "slug": 734,
+    "displayed": 308,
+    "main": 20
+  },
+  "IBM i",
+  "ibm-i",
+  {
+    "name": 736,
+    "slug": 737,
+    "displayed": 308,
+    "main": 20
+  },
+  "JIRA",
+  "jira",
+  {
+    "name": 739,
+    "slug": 740,
+    "displayed": 308,
+    "main": 20
+  },
+  "RPG (Report Program Generator)",
+  "rpg-report-program-generator",
+  {
+    "name": 742,
+    "slug": 743,
+    "displayed": 308,
+    "main": 20
+  },
+  "SQL",
+  "sql",
+  {
+    "label": 745
+  },
+  "Hauts-de-Seine, France",
+  {
+    "name": 747,
+    "slug": 748
+  },
+  "ADONYS",
+  "adonys-4",
+  {
+    "slug": 511
+  },
+  {
+    "descriptionText": 751,
+    "title": 752
+  },
+  [
+    631
+  ],
+  [
+    372
+  ],
+  {
+    "id": 721,
+    "company": 754,
+    "description": 755,
+    "skills": 756,
+    "publishedAt": 432,
+    "title": 723,
+    "location": 745,
+    "salary": 725,
+    "dailyRate": 726,
+    "remoteMode": 437,
+    "contracts": 767,
+    "jobPostingType": 547,
+    "to": 768,
+    "duration": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 769
+  },
+  {
+    "name": 747,
+    "slug": 748
+  },
+  "ContexteNotre client recherche un développeur pour renforcer son équipe en charge du WMS Generix, fonctionnant sur IBM i. Le poste vise notamment à remplacer un départ en retraite prévu début 2027.\nMissionsDévelopper et maintenir les programmes du WMS Generix.\n\nIntervenir sur des demandes d’évolution et des corrections d’incidents de niveau 3.\n\nDévelopper des interfaces avec les systèmes externes des clients.\n\nAdapter les processus standards aux besoins spécifiques des nouveaux entrepôts.\n\nParticiper aux échanges avec les équipes métiers, les équipes SI et les clients.\n\nRéaliser les tests et vérifier la bonne communication entre les programmes.\n\nParticiper à la planification des travaux et au suivi des engagements.\n\nEnvironnement techniqueIBM i / IBM iSeries.\n\nRPG Free.\n\nCL et SQL.\n\nBase de données DB2.\n\nWMS Generix.\n\nJira pour les demandes d’évolution.\n\nServiceNow pour la gestion des tickets.",
+  [
+    757,
+    759,
+    761,
+    763,
+    765
+  ],
+  {
+    "name": 730,
+    "slug": 731,
+    "displayed": 308,
+    "main": 20,
+    "url": 758
+  },
+  "/fr/tech-it/jobs/ibm-db2",
+  {
+    "name": 733,
+    "slug": 734,
+    "displayed": 308,
+    "main": 20,
+    "url": 760
+  },
+  "/fr/tech-it/jobs/ibm-i",
+  {
+    "name": 736,
+    "slug": 737,
+    "displayed": 308,
+    "main": 20,
+    "url": 762
+  },
+  "/fr/tech-it/jobs/jira",
+  {
+    "name": 739,
+    "slug": 740,
+    "displayed": 308,
+    "main": 20,
+    "url": 764
+  },
+  "/fr/tech-it/jobs/rpg-report-program-generator",
+  {
+    "name": 742,
+    "slug": 743,
+    "displayed": 308,
+    "main": 20,
+    "url": 766
+  },
+  "/fr/tech-it/jobs/sql",
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/developpeur-ibm-i-rpg-free-h-f",
+  {
+    "descriptionText": 770,
+    "title": 771
+  },
+  [
+    631
+  ],
+  [
+    372
+  ],
+  {
+    "id": 721,
+    "title": 723,
+    "description": 755,
+    "location": 745,
+    "publishedAt": 432,
+    "salary": 725,
+    "dailyRate": 726,
+    "companyName": 747,
+    "logoUrl": 530,
+    "coverUrl": 530,
+    "contracts": 773,
+    "jobPostingType": 547,
+    "skills": 774,
+    "to": 768,
+    "duration": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 780
+  },
+  [
+    435,
+    546
+  ],
+  [
+    775,
+    776,
+    777,
+    778,
+    779
+  ],
+  {
+    "name": 730,
+    "slug": 731,
+    "displayed": 308,
+    "main": 20,
+    "url": 758
+  },
+  {
+    "name": 733,
+    "slug": 734,
+    "displayed": 308,
+    "main": 20,
+    "url": 760
+  },
+  {
+    "name": 736,
+    "slug": 737,
+    "displayed": 308,
+    "main": 20,
+    "url": 762
+  },
+  {
+    "name": 739,
+    "slug": 740,
+    "displayed": 308,
+    "main": 20,
+    "url": 764
+  },
+  {
+    "name": 742,
+    "slug": 743,
+    "displayed": 308,
+    "main": 20,
+    "url": 766
+  },
+  {
+    "descriptionText": 781,
+    "title": 782
+  },
+  [
+    631
+  ],
+  [
+    372
+  ],
+  {
+    "id": 784,
+    "slug": 785,
+    "title": 786,
+    "description": 787,
+    "publishedAt": 788,
+    "annualSalary": 789,
+    "dailySalary": 790,
+    "contracts": 791,
+    "jobPostingType": 547,
+    "durationValue": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 792,
+    "location": 810,
+    "company": 812,
+    "job": 820,
+    "elasticHighlights": 822,
+    "premium": 308,
+    "cardProps": 824,
+    "cardAltProps": 848
+  },
+  677681,
+  "coach-ia-developpeur-ia-qualite-testing-h-f",
+  "Coach IA & Développeur IA — Qualité / Testing (H/F)",
+  "<p>À la suite de la finalisation des projets de migration CRM, l&#039;équipe Qualité d&#039;une entreprise du secteur Mode / Retail &amp; E-commerce souhaite structurer et industrialiser l&#039;usage de l&#039;Intelligence Artificielle au sein de ses processus QA. L&#039;objectif principal de cette mission est d&#039;accompagner l&#039;équipe à travers un rôle de Coach IA — une mission à forte dominante opérationnelle (développement / mise en œuvre IA). Le consultant aura pour rôle d&#039;auditer les pratiques existantes, de cadrer l&#039;utilisation des agents IA, de structurer le référentiel de tests interne et de mettre en place des tests de non-régression (TNR) optimisés et automatisés grâce à l&#039;IA.</p><p>Responsabilités principales :</p><p>Audit &amp; cadrage de l&#039;usage de l&#039;IA (coaching)<br />- Réaliser un audit rapide des outils et pratiques actuels de l&#039;équipe (Claude Code, ChatGPT, Copilot, Robo Jira, etc.)<br />- Accompagner et former l&#039;équipe à une utilisation homogène, structurée et efficace des outils IA</p><p>Centralisation &amp; orchestration de l&#039;infrastructure IA<br />- Accompagner le passage d&#039;outils/agents IA utilisés en local vers une infrastructure d&#039;agents centralisée et partagée<br />- Proposer un cadre d&#039;orchestration permettant de faire évoluer collectivement l&#039;usage de l&#039;IA</p><p>Optimisation des processus QA &amp; ingénierie de prompt<br />- Améliorer et rationaliser les prompts et skills IA pour la rédaction automatisée ou semi-automatisée (cahiers de recette, scripts de tests, synthèses et PV de recette)<br />- Uniformiser la structure des livrables et la transmission des informations aux Chefs de Produit</p><p>Automatisation &amp; stratégie de TNR<br />- Générer des tests automatisés à partir des cahiers de recette en s&#039;appuyant sur les agents IA existants<br />- Structurer et rationaliser le périmètre des TNR pour éviter la surconsommation de ressources (cadre de gouvernance des tests)</p>",
+  "2026-10-02T11:15:40+02:00",
+  "38k-45k €",
+  "280-480 €",
+  [
+    435,
+    546
+  ],
+  [
+    793,
+    796,
+    799,
+    802,
+    805,
+    807
+  ],
+  {
+    "name": 794,
+    "slug": 795,
+    "displayed": 20,
+    "main": 20
+  },
+  "ChatGPT",
+  "chatgpt-1",
+  {
+    "name": 797,
+    "slug": 798,
+    "displayed": 20,
+    "main": 20
+  },
+  "Claude Code",
+  "claude-code-3",
+  {
+    "name": 800,
+    "slug": 801,
+    "displayed": 20,
+    "main": 20
+  },
+  "Copilot",
+  "copilot-4",
+  {
+    "name": 803,
+    "slug": 804,
+    "displayed": 20,
+    "main": 20
+  },
+  "IA Générative",
+  "ia-generative-13",
+  {
+    "name": 736,
+    "slug": 806,
+    "displayed": 20,
+    "main": 20
+  },
+  "jira-93",
+  {
+    "name": 808,
+    "slug": 809,
+    "displayed": 20,
+    "main": 20
+  },
+  "QA",
+  "qa-1",
+  {
+    "label": 811
+  },
+  "Clichy, Île-de-France",
+  {
+    "name": 813,
+    "slug": 814,
+    "logo": 815,
+    "coverPicture": 818
+  },
+  "SKOTT GROUP SAS",
+  "skott-group-sas",
+  {
+    "medium": 816,
+    "small": 817
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/logo-77Bp2MGK4AmRMSdf.jpg",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/logo-77Bp2MGK4AmRMSdf.jpg",
+  {
+    "medium": 819
+  },
+  "https://api.free-work.com/media/cache/resolve/company_picture_image_medium/picture-TEmDlfWeyc0xbiGm.png",
+  {
+    "slug": 821
+  },
+  "coach-agile",
+  {
+    "title": 823
+  },
+  [
+    372
+  ],
+  {
+    "id": 784,
+    "company": 825,
+    "description": 830,
+    "skills": 831,
+    "publishedAt": 788,
+    "title": 786,
+    "location": 811,
+    "salary": 789,
+    "dailyRate": 790,
+    "remoteMode": 437,
+    "contracts": 844,
+    "jobPostingType": 547,
+    "to": 845,
+    "duration": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 846
+  },
+  {
+    "name": 813,
+    "slug": 814,
+    "logo": 826,
+    "coverPicture": 829
+  },
+  {
+    "medium": 827,
+    "small": 828
+  },
+  "https://statics.free-work.com/company_logo_medium/logo-77Bp2MGK4AmRMSdf.jpg",
+  "https://statics.free-work.com/company_logo_small/logo-77Bp2MGK4AmRMSdf.jpg",
+  {
+    "medium": 819
+  },
+  "À la suite de la finalisation des projets de migration CRM, l'équipe Qualité d'une entreprise du secteur Mode / Retail & E-commerce souhaite structurer et industrialiser l'usage de l'Intelligence Artificielle au sein de ses processus QA. L'objectif principal de cette mission est d'accompagner l'équipe à travers un rôle de Coach IA — une mission à forte dominante opérationnelle (développement / mise en œuvre IA). Le consultant aura pour rôle d'auditer les pratiques existantes, de cadrer l'utilisation des agents IA, de structurer le référentiel de tests interne et de mettre en place des tests de non-régression (TNR) optimisés et automatisés grâce à l'IA.\nResponsabilités principales :\nAudit & cadrage de l'usage de l'IA (coaching)\n- Réaliser un audit rapide des outils et pratiques actuels de l'équipe (Claude Code, ChatGPT, Copilot, Robo Jira, etc.)\n- Accompagner et former l'équipe à une utilisation homogène, structurée et efficace des outils IA\nCentralisation & orchestration de l'infrastructure IA\n- Accompagner le passage d'outils/agents IA utilisés en local vers une infrastructure d'agents centralisée et partagée\n- Proposer un cadre d'orchestration permettant de faire évoluer collectivement l'usage de l'IA\nOptimisation des processus QA & ingénierie de prompt\n- Améliorer et rationaliser les prompts et skills IA pour la rédaction automatisée ou semi-automatisée (cahiers de recette, scripts de tests, synthèses et PV de recette)\n- Uniformiser la structure des livrables et la transmission des informations aux Chefs de Produit\nAutomatisation & stratégie de TNR\n- Générer des tests automatisés à partir des cahiers de recette en s'appuyant sur les agents IA existants\n- Structurer et rationaliser le périmètre des TNR pour éviter la surconsommation de ressources (cadre de gouvernance des tests)",
+  [
+    832,
+    834,
+    836,
+    838,
+    840,
+    842
+  ],
+  {
+    "name": 794,
+    "slug": 795,
+    "displayed": 20,
+    "main": 20,
+    "url": 833
+  },
+  "/fr/tech-it/jobs/chatgpt-1",
+  {
+    "name": 797,
+    "slug": 798,
+    "displayed": 20,
+    "main": 20,
+    "url": 835
+  },
+  "/fr/tech-it/jobs/claude-code-3",
+  {
+    "name": 800,
+    "slug": 801,
+    "displayed": 20,
+    "main": 20,
+    "url": 837
+  },
+  "/fr/tech-it/jobs/copilot-4",
+  {
+    "name": 803,
+    "slug": 804,
+    "displayed": 20,
+    "main": 20,
+    "url": 839
+  },
+  "/fr/tech-it/jobs/ia-generative-13",
+  {
+    "name": 736,
+    "slug": 806,
+    "displayed": 20,
+    "main": 20,
+    "url": 841
+  },
+  "/fr/tech-it/jobs/jira-93",
+  {
+    "name": 808,
+    "slug": 809,
+    "displayed": 20,
+    "main": 20,
+    "url": 843
+  },
+  "/fr/tech-it/jobs/qa-1",
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/coach-agile/coach-ia-developpeur-ia-qualite-testing-h-f",
+  {
+    "title": 847
+  },
+  [
+    372
+  ],
+  {
+    "id": 784,
+    "title": 786,
+    "description": 830,
+    "location": 811,
+    "publishedAt": 788,
+    "salary": 789,
+    "dailyRate": 790,
+    "companyName": 813,
+    "logoUrl": 828,
+    "coverUrl": 849,
+    "contracts": 850,
+    "jobPostingType": 547,
+    "skills": 851,
+    "to": 845,
+    "duration": 62,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 858
+  },
+  "https://statics.free-work.com/company_picture_image_medium/picture-TEmDlfWeyc0xbiGm.jpeg",
+  [
+    435,
+    546
+  ],
+  [
+    852,
+    853,
+    854,
+    855,
+    856,
+    857
+  ],
+  {
+    "name": 794,
+    "slug": 795,
+    "displayed": 20,
+    "main": 20,
+    "url": 833
+  },
+  {
+    "name": 797,
+    "slug": 798,
+    "displayed": 20,
+    "main": 20,
+    "url": 835
+  },
+  {
+    "name": 800,
+    "slug": 801,
+    "displayed": 20,
+    "main": 20,
+    "url": 837
+  },
+  {
+    "name": 803,
+    "slug": 804,
+    "displayed": 20,
+    "main": 20,
+    "url": 839
+  },
+  {
+    "name": 736,
+    "slug": 806,
+    "displayed": 20,
+    "main": 20,
+    "url": 841
+  },
+  {
+    "name": 808,
+    "slug": 809,
+    "displayed": 20,
+    "main": 20,
+    "url": 843
+  },
+  {
+    "title": 859
+  },
+  [
+    372
+  ],
+  {
+    "id": 861,
+    "slug": 862,
+    "title": 863,
+    "description": 864,
+    "publishedAt": 865,
+    "annualSalary": 866,
+    "dailySalary": 867,
+    "contracts": 868,
+    "jobPostingType": 547,
+    "durationValue": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 870,
+    "location": 883,
+    "company": 884,
+    "job": 886,
+    "elasticHighlights": 888,
+    "premium": 308,
+    "cardProps": 891,
+    "cardAltProps": 909
+  },
+  668802,
+  "developpeur-ios-confirme-senior-swift-5-ios-26",
+  "Développeur iOS Confirmé/Senior  — Swift 5 / iOS 26",
+  "<p>développeur iOS confirmé/senior pour faire évoluer une application mobile native déjà en production.</p><p><strong>Vos missions :</strong></p><ul><li><p>Analyse technique et développement de nouvelles fonctionnalités</p></li><li><p>Maintenance corrective et évolutive</p></li><li><p>Intégration de l&#039;authentification OIDC</p></li><li><p>Tests unitaires et qualification</p></li><li><p>Documentation et gestion de la nomenclature des composants</p></li></ul><p><strong>Stack :</strong> Xcode 26, Swift 5, iOS 26, OIDC, GitHub</p><p><strong>Profil recherché :</strong> Développeur iOS confirmé à senior, maîtrisant les dernières versions de l&#039;écosystème Apple, à l&#039;aise avec les enjeux d&#039;accessibilité. Une connaissance du secteur de la protection sociale/épargne est un plus.</p>",
+  "2026-09-23T11:45:52+02:00",
+  "40k-45k €",
+  "400-520 €",
+  [
+    435,
+    546
+  ],
+  12,
+  [
+    871,
+    874,
+    877,
+    880
+  ],
+  {
+    "name": 872,
+    "slug": 873,
+    "displayed": 308,
+    "main": 20
+  },
+  "Github",
+  "github",
+  {
+    "name": 875,
+    "slug": 876,
+    "displayed": 308,
+    "main": 20
+  },
+  "iOS",
+  "ios",
+  {
+    "name": 878,
+    "slug": 879,
+    "displayed": 308,
+    "main": 20
+  },
+  "SWIFT",
+  "swift",
+  {
+    "name": 881,
+    "slug": 882,
+    "displayed": 308,
+    "main": 20
+  },
+  "Xcode",
+  "xcode",
+  {
+    "label": 503
+  },
+  {
+    "name": 687,
+    "slug": 688,
+    "logo": 885
+  },
+  {
+    "medium": 690,
+    "small": 691
+  },
+  {
+    "slug": 887
+  },
+  "developpeur-mobile-ios-swift-objective-c",
+  {
+    "descriptionText": 889,
+    "title": 890
+  },
+  [
+    631,
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 861,
+    "company": 892,
+    "description": 894,
+    "skills": 895,
+    "publishedAt": 865,
+    "title": 863,
+    "location": 503,
+    "salary": 866,
+    "dailyRate": 867,
+    "remoteMode": 437,
+    "contracts": 904,
+    "jobPostingType": 547,
+    "to": 905,
+    "duration": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 906
+  },
+  {
+    "name": 687,
+    "slug": 688,
+    "logo": 893
+  },
+  {
+    "medium": 699,
+    "small": 700
+  },
+  "développeur iOS confirmé/senior pour faire évoluer une application mobile native déjà en production.\nVos missions :\nAnalyse technique et développement de nouvelles fonctionnalités\n\nMaintenance corrective et évolutive\n\nIntégration de l'authentification OIDC\n\nTests unitaires et qualification\n\nDocumentation et gestion de la nomenclature des composants\n\nStack : Xcode 26, Swift 5, iOS 26, OIDC, GitHub\nProfil recherché : Développeur iOS confirmé à senior, maîtrisant les dernières versions de l'écosystème Apple, à l'aise avec les enjeux d'accessibilité. Une connaissance du secteur de la protection sociale/épargne est un plus.",
+  [
+    896,
+    898,
+    900,
+    902
+  ],
+  {
+    "name": 872,
+    "slug": 873,
+    "displayed": 308,
+    "main": 20,
+    "url": 897
+  },
+  "/fr/tech-it/jobs/github",
+  {
+    "name": 875,
+    "slug": 876,
+    "displayed": 308,
+    "main": 20,
+    "url": 899
+  },
+  "/fr/tech-it/jobs/ios",
+  {
+    "name": 878,
+    "slug": 879,
+    "displayed": 308,
+    "main": 20,
+    "url": 901
+  },
+  "/fr/tech-it/jobs/swift",
+  {
+    "name": 881,
+    "slug": 882,
+    "displayed": 308,
+    "main": 20,
+    "url": 903
+  },
+  "/fr/tech-it/jobs/xcode",
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-mobile-ios-swift-objective-c/developpeur-ios-confirme-senior-swift-5-ios-26",
+  {
+    "descriptionText": 907,
+    "title": 908
+  },
+  [
+    631,
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 861,
+    "title": 863,
+    "description": 894,
+    "location": 503,
+    "publishedAt": 865,
+    "salary": 866,
+    "dailyRate": 867,
+    "companyName": 687,
+    "logoUrl": 700,
+    "coverUrl": 530,
+    "contracts": 910,
+    "jobPostingType": 547,
+    "skills": 911,
+    "to": 905,
+    "duration": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 916
+  },
+  [
+    435,
+    546
+  ],
+  [
+    912,
+    913,
+    914,
+    915
+  ],
+  {
+    "name": 872,
+    "slug": 873,
+    "displayed": 308,
+    "main": 20,
+    "url": 897
+  },
+  {
+    "name": 875,
+    "slug": 876,
+    "displayed": 308,
+    "main": 20,
+    "url": 899
+  },
+  {
+    "name": 878,
+    "slug": 879,
+    "displayed": 308,
+    "main": 20,
+    "url": 901
+  },
+  {
+    "name": 881,
+    "slug": 882,
+    "displayed": 308,
+    "main": 20,
+    "url": 903
+  },
+  {
+    "descriptionText": 917,
+    "title": 918
+  },
+  [
+    631,
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 920,
+    "slug": 921,
+    "title": 922,
+    "description": 923,
+    "publishedAt": 924,
+    "annualSalary": 19,
+    "dailySalary": 19,
+    "contracts": 925,
+    "jobPostingType": 547,
+    "durationValue": 30,
+    "durationPeriod": 436,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 926,
+    "location": 942,
+    "company": 943,
+    "job": 951,
+    "elasticHighlights": 953,
+    "premium": 308,
+    "cardProps": 956,
+    "cardAltProps": 979
+  },
+  668522,
+  "consultant-developpeur-tibco-bw6-confirme",
+  "Consultant Développeur TIBCO BW6 confirmé",
+  "Contexte<p>Dans le cadre du renforcement des échanges inter-applicatifs, nous recherchons un Consultant Développeur TIBCO BW6 confirmé pour concevoir, développer et maintenir des flux d’intégration entre les différentes applications du SI.</p>Missions<ul><li><p>Analyser les besoins fonctionnels et techniques liés aux interfaces.</p></li><li><p>Concevoir et développer des flux d’intégration sous TIBCO BusinessWorks 6.</p></li><li><p>Mettre en œuvre des échanges via API, services web, fichiers ou messages.</p></li><li><p>Réaliser les tests unitaires et participer aux tests d’intégration.</p></li><li><p>Assurer la correction des anomalies et la maintenance évolutive des flux existants.</p></li><li><p>Participer aux mises en production et au suivi post-déploiement.</p></li><li><p>Rédiger et maintenir la documentation technique.</p></li><li><p>Travailler en lien avec les équipes métiers, applicatives et infrastructure.</p></li></ul>",
+  "2026-09-16T00:45:13+02:00",
+  [
+    435,
+    546
+  ],
+  [
+    927,
+    930,
+    933,
+    936,
+    939
+  ],
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20
+  },
+  "API REST",
+  "api-rest",
+  {
+    "name": 931,
+    "slug": 932,
+    "displayed": 308,
+    "main": 20
+  },
+  "ETL (Extract-transform-load)",
+  "etl-extract-transform-load",
+  {
+    "name": 934,
+    "slug": 935,
+    "displayed": 308,
+    "main": 20
+  },
+  "Soap",
+  "soap",
+  {
+    "name": 937,
+    "slug": 938,
+    "displayed": 308,
+    "main": 20
+  },
+  "TIBCO",
+  "tibco",
+  {
+    "name": 940,
+    "slug": 941,
+    "displayed": 308,
+    "main": 20
+  },
+  "XML",
+  "xml",
+  {
+    "label": 503
+  },
+  {
+    "name": 944,
+    "slug": 945,
+    "logo": 946,
+    "coverPicture": 949
+  },
+  "Hexateam",
+  "hexateam",
+  {
+    "medium": 947,
+    "small": 948
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/logo-2PGRlE5Kss27PqwD.png",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/logo-2PGRlE5Kss27PqwD.png",
+  {
+    "medium": 950
+  },
+  "https://api.free-work.com/media/cache/resolve/company_picture_image_medium/picture-Cawi4mctQXxL5SH4.png",
+  {
+    "slug": 952
+  },
+  "consultant",
+  {
+    "descriptionText": 954,
+    "title": 955
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 920,
+    "company": 957,
+    "description": 962,
+    "skills": 963,
+    "publishedAt": 924,
+    "title": 922,
+    "location": 503,
+    "salary": 19,
+    "dailyRate": 19,
+    "remoteMode": 437,
+    "contracts": 974,
+    "jobPostingType": 547,
+    "to": 975,
+    "duration": 30,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 976
+  },
+  {
+    "name": 944,
+    "slug": 945,
+    "logo": 958,
+    "coverPicture": 961
+  },
+  {
+    "medium": 959,
+    "small": 960
+  },
+  "https://statics.free-work.com/company_logo_medium/logo-2PGRlE5Kss27PqwD.png",
+  "https://statics.free-work.com/company_logo_small/logo-2PGRlE5Kss27PqwD.png",
+  {
+    "medium": 950
+  },
+  "ContexteDans le cadre du renforcement des échanges inter-applicatifs, nous recherchons un Consultant Développeur TIBCO BW6 confirmé pour concevoir, développer et maintenir des flux d’intégration entre les différentes applications du SI.\nMissionsAnalyser les besoins fonctionnels et techniques liés aux interfaces.\n\nConcevoir et développer des flux d’intégration sous TIBCO BusinessWorks 6.\n\nMettre en œuvre des échanges via API, services web, fichiers ou messages.\n\nRéaliser les tests unitaires et participer aux tests d’intégration.\n\nAssurer la correction des anomalies et la maintenance évolutive des flux existants.\n\nParticiper aux mises en production et au suivi post-déploiement.\n\nRédiger et maintenir la documentation technique.\n\nTravailler en lien avec les équipes métiers, applicatives et infrastructure.",
+  [
+    964,
+    966,
+    968,
+    970,
+    972
+  ],
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20,
+    "url": 965
+  },
+  "/fr/tech-it/jobs/api-rest",
+  {
+    "name": 931,
+    "slug": 932,
+    "displayed": 308,
+    "main": 20,
+    "url": 967
+  },
+  "/fr/tech-it/jobs/etl-extract-transform-load",
+  {
+    "name": 934,
+    "slug": 935,
+    "displayed": 308,
+    "main": 20,
+    "url": 969
+  },
+  "/fr/tech-it/jobs/soap",
+  {
+    "name": 937,
+    "slug": 938,
+    "displayed": 308,
+    "main": 20,
+    "url": 971
+  },
+  "/fr/tech-it/jobs/tibco",
+  {
+    "name": 940,
+    "slug": 941,
+    "displayed": 308,
+    "main": 20,
+    "url": 973
+  },
+  "/fr/tech-it/jobs/xml",
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/consultant/consultant-developpeur-tibco-bw6-confirme",
+  {
+    "descriptionText": 977,
+    "title": 978
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 920,
+    "title": 922,
+    "description": 962,
+    "location": 503,
+    "publishedAt": 924,
+    "salary": 19,
+    "dailyRate": 19,
+    "companyName": 944,
+    "logoUrl": 960,
+    "coverUrl": 980,
+    "contracts": 981,
+    "jobPostingType": 547,
+    "skills": 982,
+    "to": 975,
+    "duration": 30,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 988
+  },
+  "https://statics.free-work.com/company_picture_image_medium/picture-Cawi4mctQXxL5SH4.jpeg",
+  [
+    435,
+    546
+  ],
+  [
+    983,
+    984,
+    985,
+    986,
+    987
+  ],
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20,
+    "url": 965
+  },
+  {
+    "name": 931,
+    "slug": 932,
+    "displayed": 308,
+    "main": 20,
+    "url": 967
+  },
+  {
+    "name": 934,
+    "slug": 935,
+    "displayed": 308,
+    "main": 20,
+    "url": 969
+  },
+  {
+    "name": 937,
+    "slug": 938,
+    "displayed": 308,
+    "main": 20,
+    "url": 971
+  },
+  {
+    "name": 940,
+    "slug": 941,
+    "displayed": 308,
+    "main": 20,
+    "url": 973
+  },
+  {
+    "descriptionText": 989,
+    "title": 990
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 992,
+    "slug": 993,
+    "title": 994,
+    "description": 995,
+    "publishedAt": 996,
+    "annualSalary": 866,
+    "dailySalary": 997,
+    "contracts": 998,
+    "jobPostingType": 547,
+    "durationValue": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "skills": 1000,
+    "location": 1023,
+    "company": 1024,
+    "job": 1030,
+    "elasticHighlights": 1031,
+    "premium": 308,
+    "cardProps": 1033,
+    "cardAltProps": 1059
+  },
+  667440,
+  "developpeur-ia-11",
+  "Développeur IA",
+  "<p>Dans le cadre du programme de déploiement de l&#039;intelligence artificielle, l&#039;équipe IA conçoit, industrialise et exploite les cas d&#039;usage IA au service des métiers (épargne, banque, retraite complémentaire) et des collaborateurs internes.</p><p>Ces cas d&#039;usage se situent à différents stades de maturité : sujets à cadrer, prototypes à industrialiser, solutions déjà en production à maintenir et faire évoluer. </p><p>Ils portent notamment sur :</p><ul><li><p>l&#039;exploitation documentaire et la recherche augmentée (RAG) sur des corpus métier : contrats, garanties, procédures, réglementaire</p></li><li><p>l&#039;assistance aux collaborateurs en gestion et en relation client : aide à la réponse, synthèse de dossier, qualification de demandes</p></li><li><p>l&#039;extraction et la structuration d&#039;informations à partir de documents entrants (courriers, pièces justificatives, formulaires) : OCR, modèles vision</p></li><li><p>la conception d&#039;agents IA et de workflows d&#039;automatisation multi-étapes intégrés au SI</p></li></ul><p>Nous recherchons un ingénieur IA senior, capable de concevoir et développer des solutions à base de LLM et d&#039;agents, sur une architecture Python, avec un objectif de solutions robustes, réutilisables, sécurisées et optimisées en coût, performance et latence.</p><p>L&#039;intervenant travaillera en interaction directe avec les référents métier, les architectes, les équipes Data et les équipes de production.</p><p></p>",
+  "2026-09-14T00:45:01+02:00",
+  "400-550 €",
+  [
+    435,
+    546,
+    999
+  ],
+  "fixed-term",
+  [
+    1001,
+    1004,
+    1005,
+    1008,
+    1011,
+    1014,
+    1017,
+    1020
+  ],
+  {
+    "name": 1002,
+    "slug": 1003,
+    "displayed": 308,
+    "main": 20
+  },
+  "Agent IA",
+  "agent-ia",
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "name": 1006,
+    "slug": 1007,
+    "displayed": 308,
+    "main": 20
+  },
+  "Docker",
+  "docker",
+  {
+    "name": 1009,
+    "slug": 1010,
+    "displayed": 308,
+    "main": 20
+  },
+  "Large Language Model (LLM)",
+  "large-language-model-llm",
+  {
+    "name": 1012,
+    "slug": 1013,
+    "displayed": 308,
+    "main": 20
+  },
+  "OpenAPI",
+  "openapi",
+  {
+    "name": 1015,
+    "slug": 1016,
+    "displayed": 308,
+    "main": 20
+  },
+  "PostgreSQL",
+  "postgresql",
+  {
+    "name": 1018,
+    "slug": 1019,
+    "displayed": 308,
+    "main": 20
+  },
+  "Python",
+  "python",
+  {
+    "name": 1021,
+    "slug": 1022,
+    "displayed": 308,
+    "main": 20
+  },
+  "RAG",
+  "rag",
+  {
+    "label": 503
+  },
+  {
+    "name": 1025,
+    "slug": 1026,
+    "logo": 1027
+  },
+  "FIRST CONSEIL",
+  "first-conseil-1",
+  {
+    "medium": 1028,
+    "small": 1029
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/xjwKI5P5-logo.jpg",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/xjwKI5P5-logo.jpg",
+  {
+    "slug": 511
+  },
+  {
+    "title": 1032
+  },
+  [
+    372
+  ],
+  {
+    "id": 992,
+    "company": 1034,
+    "description": 1038,
+    "skills": 1039,
+    "publishedAt": 996,
+    "title": 994,
+    "location": 503,
+    "salary": 866,
+    "dailyRate": 997,
+    "contracts": 1055,
+    "jobPostingType": 547,
+    "to": 1056,
+    "duration": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 1057
+  },
+  {
+    "name": 1025,
+    "slug": 1026,
+    "logo": 1035
+  },
+  {
+    "medium": 1036,
+    "small": 1037
+  },
+  "https://statics.free-work.com/company_logo_medium/xjwKI5P5-logo.jpg",
+  "https://statics.free-work.com/company_logo_small/xjwKI5P5-logo.jpg",
+  "Dans le cadre du programme de déploiement de l'intelligence artificielle, l'équipe IA conçoit, industrialise et exploite les cas d'usage IA au service des métiers (épargne, banque, retraite complémentaire) et des collaborateurs internes.\nCes cas d'usage se situent à différents stades de maturité : sujets à cadrer, prototypes à industrialiser, solutions déjà en production à maintenir et faire évoluer.\nIls portent notamment sur :\nl'exploitation documentaire et la recherche augmentée (RAG) sur des corpus métier : contrats, garanties, procédures, réglementaire\n\nl'assistance aux collaborateurs en gestion et en relation client : aide à la réponse, synthèse de dossier, qualification de demandes\n\nl'extraction et la structuration d'informations à partir de documents entrants (courriers, pièces justificatives, formulaires) : OCR, modèles vision\n\nla conception d'agents IA et de workflows d'automatisation multi-étapes intégrés au SI\n\nNous recherchons un ingénieur IA senior, capable de concevoir et développer des solutions à base de LLM et d'agents, sur une architecture Python, avec un objectif de solutions robustes, réutilisables, sécurisées et optimisées en coût, performance et latence.\nL'intervenant travaillera en interaction directe avec les référents métier, les architectes, les équipes Data et les équipes de production.",
+  [
+    1040,
+    1042,
+    1043,
+    1045,
+    1047,
+    1049,
+    1051,
+    1053
+  ],
+  {
+    "name": 1002,
+    "slug": 1003,
+    "displayed": 308,
+    "main": 20,
+    "url": 1041
+  },
+  "/fr/tech-it/jobs/agent-ia",
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20,
+    "url": 965
+  },
+  {
+    "name": 1006,
+    "slug": 1007,
+    "displayed": 308,
+    "main": 20,
+    "url": 1044
+  },
+  "/fr/tech-it/jobs/docker",
+  {
+    "name": 1009,
+    "slug": 1010,
+    "displayed": 308,
+    "main": 20,
+    "url": 1046
+  },
+  "/fr/tech-it/jobs/large-language-model-llm",
+  {
+    "name": 1012,
+    "slug": 1013,
+    "displayed": 308,
+    "main": 20,
+    "url": 1048
+  },
+  "/fr/tech-it/jobs/openapi",
+  {
+    "name": 1015,
+    "slug": 1016,
+    "displayed": 308,
+    "main": 20,
+    "url": 1050
+  },
+  "/fr/tech-it/jobs/postgresql",
+  {
+    "name": 1018,
+    "slug": 1019,
+    "displayed": 308,
+    "main": 20,
+    "url": 1052
+  },
+  "/fr/tech-it/jobs/python",
+  {
+    "name": 1021,
+    "slug": 1022,
+    "displayed": 308,
+    "main": 20,
+    "url": 1054
+  },
+  "/fr/tech-it/jobs/rag",
+  [
+    435,
+    546,
+    999
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/developpeur-ia-11",
+  {
+    "title": 1058
+  },
+  [
+    372
+  ],
+  {
+    "id": 992,
+    "title": 994,
+    "description": 1038,
+    "location": 503,
+    "publishedAt": 996,
+    "salary": 866,
+    "dailyRate": 997,
+    "companyName": 1025,
+    "logoUrl": 1037,
+    "coverUrl": 530,
+    "contracts": 1060,
+    "jobPostingType": 547,
+    "skills": 1061,
+    "to": 1056,
+    "duration": 79,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 1070
+  },
+  [
+    435,
+    546,
+    999
+  ],
+  [
+    1062,
+    1063,
+    1064,
+    1065,
+    1066,
+    1067,
+    1068,
+    1069
+  ],
+  {
+    "name": 1002,
+    "slug": 1003,
+    "displayed": 308,
+    "main": 20,
+    "url": 1041
+  },
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20,
+    "url": 965
+  },
+  {
+    "name": 1006,
+    "slug": 1007,
+    "displayed": 308,
+    "main": 20,
+    "url": 1044
+  },
+  {
+    "name": 1009,
+    "slug": 1010,
+    "displayed": 308,
+    "main": 20,
+    "url": 1046
+  },
+  {
+    "name": 1012,
+    "slug": 1013,
+    "displayed": 308,
+    "main": 20,
+    "url": 1048
+  },
+  {
+    "name": 1015,
+    "slug": 1016,
+    "displayed": 308,
+    "main": 20,
+    "url": 1050
+  },
+  {
+    "name": 1018,
+    "slug": 1019,
+    "displayed": 308,
+    "main": 20,
+    "url": 1052
+  },
+  {
+    "name": 1021,
+    "slug": 1022,
+    "displayed": 308,
+    "main": 20,
+    "url": 1054
+  },
+  {
+    "title": 1071
+  },
+  [
+    372
+  ],
+  {
+    "id": 1073,
+    "slug": 1074,
+    "title": 1075,
+    "description": 1076,
+    "publishedAt": 1077,
+    "annualSalary": 1078,
+    "dailySalary": 433,
+    "contracts": 1079,
+    "jobPostingType": 547,
+    "durationValue": 43,
+    "durationPeriod": 436,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 1080,
+    "location": 1085,
+    "company": 1087,
+    "job": 1093,
+    "elasticHighlights": 1094,
+    "premium": 308,
+    "cardProps": 1096,
+    "cardAltProps": 1111
+  },
+  671209,
+  "developpeur-confirme-ibm-i-rpg-free-f-h",
+  "Développeur Confirmé IBM I, RPG Free (F/H)",
+  "<strong>Les missions du poste</strong><p></p><p><strong>Vous êtes un expert IBM i et vous aimez les environnements où votre expertise technique fait vraiment la différence ? Cette opportunité pourrait vous intéresser !</strong></p><p>Dans le cadre du renforcement des équipes de notre client, <strong>filiale d’un grand groupe bancaire international</strong>, nous recherchons un <strong>Développeur Confirmé IBM i</strong> en <strong>CDI</strong>.</p><p><br /> </p><p>🚀 Votre mission</p><p>Au sein d&#039;une équipe IT évoluant dans un environnement IBM i, vous interviendrez sur des sujets de développement, de maintenance et d’évolution des applications métiers.</p><p>Vous serez notamment amené(e) à :</p><ul><li><p>Analyser les besoins et les évolutions demandées</p></li><li><p>Concevoir et développer les solutions techniques</p></li><li><p>Assurer la maintenance évolutive et corrective</p></li><li><p>Participer aux phases de tests et de mise en production</p></li><li><p>Contribuer à l’amélioration et à la fiabilité des applications</p></li><li><p>Échanger avec les équipes techniques et fonctionnelles</p></li></ul><p>💻 Votre environnement technique</p><p>Nous recherchons avant tout une personne <strong>très à l’aise avec l’environnement IBM i</strong>, et notamment avec :</p><ul><li><p><strong>RPG Free</strong> : maîtrise indispensable</p></li><li><p><strong>SQL</strong> : très bon niveau</p></li><li><p>IBM i / AS400</p></li><li><p>DB2 for i</p></li><li><p>Une bonne expérience des environnements applicatifs complexes</p></li></ul>",
+  "2026-09-22T00:45:33+02:00",
+  "42k-50k €",
+  [
+    435,
+    546
+  ],
+  [
+    1081,
+    1082,
+    1083,
+    1084
+  ],
+  {
+    "name": 730,
+    "slug": 731,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "name": 733,
+    "slug": 734,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "name": 739,
+    "slug": 740,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "name": 742,
+    "slug": 743,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "label": 1086
+  },
+  "Paris, France",
+  {
+    "name": 1088,
+    "slug": 1089,
+    "logo": 1090
+  },
+  "OCSI",
+  "ocsi-3",
+  {
+    "medium": 1091,
+    "small": 1092
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/4YL9W5NV-logo.png",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/4YL9W5NV-logo.png",
+  {
+    "slug": 511
+  },
+  {
+    "title": 1095
+  },
+  [
+    372
+  ],
+  {
+    "id": 1073,
+    "company": 1097,
+    "description": 1101,
+    "skills": 1102,
+    "publishedAt": 1077,
+    "title": 1075,
+    "location": 1086,
+    "salary": 1078,
+    "dailyRate": 433,
+    "remoteMode": 437,
+    "contracts": 1107,
+    "jobPostingType": 547,
+    "to": 1108,
+    "duration": 43,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 1109
+  },
+  {
+    "name": 1088,
+    "slug": 1089,
+    "logo": 1098
+  },
+  {
+    "medium": 1099,
+    "small": 1100
+  },
+  "https://statics.free-work.com/company_logo_medium/4YL9W5NV-logo.png",
+  "https://statics.free-work.com/company_logo_small/4YL9W5NV-logo.png",
+  "Les missions du poste\nVous êtes un expert IBM i et vous aimez les environnements où votre expertise technique fait vraiment la différence ? Cette opportunité pourrait vous intéresser !\nDans le cadre du renforcement des équipes de notre client, filiale d’un grand groupe bancaire international, nous recherchons un Développeur Confirmé IBM i en CDI.\n\n🚀 Votre mission\nAu sein d'une équipe IT évoluant dans un environnement IBM i, vous interviendrez sur des sujets de développement, de maintenance et d’évolution des applications métiers.\nVous serez notamment amené(e) à :\nAnalyser les besoins et les évolutions demandées\n\nConcevoir et développer les solutions techniques\n\nAssurer la maintenance évolutive et corrective\n\nParticiper aux phases de tests et de mise en production\n\nContribuer à l’amélioration et à la fiabilité des applications\n\nÉchanger avec les équipes techniques et fonctionnelles\n\n💻 Votre environnement technique\nNous recherchons avant tout une personne très à l’aise avec l’environnement IBM i, et notamment avec :\nRPG Free : maîtrise indispensable\n\nSQL : très bon niveau\n\nIBM i / AS400\n\nDB2 for i\n\nUne bonne expérience des environnements applicatifs complexes",
+  [
+    1103,
+    1104,
+    1105,
+    1106
+  ],
+  {
+    "name": 730,
+    "slug": 731,
+    "displayed": 308,
+    "main": 20,
+    "url": 758
+  },
+  {
+    "name": 733,
+    "slug": 734,
+    "displayed": 308,
+    "main": 20,
+    "url": 760
+  },
+  {
+    "name": 739,
+    "slug": 740,
+    "displayed": 308,
+    "main": 20,
+    "url": 764
+  },
+  {
+    "name": 742,
+    "slug": 743,
+    "displayed": 308,
+    "main": 20,
+    "url": 766
+  },
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/developpeur-confirme-ibm-i-rpg-free-f-h",
+  {
+    "title": 1110
+  },
+  [
+    372
+  ],
+  {
+    "id": 1073,
+    "title": 1075,
+    "description": 1101,
+    "location": 1086,
+    "publishedAt": 1077,
+    "salary": 1078,
+    "dailyRate": 433,
+    "companyName": 1088,
+    "logoUrl": 1100,
+    "coverUrl": 530,
+    "contracts": 1112,
+    "jobPostingType": 547,
+    "skills": 1113,
+    "to": 1108,
+    "duration": 43,
+    "durationPeriod": 436,
+    "external": 20,
+    "elasticHighlights": 1118
+  },
+  [
+    435,
+    546
+  ],
+  [
+    1114,
+    1115,
+    1116,
+    1117
+  ],
+  {
+    "name": 730,
+    "slug": 731,
+    "displayed": 308,
+    "main": 20,
+    "url": 758
+  },
+  {
+    "name": 733,
+    "slug": 734,
+    "displayed": 308,
+    "main": 20,
+    "url": 760
+  },
+  {
+    "name": 739,
+    "slug": 740,
+    "displayed": 308,
+    "main": 20,
+    "url": 764
+  },
+  {
+    "name": 742,
+    "slug": 743,
+    "displayed": 308,
+    "main": 20,
+    "url": 766
+  },
+  {
+    "title": 1119
+  },
+  [
+    372
+  ],
+  {
+    "id": 1121,
+    "slug": 1122,
+    "title": 1123,
+    "description": 1124,
+    "publishedAt": 1125,
+    "annualSalary": 1126,
+    "dailySalary": 19,
+    "contracts": 1127,
+    "jobPostingType": 547,
+    "durationValue": 19,
+    "external": 20,
+    "remoteMode": 1128,
+    "location": 1129,
+    "company": 1131,
+    "job": 1139,
+    "elasticHighlights": 1140,
+    "premium": 20,
+    "cardProps": 1143,
+    "cardAltProps": 1156
+  },
+  678261,
+  "developpeur-angular-282",
+  "Développeur Angular",
+  "<p>Vos missions en tant que Développeur Angula r :<br /> • Définir les bonnes pratiques Front-End.<br /> • Développer des composants Angular réutilisables et maintenables.<br /> • Gérer les états applicatifs (RxJS, Signals, NgRx selon le contexte).<br /> • Optimiser les performances Front-End (lazy loading, change detection, optimisation du rendering).<br /> • Participer aux choix d&#039;architecture Front-End et à la structuration des applications Angular.<br /> • Garantir l&#039;accessibilité et la qualité UX des interfaces.<br /> • Intégrer des solutions d&#039;authentification et d&#039;autorisation (Keycloak, OAuth2, OpenID Connect).<br /> • Réaliser des revues de code orientées qualité, performance et maintenabilité.<br /> • Participer aux décisions d&#039;architecture Full Stack.<br /><br />Référence de l&#039;offre : g082l9oye3</p>",
+  "2026-10-05T11:07:03+02:00",
+  "42k-45k €",
+  [
+    546
+  ],
+  "none",
+  {
+    "label": 1130
+  },
+  "Bordeaux, Nouvelle-Aquitaine",
+  {
+    "name": 1132,
+    "slug": 1133,
+    "logo": 1134,
+    "coverPicture": 1137
+  },
+  "Signe +",
+  "signe",
+  {
+    "medium": 1135,
+    "small": 1136
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/logo-g0DECgXx4ZObMlkc.png",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/logo-g0DECgXx4ZObMlkc.png",
+  {
+    "medium": 1138
+  },
+  "https://api.free-work.com/media/cache/resolve/company_picture_image_medium/picture-OoF869o7Pxd51nk7.png",
+  {
+    "slug": 456
+  },
+  {
+    "descriptionText": 1141,
+    "title": 1142
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 1121,
+    "company": 1144,
+    "description": 1149,
+    "skills": 1150,
+    "publishedAt": 1125,
+    "title": 1123,
+    "location": 1130,
+    "salary": 1126,
+    "dailyRate": 19,
+    "remoteMode": 1128,
+    "contracts": 1151,
+    "jobPostingType": 547,
+    "to": 1152,
+    "duration": 19,
+    "external": 20,
+    "elasticHighlights": 1153
+  },
+  {
+    "name": 1132,
+    "slug": 1133,
+    "logo": 1145,
+    "coverPicture": 1148
+  },
+  {
+    "medium": 1146,
+    "small": 1147
+  },
+  "https://statics.free-work.com/company_logo_medium/logo-g0DECgXx4ZObMlkc.png",
+  "https://statics.free-work.com/company_logo_small/logo-g0DECgXx4ZObMlkc.png",
+  {
+    "medium": 1138
+  },
+  "Vos missions en tant que Développeur Angula r :\n• Définir les bonnes pratiques Front-End.\n• Développer des composants Angular réutilisables et maintenables.\n• Gérer les états applicatifs (RxJS, Signals, NgRx selon le contexte).\n• Optimiser les performances Front-End (lazy loading, change detection, optimisation du rendering).\n• Participer aux choix d'architecture Front-End et à la structuration des applications Angular.\n• Garantir l'accessibilité et la qualité UX des interfaces.\n• Intégrer des solutions d'authentification et d'autorisation (Keycloak, OAuth2, OpenID Connect).\n• Réaliser des revues de code orientées qualité, performance et maintenabilité.\n• Participer aux décisions d'architecture Full Stack.\n\nRéférence de l'offre : g082l9oye3",
+  [],
+  [
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-front-end-javascript-node-react-angular-vue/developpeur-angular-282",
+  {
+    "descriptionText": 1154,
+    "title": 1155
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 1121,
+    "title": 1123,
+    "description": 1149,
+    "location": 1130,
+    "publishedAt": 1125,
+    "salary": 1126,
+    "dailyRate": 19,
+    "companyName": 1132,
+    "logoUrl": 1147,
+    "coverUrl": 1157,
+    "contracts": 1158,
+    "jobPostingType": 547,
+    "skills": 1159,
+    "to": 1152,
+    "duration": 19,
+    "external": 20,
+    "elasticHighlights": 1160
+  },
+  "https://statics.free-work.com/company_picture_image_medium/picture-OoF869o7Pxd51nk7.jpeg",
+  [
+    546
+  ],
+  [],
+  {
+    "descriptionText": 1161,
+    "title": 1162
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 1164,
+    "slug": 1165,
+    "title": 1166,
+    "description": 1167,
+    "publishedAt": 1168,
+    "annualSalary": 19,
+    "dailySalary": 19,
+    "contracts": 1169,
+    "jobPostingType": 435,
+    "durationValue": 43,
+    "durationPeriod": 494,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 1170,
+    "location": 1232,
+    "company": 1234,
+    "job": 1242,
+    "elasticHighlights": 1244,
+    "premium": 20,
+    "cardProps": 1246,
+    "cardAltProps": 1299
+  },
+  677406,
+  "developpeur-net-561",
+  "Développeur .Net",
+  "<p>Au sein d’une équipe de développement pluridisciplinaire, vous contribuerez à faire évoluer une application stratégique pour la direction financière, au cœur des processus comptables, de trésorerie et de contrôle de gestion. Vous concevrez et implémenterez des fonctionnalités à partir des spécifications, tout en veillant à la qualité, à la maintenabilité et à la pertinence métier des solutions.<br />Vous participerez aux ateliers de conception, notamment avec les équipes produit et qualité, ainsi qu’aux rituels agiles organisés dans un cadre SAFe. Vos responsabilités incluront également la rédaction et l’exécution de tests, la documentation des choix techniques et la correction des anomalies. Vous contribuerez au désendettement technique, à la migration vers le cloud et à l’amélioration de la chaîne d’intégration et de déploiement continus. Le poste est hybride, avec trois jours sur site et deux jours de télétravail par semaine. La prise de poste est prévue en novembre 2026.</p>",
+  "2026-10-06T18:00:47+02:00",
+  [
+    435
+  ],
+  [
+    1171,
+    1174,
+    1177,
+    1178,
+    1181,
+    1184,
+    1187,
+    1190,
+    1193,
+    1196,
+    1199,
+    1202,
+    1205,
+    1208,
+    1211,
+    1214,
+    1217,
+    1220,
+    1223,
+    1226,
+    1229
+  ],
+  {
+    "name": 1172,
+    "slug": 1173,
+    "displayed": 308,
+    "main": 20
+  },
+  ".NET",
+  "net",
+  {
+    "name": 1175,
+    "slug": 1176,
+    "displayed": 308,
+    "main": 20
+  },
+  "API",
+  "api",
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "name": 1179,
+    "slug": 1180,
+    "displayed": 308,
+    "main": 20
+  },
+  "Architecture",
+  "architecture",
+  {
+    "name": 1182,
+    "slug": 1183,
+    "displayed": 308,
+    "main": 20
+  },
+  "ASP",
+  "asp",
+  {
+    "name": 1185,
+    "slug": 1186,
+    "displayed": 308,
+    "main": 20
+  },
+  "ASP.NET",
+  "asp-net",
+  {
+    "name": 1188,
+    "slug": 1189,
+    "displayed": 308,
+    "main": 20
+  },
+  "ASP.NET Core",
+  "asp-net-core",
+  {
+    "name": 1191,
+    "slug": 1192,
+    "displayed": 308,
+    "main": 20
+  },
+  "Cloud",
+  "cloud",
+  {
+    "name": 1194,
+    "slug": 1195,
+    "displayed": 308,
+    "main": 20
+  },
+  "Conception",
+  "conception",
+  {
+    "name": 1197,
+    "slug": 1198,
+    "displayed": 308,
+    "main": 20
+  },
+  "Contrôle de Gestion",
+  "controle-de-gestion",
+  {
+    "name": 1200,
+    "slug": 1201,
+    "displayed": 308,
+    "main": 20
+  },
+  "CQRS",
+  "cqrs",
+  {
+    "name": 1203,
+    "slug": 1204,
+    "displayed": 308,
+    "main": 20
+  },
+  "Direction",
+  "direction",
+  {
+    "name": 1206,
+    "slug": 1207,
+    "displayed": 308,
+    "main": 20
+  },
+  "Domain Driven Design (DDD)",
+  "domain-driven-design-ddd",
+  {
+    "name": 1209,
+    "slug": 1210,
+    "displayed": 308,
+    "main": 20
+  },
+  "Déploiement",
+  "deploiement",
+  {
+    "name": 1212,
+    "slug": 1213,
+    "displayed": 308,
+    "main": 20
+  },
+  "Développement",
+  "developpement",
+  {
+    "name": 1215,
+    "slug": 1216,
+    "displayed": 308,
+    "main": 20
+  },
+  "Intégration",
+  "integration",
+  {
+    "name": 1218,
+    "slug": 1219,
+    "displayed": 308,
+    "main": 20
+  },
+  "Migration",
+  "migration",
+  {
+    "name": 1221,
+    "slug": 1222,
+    "displayed": 308,
+    "main": 20
+  },
+  "Rest",
+  "rest",
+  {
+    "name": 1224,
+    "slug": 1225,
+    "displayed": 308,
+    "main": 20
+  },
+  "Rédaction",
+  "redaction",
+  {
+    "name": 1227,
+    "slug": 1228,
+    "displayed": 308,
+    "main": 20
+  },
+  "Safe",
+  "safe",
+  {
+    "name": 1230,
+    "slug": 1231,
+    "displayed": 308,
+    "main": 20
+  },
+  "Trésorerie",
+  "tresorerie",
+  {
+    "label": 1233
+  },
+  "Neuilly-sur-Seine, Île-de-France",
+  {
+    "name": 1235,
+    "slug": 1236,
+    "logo": 1237,
+    "coverPicture": 1240
+  },
+  "ODHCOM - FREELANCEREPUBLIK",
+  "freelancerepublik-2",
+  {
+    "medium": 1238,
+    "small": 1239
+  },
+  "https://api.free-work.com/media/cache/resolve/company_logo_medium/logo-YmFS7xWByM2qFi98.png",
+  "https://api.free-work.com/media/cache/resolve/company_logo_small/logo-YmFS7xWByM2qFi98.png",
+  {
+    "medium": 1241
+  },
+  "https://api.free-work.com/media/cache/resolve/company_picture_image_medium/picture-kslPcjinxw37XSJY.png",
+  {
+    "slug": 1243
+  },
+  "developpeur-net",
+  {
+    "title": 1245
+  },
+  [
+    372
+  ],
+  {
+    "id": 1164,
+    "company": 1247,
+    "description": 1252,
+    "skills": 1253,
+    "publishedAt": 1168,
+    "title": 1166,
+    "location": 1233,
+    "salary": 19,
+    "dailyRate": 19,
+    "remoteMode": 437,
+    "contracts": 1295,
+    "jobPostingType": 435,
+    "to": 1296,
+    "duration": 43,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 1297
+  },
+  {
+    "name": 1235,
+    "slug": 1236,
+    "logo": 1248,
+    "coverPicture": 1251
+  },
+  {
+    "medium": 1249,
+    "small": 1250
+  },
+  "https://statics.free-work.com/company_logo_medium/logo-YmFS7xWByM2qFi98.png",
+  "https://statics.free-work.com/company_logo_small/logo-YmFS7xWByM2qFi98.png",
+  {
+    "medium": 1241
+  },
+  "Au sein d’une équipe de développement pluridisciplinaire, vous contribuerez à faire évoluer une application stratégique pour la direction financière, au cœur des processus comptables, de trésorerie et de contrôle de gestion. Vous concevrez et implémenterez des fonctionnalités à partir des spécifications, tout en veillant à la qualité, à la maintenabilité et à la pertinence métier des solutions.\nVous participerez aux ateliers de conception, notamment avec les équipes produit et qualité, ainsi qu’aux rituels agiles organisés dans un cadre SAFe. Vos responsabilités incluront également la rédaction et l’exécution de tests, la documentation des choix techniques et la correction des anomalies. Vous contribuerez au désendettement technique, à la migration vers le cloud et à l’amélioration de la chaîne d’intégration et de déploiement continus. Le poste est hybride, avec trois jours sur site et deux jours de télétravail par semaine. La prise de poste est prévue en novembre 2026.",
+  [
+    1254,
+    1256,
+    1258,
+    1259,
+    1261,
+    1263,
+    1265,
+    1267,
+    1269,
+    1271,
+    1273,
+    1275,
+    1277,
+    1279,
+    1281,
+    1283,
+    1285,
+    1287,
+    1289,
+    1291,
+    1293
+  ],
+  {
+    "name": 1172,
+    "slug": 1173,
+    "displayed": 308,
+    "main": 20,
+    "url": 1255
+  },
+  "/fr/tech-it/jobs/net",
+  {
+    "name": 1175,
+    "slug": 1176,
+    "displayed": 308,
+    "main": 20,
+    "url": 1257
+  },
+  "/fr/tech-it/jobs/api",
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20,
+    "url": 965
+  },
+  {
+    "name": 1179,
+    "slug": 1180,
+    "displayed": 308,
+    "main": 20,
+    "url": 1260
+  },
+  "/fr/tech-it/jobs/architecture",
+  {
+    "name": 1182,
+    "slug": 1183,
+    "displayed": 308,
+    "main": 20,
+    "url": 1262
+  },
+  "/fr/tech-it/jobs/asp",
+  {
+    "name": 1185,
+    "slug": 1186,
+    "displayed": 308,
+    "main": 20,
+    "url": 1264
+  },
+  "/fr/tech-it/jobs/asp-net",
+  {
+    "name": 1188,
+    "slug": 1189,
+    "displayed": 308,
+    "main": 20,
+    "url": 1266
+  },
+  "/fr/tech-it/jobs/asp-net-core",
+  {
+    "name": 1191,
+    "slug": 1192,
+    "displayed": 308,
+    "main": 20,
+    "url": 1268
+  },
+  "/fr/tech-it/jobs/cloud",
+  {
+    "name": 1194,
+    "slug": 1195,
+    "displayed": 308,
+    "main": 20,
+    "url": 1270
+  },
+  "/fr/tech-it/jobs/conception",
+  {
+    "name": 1197,
+    "slug": 1198,
+    "displayed": 308,
+    "main": 20,
+    "url": 1272
+  },
+  "/fr/tech-it/jobs/controle-de-gestion",
+  {
+    "name": 1200,
+    "slug": 1201,
+    "displayed": 308,
+    "main": 20,
+    "url": 1274
+  },
+  "/fr/tech-it/jobs/cqrs",
+  {
+    "name": 1203,
+    "slug": 1204,
+    "displayed": 308,
+    "main": 20,
+    "url": 1276
+  },
+  "/fr/tech-it/jobs/direction",
+  {
+    "name": 1206,
+    "slug": 1207,
+    "displayed": 308,
+    "main": 20,
+    "url": 1278
+  },
+  "/fr/tech-it/jobs/domain-driven-design-ddd",
+  {
+    "name": 1209,
+    "slug": 1210,
+    "displayed": 308,
+    "main": 20,
+    "url": 1280
+  },
+  "/fr/tech-it/jobs/deploiement",
+  {
+    "name": 1212,
+    "slug": 1213,
+    "displayed": 308,
+    "main": 20,
+    "url": 1282
+  },
+  "/fr/tech-it/jobs/developpement",
+  {
+    "name": 1215,
+    "slug": 1216,
+    "displayed": 308,
+    "main": 20,
+    "url": 1284
+  },
+  "/fr/tech-it/jobs/integration",
+  {
+    "name": 1218,
+    "slug": 1219,
+    "displayed": 308,
+    "main": 20,
+    "url": 1286
+  },
+  "/fr/tech-it/jobs/migration",
+  {
+    "name": 1221,
+    "slug": 1222,
+    "displayed": 308,
+    "main": 20,
+    "url": 1288
+  },
+  "/fr/tech-it/jobs/rest",
+  {
+    "name": 1224,
+    "slug": 1225,
+    "displayed": 308,
+    "main": 20,
+    "url": 1290
+  },
+  "/fr/tech-it/jobs/redaction",
+  {
+    "name": 1227,
+    "slug": 1228,
+    "displayed": 308,
+    "main": 20,
+    "url": 1292
+  },
+  "/fr/tech-it/jobs/safe",
+  {
+    "name": 1230,
+    "slug": 1231,
+    "displayed": 308,
+    "main": 20,
+    "url": 1294
+  },
+  "/fr/tech-it/jobs/tresorerie",
+  [
+    435
+  ],
+  "/fr/tech-it/job-mission/developpeur-net/developpeur-net-561",
+  {
+    "title": 1298
+  },
+  [
+    372
+  ],
+  {
+    "id": 1164,
+    "title": 1166,
+    "description": 1252,
+    "location": 1233,
+    "publishedAt": 1168,
+    "salary": 19,
+    "dailyRate": 19,
+    "companyName": 1235,
+    "logoUrl": 1250,
+    "coverUrl": 1300,
+    "contracts": 1301,
+    "jobPostingType": 435,
+    "skills": 1302,
+    "to": 1296,
+    "duration": 43,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 1324
+  },
+  "https://statics.free-work.com/company_picture_image_medium/picture-kslPcjinxw37XSJY.jpeg",
+  [
+    435
+  ],
+  [
+    1303,
+    1304,
+    1305,
+    1306,
+    1307,
+    1308,
+    1309,
+    1310,
+    1311,
+    1312,
+    1313,
+    1314,
+    1315,
+    1316,
+    1317,
+    1318,
+    1319,
+    1320,
+    1321,
+    1322,
+    1323
+  ],
+  {
+    "name": 1172,
+    "slug": 1173,
+    "displayed": 308,
+    "main": 20,
+    "url": 1255
+  },
+  {
+    "name": 1175,
+    "slug": 1176,
+    "displayed": 308,
+    "main": 20,
+    "url": 1257
+  },
+  {
+    "name": 928,
+    "slug": 929,
+    "displayed": 308,
+    "main": 20,
+    "url": 965
+  },
+  {
+    "name": 1179,
+    "slug": 1180,
+    "displayed": 308,
+    "main": 20,
+    "url": 1260
+  },
+  {
+    "name": 1182,
+    "slug": 1183,
+    "displayed": 308,
+    "main": 20,
+    "url": 1262
+  },
+  {
+    "name": 1185,
+    "slug": 1186,
+    "displayed": 308,
+    "main": 20,
+    "url": 1264
+  },
+  {
+    "name": 1188,
+    "slug": 1189,
+    "displayed": 308,
+    "main": 20,
+    "url": 1266
+  },
+  {
+    "name": 1191,
+    "slug": 1192,
+    "displayed": 308,
+    "main": 20,
+    "url": 1268
+  },
+  {
+    "name": 1194,
+    "slug": 1195,
+    "displayed": 308,
+    "main": 20,
+    "url": 1270
+  },
+  {
+    "name": 1197,
+    "slug": 1198,
+    "displayed": 308,
+    "main": 20,
+    "url": 1272
+  },
+  {
+    "name": 1200,
+    "slug": 1201,
+    "displayed": 308,
+    "main": 20,
+    "url": 1274
+  },
+  {
+    "name": 1203,
+    "slug": 1204,
+    "displayed": 308,
+    "main": 20,
+    "url": 1276
+  },
+  {
+    "name": 1206,
+    "slug": 1207,
+    "displayed": 308,
+    "main": 20,
+    "url": 1278
+  },
+  {
+    "name": 1209,
+    "slug": 1210,
+    "displayed": 308,
+    "main": 20,
+    "url": 1280
+  },
+  {
+    "name": 1212,
+    "slug": 1213,
+    "displayed": 308,
+    "main": 20,
+    "url": 1282
+  },
+  {
+    "name": 1215,
+    "slug": 1216,
+    "displayed": 308,
+    "main": 20,
+    "url": 1284
+  },
+  {
+    "name": 1218,
+    "slug": 1219,
+    "displayed": 308,
+    "main": 20,
+    "url": 1286
+  },
+  {
+    "name": 1221,
+    "slug": 1222,
+    "displayed": 308,
+    "main": 20,
+    "url": 1288
+  },
+  {
+    "name": 1224,
+    "slug": 1225,
+    "displayed": 308,
+    "main": 20,
+    "url": 1290
+  },
+  {
+    "name": 1227,
+    "slug": 1228,
+    "displayed": 308,
+    "main": 20,
+    "url": 1292
+  },
+  {
+    "name": 1230,
+    "slug": 1231,
+    "displayed": 308,
+    "main": 20,
+    "url": 1294
+  },
+  {
+    "title": 1325
+  },
+  [
+    372
+  ],
+  {
+    "id": 1327,
+    "slug": 1328,
+    "title": 1329,
+    "description": 1330,
+    "publishedAt": 1331,
+    "annualSalary": 1332,
+    "dailySalary": 19,
+    "contracts": 1333,
+    "jobPostingType": 547,
+    "durationValue": 19,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 1334,
+    "location": 1344,
+    "company": 1345,
+    "job": 1348,
+    "elasticHighlights": 1350,
+    "premium": 20,
+    "cardProps": 1353,
+    "cardAltProps": 1368
+  },
+  664308,
+  "developpeur-java-ia-1",
+  "Developpeur JAVA_IA",
+  "<p>Au sein d&#039;un grand groupe international, vous rejoignez une équipe du domaine transverse, au service des applicatons de commercialisation d&#039;espaces publicitaires. Vous intervenez Ia fois sur Ia fiabilité des applications en production et Sur &#039;eur modernisation, avec un vrai dans Ia conception et I&#039;évolution du produit</p><p><strong><u>Vos missions</u></strong></p><p><br />• Assurer le maintien en conditions opérationnelles des applicatons en production </p><p>• Concevoir et évaluer Ies features implémenter Développer Ies features et Ies tests unitaires associés, dans Ie respect des norrnes et bonnes pratiques d&#039;ingénierie l•ogicielle du groupe </p><p>• Participer aux revues de code et étre force de proposition pour I&#039;amélioration continue </p><p>• Prendre en compte Ia volumétrie et performances de réponse des applications </p><p>• Analyser et restituer Ie fonctionnement des applications de fawn Claire et concise </p><p>• Contribuer la modemisation des systémes actuels </p><p>• Utiliser I&#039;lA dans Ie développement</p><p></p><p><strong><u>ENVIRONNEMENT TECHNIQUE</u></strong></p><p>Java 21. spring Boot 4.x. JPA 2. Hibernate</p><p>Anguar 19 / 21, Node, Angular Material, Redux / NGXS</p><p>PostgreSQL„ Elasticsearch 8.15 / Kibana</p><p>Web services REST, Kafka</p><p>Junit, Mockito, Cucumber, Karma, Jest, Sonar</p><p>Jenkins, Maven, Git, Docker. Kubernetes. ELK. Jira / Confluence</p>",
+  "2026-10-06T17:45:13+02:00",
+  "57k-68k €",
+  [
+    546
+  ],
+  [
+    1335,
+    1336,
+    1339,
+    1341
+  ],
+  {
+    "name": 440,
+    "slug": 441,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "name": 1337,
+    "slug": 1338,
+    "displayed": 308,
+    "main": 20
+  },
+  "Apache Kafka",
+  "apache-kafka",
+  {
+    "name": 797,
+    "slug": 1340,
+    "displayed": 308,
+    "main": 20
+  },
+  "claude-code",
+  {
+    "name": 1342,
+    "slug": 1343,
+    "displayed": 308,
+    "main": 20
+  },
+  "Java",
+  "java",
+  {
+    "label": 1086
+  },
+  {
+    "name": 1346,
+    "slug": 1347
+  },
+  "NATAN ",
+  "natan",
+  {
+    "slug": 1349
+  },
+  "developpeur-java-kotlin-groovy-scala",
+  {
+    "title": 1351
+  },
+  [
+    1352
+  ],
+  "Developpeur",
+  {
+    "id": 1327,
+    "company": 1354,
+    "description": 1355,
+    "skills": 1356,
+    "publishedAt": 1331,
+    "title": 1329,
+    "location": 1086,
+    "salary": 1332,
+    "dailyRate": 19,
+    "remoteMode": 437,
+    "contracts": 1364,
+    "jobPostingType": 547,
+    "to": 1365,
+    "duration": 19,
+    "external": 20,
+    "elasticHighlights": 1366
+  },
+  {
+    "name": 1346,
+    "slug": 1347
+  },
+  "Au sein d'un grand groupe international, vous rejoignez une équipe du domaine transverse, au service des applicatons de commercialisation d'espaces publicitaires. Vous intervenez Ia fois sur Ia fiabilité des applications en production et Sur 'eur modernisation, avec un vrai dans Ia conception et I'évolution du produit\nVos missions\n\n• Assurer le maintien en conditions opérationnelles des applicatons en production\n• Concevoir et évaluer Ies features implémenter Développer Ies features et Ies tests unitaires associés, dans Ie respect des norrnes et bonnes pratiques d'ingénierie l•ogicielle du groupe\n• Participer aux revues de code et étre force de proposition pour I'amélioration continue\n• Prendre en compte Ia volumétrie et performances de réponse des applications\n• Analyser et restituer Ie fonctionnement des applications de fawn Claire et concise\n• Contribuer la modemisation des systémes actuels\n• Utiliser I'lA dans Ie développement\n\nENVIRONNEMENT TECHNIQUE\nJava 21. spring Boot 4.x. JPA 2. Hibernate\nAnguar 19 / 21, Node, Angular Material, Redux / NGXS\nPostgreSQL„ Elasticsearch 8.15 / Kibana\nWeb services REST, Kafka\nJunit, Mockito, Cucumber, Karma, Jest, Sonar\nJenkins, Maven, Git, Docker. Kubernetes. ELK. Jira / Confluence",
+  [
+    1357,
+    1358,
+    1360,
+    1362
+  ],
+  {
+    "name": 440,
+    "slug": 441,
+    "displayed": 308,
+    "main": 20,
+    "url": 469
+  },
+  {
+    "name": 1337,
+    "slug": 1338,
+    "displayed": 308,
+    "main": 20,
+    "url": 1359
+  },
+  "/fr/tech-it/jobs/apache-kafka",
+  {
+    "name": 797,
+    "slug": 1340,
+    "displayed": 308,
+    "main": 20,
+    "url": 1361
+  },
+  "/fr/tech-it/jobs/claude-code",
+  {
+    "name": 1342,
+    "slug": 1343,
+    "displayed": 308,
+    "main": 20,
+    "url": 1363
+  },
+  "/fr/tech-it/jobs/java",
+  [
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-java-kotlin-groovy-scala/developpeur-java-ia-1",
+  {
+    "title": 1367
+  },
+  [
+    1352
+  ],
+  {
+    "id": 1327,
+    "title": 1329,
+    "description": 1355,
+    "location": 1086,
+    "publishedAt": 1331,
+    "salary": 1332,
+    "dailyRate": 19,
+    "companyName": 1346,
+    "logoUrl": 530,
+    "coverUrl": 530,
+    "contracts": 1369,
+    "jobPostingType": 547,
+    "skills": 1370,
+    "to": 1365,
+    "duration": 19,
+    "external": 20,
+    "elasticHighlights": 1375
+  },
+  [
+    546
+  ],
+  [
+    1371,
+    1372,
+    1373,
+    1374
+  ],
+  {
+    "name": 440,
+    "slug": 441,
+    "displayed": 308,
+    "main": 20,
+    "url": 469
+  },
+  {
+    "name": 1337,
+    "slug": 1338,
+    "displayed": 308,
+    "main": 20,
+    "url": 1359
+  },
+  {
+    "name": 797,
+    "slug": 1340,
+    "displayed": 308,
+    "main": 20,
+    "url": 1361
+  },
+  {
+    "name": 1342,
+    "slug": 1343,
+    "displayed": 308,
+    "main": 20,
+    "url": 1363
+  },
+  {
+    "title": 1376
+  },
+  [
+    1352
+  ],
+  {
+    "id": 1378,
+    "slug": 1379,
+    "title": 1380,
+    "description": 1381,
+    "publishedAt": 1382,
+    "annualSalary": 866,
+    "dailySalary": 433,
+    "contracts": 1383,
+    "jobPostingType": 547,
+    "durationValue": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 1384,
+    "location": 1396,
+    "company": 1398,
+    "job": 1400,
+    "elasticHighlights": 1401,
+    "premium": 20,
+    "cardProps": 1404,
+    "cardAltProps": 1422
+  },
+  678777,
+  "developpeur-full-stack-418",
+  "Développeur Full-Stack",
+  "<p>Nous recherchons un <strong>Développeur Senior Full-Stack</strong> afin de renforcer une équipe technique évoluant dans un contexte de transformation et d’évolution du système d’information.</p><p>Vous interviendrez dans un environnement technique exigeant, avec un rôle axé sur la <strong>qualité du développement, la performance applicative et l’amélioration continue</strong>. Vous contribuerez également à la diffusion des bonnes pratiques auprès des équipes de réalisation et participerez aux évolutions techniques du système d’information.</p><p>Vos principales missions seront les suivantes :</p><ul><li><p>Participer à l’étude et à la proposition de <strong>solutions techniques</strong> ;</p></li><li><p>Contribuer aux <strong>études d’impact et aux chiffrages</strong> ;</p></li><li><p>Participer à la conception et au développement des évolutions applicatives ;</p></li><li><p>Contribuer à la <strong>stabilité, la robustesse et la performance</strong> du patrimoine applicatif ;</p></li><li><p>Réaliser des <strong>revues de code</strong> en collaboration avec les équipes techniques ;</p></li><li><p>Participer à l’identification et à la mise en œuvre d’<strong>optimisations de code et d’algorithmes</strong> ;</p></li><li><p>Contribuer à l’amélioration continue des pratiques et processus de développement ;</p></li><li><p>Participer à la diffusion des <strong>bonnes pratiques techniques</strong> ;</p></li><li><p>Rédiger et maintenir la <strong>documentation technique</strong> nécessaire ;</p></li><li><p>Assurer une veille technologique et être force de proposition sur les évolutions techniques.</p></li></ul>Environnement technique<ul><li><p>Java 21</p></li><li><p>Spring</p></li><li><p>JPA</p></li><li><p>Oracle / PostgreSQL</p></li><li><p>API REST</p></li><li><p>GitLab / CI-CD</p></li><li><p>Microservices</p></li><li><p>Kafka</p></li><li><p>React 19</p></li><li><p>Conteneurisation / OpenShift</p></li></ul>",
+  "2026-10-06T09:55:33+02:00",
+  [
+    435,
+    546
+  ],
+  [
+    1385,
+    1386,
+    1387,
+    1390,
+    1393
+  ],
+  {
+    "name": 1337,
+    "slug": 1338,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "name": 1342,
+    "slug": 1343,
+    "displayed": 308,
+    "main": 20
+  },
+  {
+    "name": 1388,
+    "slug": 1389,
+    "displayed": 308,
+    "main": 20
+  },
+  "JPA (Java Persistence API)",
+  "jpa-java-persistence-api",
+  {
+    "name": 1391,
+    "slug": 1392,
+    "displayed": 308,
+    "main": 20
+  },
+  "React",
+  "react",
+  {
+    "name": 1394,
+    "slug": 1395,
+    "displayed": 308,
+    "main": 20
+  },
+  "Spring",
+  "spring",
+  {
+    "label": 1397
+  },
+  "Niort, Nouvelle-Aquitaine",
+  {
+    "name": 687,
+    "slug": 688,
+    "logo": 1399
+  },
+  {
+    "medium": 690,
+    "small": 691
+  },
+  {
+    "slug": 511
+  },
+  {
+    "descriptionText": 1402,
+    "title": 1403
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 1378,
+    "company": 1405,
+    "description": 1407,
+    "skills": 1408,
+    "publishedAt": 1382,
+    "title": 1380,
+    "location": 1397,
+    "salary": 866,
+    "dailyRate": 433,
+    "remoteMode": 437,
+    "contracts": 1417,
+    "jobPostingType": 547,
+    "to": 1418,
+    "duration": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 1419
+  },
+  {
+    "name": 687,
+    "slug": 688,
+    "logo": 1406
+  },
+  {
+    "medium": 699,
+    "small": 700
+  },
+  "Nous recherchons un Développeur Senior Full-Stack afin de renforcer une équipe technique évoluant dans un contexte de transformation et d’évolution du système d’information.\nVous interviendrez dans un environnement technique exigeant, avec un rôle axé sur la qualité du développement, la performance applicative et l’amélioration continue. Vous contribuerez également à la diffusion des bonnes pratiques auprès des équipes de réalisation et participerez aux évolutions techniques du système d’information.\nVos principales missions seront les suivantes :\nParticiper à l’étude et à la proposition de solutions techniques ;\n\nContribuer aux études d’impact et aux chiffrages ;\n\nParticiper à la conception et au développement des évolutions applicatives ;\n\nContribuer à la stabilité, la robustesse et la performance du patrimoine applicatif ;\n\nRéaliser des revues de code en collaboration avec les équipes techniques ;\n\nParticiper à l’identification et à la mise en œuvre d’optimisations de code et d’algorithmes ;\n\nContribuer à l’amélioration continue des pratiques et processus de développement ;\n\nParticiper à la diffusion des bonnes pratiques techniques ;\n\nRédiger et maintenir la documentation technique nécessaire ;\n\nAssurer une veille technologique et être force de proposition sur les évolutions techniques.\n\nEnvironnement techniqueJava 21\n\nSpring\n\nJPA\n\nOracle / PostgreSQL\n\nAPI REST\n\nGitLab / CI-CD\n\nMicroservices\n\nKafka\n\nReact 19\n\nConteneurisation / OpenShift",
+  [
+    1409,
+    1410,
+    1411,
+    1413,
+    1415
+  ],
+  {
+    "name": 1337,
+    "slug": 1338,
+    "displayed": 308,
+    "main": 20,
+    "url": 1359
+  },
+  {
+    "name": 1342,
+    "slug": 1343,
+    "displayed": 308,
+    "main": 20,
+    "url": 1363
+  },
+  {
+    "name": 1388,
+    "slug": 1389,
+    "displayed": 308,
+    "main": 20,
+    "url": 1412
+  },
+  "/fr/tech-it/jobs/jpa-java-persistence-api",
+  {
+    "name": 1391,
+    "slug": 1392,
+    "displayed": 308,
+    "main": 20,
+    "url": 1414
+  },
+  "/fr/tech-it/jobs/react",
+  {
+    "name": 1394,
+    "slug": 1395,
+    "displayed": 308,
+    "main": 20,
+    "url": 1416
+  },
+  "/fr/tech-it/jobs/spring",
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/developpeur-full-stack-418",
+  {
+    "descriptionText": 1420,
+    "title": 1421
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 1378,
+    "title": 1380,
+    "description": 1407,
+    "location": 1397,
+    "publishedAt": 1382,
+    "salary": 866,
+    "dailyRate": 433,
+    "companyName": 687,
+    "logoUrl": 700,
+    "coverUrl": 530,
+    "contracts": 1423,
+    "jobPostingType": 547,
+    "skills": 1424,
+    "to": 1418,
+    "duration": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 1430
+  },
+  [
+    435,
+    546
+  ],
+  [
+    1425,
+    1426,
+    1427,
+    1428,
+    1429
+  ],
+  {
+    "name": 1337,
+    "slug": 1338,
+    "displayed": 308,
+    "main": 20,
+    "url": 1359
+  },
+  {
+    "name": 1342,
+    "slug": 1343,
+    "displayed": 308,
+    "main": 20,
+    "url": 1363
+  },
+  {
+    "name": 1388,
+    "slug": 1389,
+    "displayed": 308,
+    "main": 20,
+    "url": 1412
+  },
+  {
+    "name": 1391,
+    "slug": 1392,
+    "displayed": 308,
+    "main": 20,
+    "url": 1414
+  },
+  {
+    "name": 1394,
+    "slug": 1395,
+    "displayed": 308,
+    "main": 20,
+    "url": 1416
+  },
+  {
+    "descriptionText": 1431,
+    "title": 1432
+  },
+  [
+    372
+  ],
+  [
+    372
+  ],
+  {
+    "id": 1434,
+    "slug": 1435,
+    "title": 1436,
+    "description": 1437,
+    "publishedAt": 1438,
+    "annualSalary": 866,
+    "dailySalary": 1439,
+    "contracts": 1440,
+    "jobPostingType": 547,
+    "durationValue": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "remoteMode": 437,
+    "skills": 1441,
+    "location": 1445,
+    "company": 1446,
+    "job": 1448,
+    "elasticHighlights": 1449,
+    "premium": 20,
+    "cardProps": 1452,
+    "cardAltProps": 1464
+  },
+  678423,
+  "developpeur-4d-6",
+  "Développeur 4D",
+  "<p>Nous recherchons un développeur 4D pour rejoindre une équipe de développement travaillant sur une application métier dans le domaine de la santé.</p><p><strong>Vos missions</strong></p><ul><li><p>Analyse technique et étude détaillée des évolutions</p></li><li><p>Développement de composants sous 4D (V21)</p></li><li><p>Tests unitaires et d&#039;intégration, correction des anomalies</p></li><li><p><strong>Maintenance corrective et évolutive</strong></p></li><li><p>Rédaction de la documentation technique</p></li></ul><p><strong>Votre profil</strong></p><ul><li><p>Expérience confirmée en développement 4D</p></li><li><p>Connaissance des versions récentes (ORDA, classes, mode projet) appréciée</p></li><li><p>Rigueur, sens de la qualité et goût du travail en équipe</p></li><li><p>Une expérience dans le secteur santé est un plus</p></li></ul>",
+  "2026-10-05T14:46:39+02:00",
+  "400-490 €",
+  [
+    435,
+    546
+  ],
+  [
+    1442
+  ],
+  {
+    "name": 1443,
+    "slug": 1444,
+    "displayed": 308,
+    "main": 20
+  },
+  "4D",
+  "4d",
+  {
+    "label": 503
+  },
+  {
+    "name": 687,
+    "slug": 688,
+    "logo": 1447
+  },
+  {
+    "medium": 690,
+    "small": 691
+  },
+  {
+    "slug": 511
+  },
+  {
+    "descriptionText": 1450,
+    "title": 1451
+  },
+  [
+    631
+  ],
+  [
+    372
+  ],
+  {
+    "id": 1434,
+    "company": 1453,
+    "description": 1455,
+    "skills": 1456,
+    "publishedAt": 1438,
+    "title": 1436,
+    "location": 503,
+    "salary": 866,
+    "dailyRate": 1439,
+    "remoteMode": 437,
+    "contracts": 1459,
+    "jobPostingType": 547,
+    "to": 1460,
+    "duration": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 1461
+  },
+  {
+    "name": 687,
+    "slug": 688,
+    "logo": 1454
+  },
+  {
+    "medium": 699,
+    "small": 700
+  },
+  "Nous recherchons un développeur 4D pour rejoindre une équipe de développement travaillant sur une application métier dans le domaine de la santé.\nVos missions\nAnalyse technique et étude détaillée des évolutions\n\nDéveloppement de composants sous 4D (V21)\n\nTests unitaires et d'intégration, correction des anomalies\n\nMaintenance corrective et évolutive\n\nRédaction de la documentation technique\n\nVotre profil\nExpérience confirmée en développement 4D\n\nConnaissance des versions récentes (ORDA, classes, mode projet) appréciée\n\nRigueur, sens de la qualité et goût du travail en équipe\n\nUne expérience dans le secteur santé est un plus",
+  [
+    1457
+  ],
+  {
+    "name": 1443,
+    "slug": 1444,
+    "displayed": 308,
+    "main": 20,
+    "url": 1458
+  },
+  "/fr/tech-it/jobs/4d",
+  [
+    435,
+    546
+  ],
+  "/fr/tech-it/job-mission/developpeur-autre-langage-cobol-perl-vba-ruby-shell/developpeur-4d-6",
+  {
+    "descriptionText": 1462,
+    "title": 1463
+  },
+  [
+    631
+  ],
+  [
+    372
+  ],
+  {
+    "id": 1434,
+    "title": 1436,
+    "description": 1455,
+    "location": 503,
+    "publishedAt": 1438,
+    "salary": 866,
+    "dailyRate": 1439,
+    "companyName": 687,
+    "logoUrl": 700,
+    "coverUrl": 530,
+    "contracts": 1465,
+    "jobPostingType": 547,
+    "skills": 1466,
+    "to": 1460,
+    "duration": 869,
+    "durationPeriod": 494,
+    "external": 20,
+    "elasticHighlights": 1468
+  },
+  [
+    435,
+    546
+  ],
+  [
+    1467
+  ],
+  {
+    "name": 1443,
+    "slug": 1444,
+    "displayed": 308,
+    "main": 20,
+    "url": 1458
+  },
+  {
+    "descriptionText": 1469,
+    "title": 1470
+  },
+  [
+    631
+  ],
+  [
+    372
+  ],
+  1061,
+  {
+    "query": 373,
+    "locations": 1473
+  },
+  [
+    424
+  ],
+  [
+    "Reactive",
+    1475
+  ],
+  {
+    "$snuxt-i18n-meta": 1476,
+    "$ssite-config": 1477
+  },
+  {},
+  {
+    "_priority": 1478,
+    "currentLocale": 1482,
+    "defaultLocale": 1482,
+    "env": 1483,
+    "name": 1484,
+    "url": 1485
+  },
+  {
+    "name": 1479,
+    "env": 1480,
+    "url": 41,
+    "defaultLocale": 1481,
+    "currentLocale": 1481
+  },
+  -10,
+  -15,
+  -2,
+  "fr-FR",
+  "production",
+  "@free-work/free-work",
+  "https://www.free-work.com",
+  [
+    "Set"
+  ],
+  [
+    "ShallowReactive",
+    1488
+  ],
+  {
+    "jobs-page-init-/fr/tech-it/jobs": 19,
+    "jobs-search-/fr/tech-it/jobs": 19
+  },
+  "/fr/tech-it/jobs?query=developpeur&page=1",
+  [
+    "Reactive",
+    1491
+  ],
+  {
+    "context": 1492,
+    "jobs": 1498,
+    "user": 1846,
+    "toast": 1848,
+    "forum": 1855
+  },
+  {
+    "appVersion": 1493,
+    "acceptLanguage": 530,
+    "baseUrl": 1485,
+    "locale": 1494,
+    "modal": 530,
+    "registrationConfirmEmailDismissed": 20,
+    "isCompletingLogin": 20,
+    "redirectUrl": 530,
+    "registeringEmail": 530,
+    "systemAlertId": 530,
+    "siteConfig": 1495,
+    "timeZone": 530,
+    "domain": 1496,
+    "user": 19,
+    "media": 1497,
+    "isMobile": 308,
+    "isTablet": 20,
+    "isTouch": 308,
+    "isDesktop": 308,
+    "isXlDesktop": 308,
+    "isBrowserSupported": 308,
+    "viewportHeight": 41,
+    "usableViewportHeight": 41,
+    "inboxVisibility": 20,
+    "inboxUnreadMessagesCount": 41,
+    "newAppVersionPromptVisible": 20,
+    "shouldReloadAfterNavigation": 20,
+    "partnersModalContext": 19
+  },
+  "free-work_4.1.5",
+  "fr",
+  {},
+  "tech-it",
+  {
+    "xs": 308,
+    "sm": 20,
+    "md": 20,
+    "lg": 308,
+    "xl": 308
+  },
+  {
+    "skills": 1499,
+    "topSkills": 1500,
+    "bannerJobPostings": 1501,
+    "locations": 1502,
+    "locationsLocale": 1494,
+    "skillsLocale": 19,
+    "topSkillsLocale": 19
+  },
+  [],
+  [],
+  [],
+  [
+    1503,
+    1513,
+    1525,
+    1537,
+    1549,
+    1560,
+    1572,
+    1583,
+    1595,
+    1606,
+    1618,
+    1631,
+    1642,
+    1653,
+    1665,
+    1676,
+    1688,
+    1700,
+    1711,
+    1722,
+    1733,
+    1744,
+    1756,
+    1767,
+    1778,
+    1790,
+    1802,
+    1813,
+    1824,
+    1835
+  ],
+  {
+    "id": 43,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1504,
+    "position": 41,
+    "slug": 1512,
+    "key": 1511,
+    "label": 1086,
+    "shortLabel": 1507,
+    "postalCode": 1505,
+    "locality": 19,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 19,
+    "postalCode": 1505,
+    "adminLevel1": 1506,
+    "adminLevel2": 1507,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1509,
+    "longitude": 1510,
+    "key": 1511,
+    "label": 1086,
+    "shortLabel": 1507
+  },
+  "75000",
+  "Île-de-France",
+  "Paris",
+  "FR",
+  "48.8588897",
+  "2.3200410",
+  "fr~ile-de-france~paris~",
+  "paris",
+  {
+    "id": 30,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1514,
+    "position": 43,
+    "slug": 1524,
+    "key": 1521,
+    "label": 1522,
+    "shortLabel": 1515,
+    "postalCode": 1516,
+    "locality": 1515,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1515,
+    "postalCode": 1516,
+    "adminLevel1": 1517,
+    "adminLevel2": 1518,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1519,
+    "longitude": 1520,
+    "key": 1521,
+    "label": 1522,
+    "shortLabel": 1523
+  },
+  "Marseille",
+  "13000",
+  "Provence-Alpes-Côte d'Azur",
+  "Bouches-du-Rhône",
+  "43.2961743",
+  "5.3699525",
+  "fr~provence-alpes-cote-dazur~bouches-du-rhone~marseille",
+  "Marseille, Provence-Alpes-Côte d'Azur",
+  "Marseille (13)",
+  "marseille",
+  {
+    "id": 62,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1526,
+    "position": 30,
+    "slug": 1536,
+    "key": 1533,
+    "label": 1534,
+    "shortLabel": 1527,
+    "postalCode": 1528,
+    "locality": 1527,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1527,
+    "postalCode": 1528,
+    "adminLevel1": 1529,
+    "adminLevel2": 1530,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1531,
+    "longitude": 1532,
+    "key": 1533,
+    "label": 1534,
+    "shortLabel": 1535
+  },
+  "Lyon",
+  "69000",
+  "Auvergne-Rhône-Alpes",
+  "Rhône",
+  "45.7578137",
+  "4.8320114",
+  "fr~auvergne-rhone-alpes~rhone~lyon",
+  "Lyon, Auvergne-Rhône-Alpes",
+  "Lyon (69)",
+  "lyon",
+  {
+    "id": 178,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1538,
+    "position": 62,
+    "slug": 1548,
+    "key": 1545,
+    "label": 1546,
+    "shortLabel": 1539,
+    "postalCode": 1540,
+    "locality": 1539,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1539,
+    "postalCode": 1540,
+    "adminLevel1": 1541,
+    "adminLevel2": 1542,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1543,
+    "longitude": 1544,
+    "key": 1545,
+    "label": 1546,
+    "shortLabel": 1547
+  },
+  "Toulouse",
+  "31000",
+  "Occitanie",
+  "Haute-Garonne",
+  "43.6044622",
+  "1.4442469",
+  "fr~occitanie~haute-garonne~toulouse",
+  "Toulouse, Occitanie",
+  "Toulouse (31)",
+  "toulouse",
+  {
+    "id": 264,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1550,
+    "position": 178,
+    "slug": 1559,
+    "key": 1556,
+    "label": 1557,
+    "shortLabel": 1551,
+    "postalCode": 1552,
+    "locality": 1551,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1551,
+    "postalCode": 1552,
+    "adminLevel1": 1517,
+    "adminLevel2": 1553,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1554,
+    "longitude": 1555,
+    "key": 1556,
+    "label": 1557,
+    "shortLabel": 1558
+  },
+  "Nice",
+  "06000",
+  "Alpes-Maritimes",
+  "43.7009358",
+  "7.2683912",
+  "fr~provence-alpes-cote-dazur~alpes-maritimes~nice",
+  "Nice, Provence-Alpes-Côte d'Azur",
+  "Nice (06)",
+  "nice",
+  {
+    "id": 79,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1561,
+    "position": 264,
+    "slug": 1571,
+    "key": 1568,
+    "label": 1569,
+    "shortLabel": 1562,
+    "postalCode": 1563,
+    "locality": 1562,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1562,
+    "postalCode": 1563,
+    "adminLevel1": 1564,
+    "adminLevel2": 1565,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1566,
+    "longitude": 1567,
+    "key": 1568,
+    "label": 1569,
+    "shortLabel": 1570
+  },
+  "Nantes",
+  "44000",
+  "Pays de la Loire",
+  "Loire-Atlantique",
+  "47.2186371",
+  "-1.5541362",
+  "fr~pays-de-la-loire~loire-atlantique~nantes",
+  "Nantes, Pays de la Loire",
+  "Nantes (44)",
+  "nantes",
+  {
+    "id": 235,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1573,
+    "position": 79,
+    "slug": 1582,
+    "key": 1579,
+    "label": 1580,
+    "shortLabel": 1574,
+    "postalCode": 1575,
+    "locality": 1574,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1574,
+    "postalCode": 1575,
+    "adminLevel1": 1541,
+    "adminLevel2": 1576,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1577,
+    "longitude": 1578,
+    "key": 1579,
+    "label": 1580,
+    "shortLabel": 1581
+  },
+  "Montpellier",
+  "34000",
+  "Hérault",
+  "43.6112422",
+  "3.8767337",
+  "fr~occitanie~herault~montpellier",
+  "Montpellier, Occitanie",
+  "Montpellier (34)",
+  "montpellier",
+  {
+    "id": 254,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1584,
+    "position": 235,
+    "slug": 1594,
+    "key": 1591,
+    "label": 1592,
+    "shortLabel": 1585,
+    "postalCode": 1586,
+    "locality": 1585,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1585,
+    "postalCode": 1586,
+    "adminLevel1": 1587,
+    "adminLevel2": 1588,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1589,
+    "longitude": 1590,
+    "key": 1591,
+    "label": 1592,
+    "shortLabel": 1593
+  },
+  "Strasbourg",
+  "67000",
+  "Grand Est",
+  "Bas-Rhin",
+  "48.5846140",
+  "7.7507127",
+  "fr~grand-est~bas-rhin~strasbourg",
+  "Strasbourg, Grand Est",
+  "Strasbourg (67)",
+  "strasbourg",
+  {
+    "id": 414,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1596,
+    "position": 254,
+    "slug": 1605,
+    "key": 1603,
+    "label": 1130,
+    "shortLabel": 1597,
+    "postalCode": 1598,
+    "locality": 1597,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1597,
+    "postalCode": 1598,
+    "adminLevel1": 1599,
+    "adminLevel2": 1600,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1601,
+    "longitude": 1602,
+    "key": 1603,
+    "label": 1130,
+    "shortLabel": 1604
+  },
+  "Bordeaux",
+  "33000",
+  "Nouvelle-Aquitaine",
+  "Gironde",
+  "44.8412250",
+  "-0.5800364",
+  "fr~nouvelle-aquitaine~gironde~bordeaux",
+  "Bordeaux (33)",
+  "bordeaux",
+  {
+    "id": 161,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1607,
+    "position": 414,
+    "slug": 1617,
+    "key": 1614,
+    "label": 1615,
+    "shortLabel": 1608,
+    "postalCode": 1609,
+    "locality": 1608,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1608,
+    "postalCode": 1609,
+    "adminLevel1": 1610,
+    "adminLevel2": 1611,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1612,
+    "longitude": 1613,
+    "key": 1614,
+    "label": 1615,
+    "shortLabel": 1616
+  },
+  "Lille",
+  "59000",
+  "Hauts-de-France",
+  "Nord",
+  "50.6365654",
+  "3.0635282",
+  "fr~hauts-de-france~nord~lille",
+  "Lille, Hauts-de-France",
+  "Lille (59)",
+  "lille",
+  {
+    "id": 1619,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1620,
+    "position": 161,
+    "slug": 1630,
+    "key": 1627,
+    "label": 1628,
+    "shortLabel": 1621,
+    "postalCode": 1622,
+    "locality": 1621,
+    "isCountry": 20
+  },
+  11,
+  {
+    "street": 19,
+    "locality": 1621,
+    "postalCode": 1622,
+    "adminLevel1": 1623,
+    "adminLevel2": 1624,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1625,
+    "longitude": 1626,
+    "key": 1627,
+    "label": 1628,
+    "shortLabel": 1629
+  },
+  "Rennes",
+  "35000",
+  "Bretagne",
+  "Ille-et-Vilaine",
+  "48.1113387",
+  "-1.6800198",
+  "fr~bretagne~ille-et-vilaine~rennes",
+  "Rennes, Bretagne",
+  "Rennes (35)",
+  "rennes",
+  {
+    "id": 869,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1632,
+    "position": 1619,
+    "slug": 1641,
+    "key": 1638,
+    "label": 1639,
+    "shortLabel": 1633,
+    "postalCode": 1634,
+    "locality": 1633,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1633,
+    "postalCode": 1634,
+    "adminLevel1": 1587,
+    "adminLevel2": 1635,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1636,
+    "longitude": 1637,
+    "key": 1638,
+    "label": 1639,
+    "shortLabel": 1640
+  },
+  "Reims",
+  "51100",
+  "Marne",
+  "49.2577886",
+  "4.0319260",
+  "fr~grand-est~marne~reims",
+  "Reims, Grand Est",
+  "Reims (51)",
+  "reims",
+  {
+    "id": 278,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1643,
+    "position": 869,
+    "slug": 1652,
+    "key": 1649,
+    "label": 1650,
+    "shortLabel": 1644,
+    "postalCode": 1645,
+    "locality": 1644,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1644,
+    "postalCode": 1645,
+    "adminLevel1": 1529,
+    "adminLevel2": 1646,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1647,
+    "longitude": 1648,
+    "key": 1649,
+    "label": 1650,
+    "shortLabel": 1651
+  },
+  "Saint-Étienne",
+  "42000",
+  "Loire",
+  "45.4401467",
+  "4.3873058",
+  "fr~auvergne-rhone-alpes~loire~saint-etienne",
+  "Saint-Étienne, Auvergne-Rhône-Alpes",
+  "Saint-Étienne (42)",
+  "saint-etienne",
+  {
+    "id": 127,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1654,
+    "position": 278,
+    "slug": 1664,
+    "key": 1661,
+    "label": 1662,
+    "shortLabel": 1655,
+    "postalCode": 1656,
+    "locality": 1655,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1655,
+    "postalCode": 1656,
+    "adminLevel1": 1657,
+    "adminLevel2": 1658,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1659,
+    "longitude": 1660,
+    "key": 1661,
+    "label": 1662,
+    "shortLabel": 1663
+  },
+  "Le Havre",
+  "76600",
+  "Normandie",
+  "Seine-Maritime",
+  "49.4938975",
+  "0.1079732",
+  "fr~normandie~seine-maritime~le-havre",
+  "Le Havre, Normandie",
+  "Le Havre (76)",
+  "le-havre",
+  {
+    "id": 284,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1666,
+    "position": 127,
+    "slug": 1675,
+    "key": 1672,
+    "label": 1673,
+    "shortLabel": 1667,
+    "postalCode": 1668,
+    "locality": 1667,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1667,
+    "postalCode": 1668,
+    "adminLevel1": 1517,
+    "adminLevel2": 1669,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1670,
+    "longitude": 1671,
+    "key": 1672,
+    "label": 1673,
+    "shortLabel": 1674
+  },
+  "Toulon",
+  "83000",
+  "Var",
+  "43.1257311",
+  "5.9304919",
+  "fr~provence-alpes-cote-dazur~var~toulon",
+  "Toulon, Provence-Alpes-Côte d'Azur",
+  "Toulon (83)",
+  "toulon",
+  {
+    "id": 273,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1677,
+    "position": 1686,
+    "slug": 1687,
+    "key": 1683,
+    "label": 1684,
+    "shortLabel": 1678,
+    "postalCode": 1679,
+    "locality": 1678,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1678,
+    "postalCode": 1679,
+    "adminLevel1": 1529,
+    "adminLevel2": 1680,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1681,
+    "longitude": 1682,
+    "key": 1683,
+    "label": 1684,
+    "shortLabel": 1685
+  },
+  "Grenoble",
+  "38000",
+  "Isère",
+  "45.1875602",
+  "5.7357819",
+  "fr~auvergne-rhone-alpes~isere~grenoble",
+  "Grenoble, Auvergne-Rhône-Alpes",
+  "Grenoble (38)",
+  15,
+  "grenoble",
+  {
+    "id": 27,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1689,
+    "position": 284,
+    "slug": 1699,
+    "key": 1696,
+    "label": 1697,
+    "shortLabel": 1690,
+    "postalCode": 1691,
+    "locality": 1690,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1690,
+    "postalCode": 1691,
+    "adminLevel1": 1692,
+    "adminLevel2": 1693,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1694,
+    "longitude": 1695,
+    "key": 1696,
+    "label": 1697,
+    "shortLabel": 1698
+  },
+  "Dijon",
+  "21000",
+  "Bourgogne-Franche-Comté",
+  "Côte-d'Or",
+  "47.3215806",
+  "5.0414701",
+  "fr~bourgogne-franche-comte~cote-dor~dijon",
+  "Dijon, Bourgogne-Franche-Comté",
+  "Dijon (21)",
+  "dijon",
+  {
+    "id": 352,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1701,
+    "position": 273,
+    "slug": 1710,
+    "key": 1707,
+    "label": 1708,
+    "shortLabel": 1702,
+    "postalCode": 1703,
+    "locality": 1702,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1702,
+    "postalCode": 1703,
+    "adminLevel1": 1564,
+    "adminLevel2": 1704,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1705,
+    "longitude": 1706,
+    "key": 1707,
+    "label": 1708,
+    "shortLabel": 1709
+  },
+  "Angers",
+  "49000",
+  "Maine-et-Loire",
+  "47.4739884",
+  "-0.5515588",
+  "fr~pays-de-la-loire~maine-et-loire~angers",
+  "Angers, Pays de la Loire",
+  "Angers (49)",
+  "angers",
+  {
+    "id": 168,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1712,
+    "position": 27,
+    "slug": 1721,
+    "key": 1718,
+    "label": 1719,
+    "shortLabel": 1713,
+    "postalCode": 1714,
+    "locality": 1713,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1713,
+    "postalCode": 1714,
+    "adminLevel1": 1541,
+    "adminLevel2": 1715,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1716,
+    "longitude": 1717,
+    "key": 1718,
+    "label": 1719,
+    "shortLabel": 1720
+  },
+  "Nîmes",
+  "30000",
+  "Gard",
+  "43.8374249",
+  "4.3600687",
+  "fr~occitanie~gard~nimes",
+  "Nîmes, Occitanie",
+  "Nîmes (30)",
+  "nimes",
+  {
+    "id": 1723,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1724,
+    "position": 352,
+    "slug": 1732,
+    "key": 1729,
+    "label": 1730,
+    "shortLabel": 1725,
+    "postalCode": 1726,
+    "locality": 1725,
+    "isCountry": 20
+  },
+  21,
+  {
+    "street": 19,
+    "locality": 1725,
+    "postalCode": 1726,
+    "adminLevel1": 1529,
+    "adminLevel2": 1530,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1727,
+    "longitude": 1728,
+    "key": 1729,
+    "label": 1730,
+    "shortLabel": 1731
+  },
+  "Villeurbanne",
+  "69100",
+  "45.7733573",
+  "4.8868454",
+  "fr~auvergne-rhone-alpes~rhone~villeurbanne",
+  "Villeurbanne, Auvergne-Rhône-Alpes",
+  "Villeurbanne (69)",
+  "villeurbanne",
+  {
+    "id": 371,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1734,
+    "position": 168,
+    "slug": 1743,
+    "key": 1740,
+    "label": 1741,
+    "shortLabel": 1735,
+    "postalCode": 1736,
+    "locality": 1735,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1735,
+    "postalCode": 1736,
+    "adminLevel1": 1506,
+    "adminLevel2": 1737,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1738,
+    "longitude": 1739,
+    "key": 1740,
+    "label": 1741,
+    "shortLabel": 1742
+  },
+  "Saint-Denis",
+  "93200",
+  "Seine-Saint-Denis",
+  "48.9357730",
+  "2.3580232",
+  "fr~ile-de-france~seine-saint-denis~saint-denis",
+  "Saint-Denis, Île-de-France",
+  "Saint-Denis (93)",
+  "saint-denis",
+  {
+    "id": 1745,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1746,
+    "position": 1723,
+    "slug": 1755,
+    "key": 1752,
+    "label": 1753,
+    "shortLabel": 1747,
+    "postalCode": 1748,
+    "locality": 1747,
+    "isCountry": 20
+  },
+  23,
+  {
+    "street": 19,
+    "locality": 1747,
+    "postalCode": 1748,
+    "adminLevel1": 1564,
+    "adminLevel2": 1749,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1750,
+    "longitude": 1751,
+    "key": 1752,
+    "label": 1753,
+    "shortLabel": 1754
+  },
+  "Le Mans",
+  "72000",
+  "Sarthe",
+  "48.0073849",
+  "0.1967849",
+  "fr~pays-de-la-loire~sarthe~le-mans",
+  "Le Mans, Pays de la Loire",
+  "Le Mans (72)",
+  "le-mans",
+  {
+    "id": 1757,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1758,
+    "position": 371,
+    "slug": 1766,
+    "key": 1763,
+    "label": 1764,
+    "shortLabel": 1759,
+    "postalCode": 1760,
+    "locality": 1759,
+    "isCountry": 20
+  },
+  24,
+  {
+    "street": 19,
+    "locality": 1759,
+    "postalCode": 1760,
+    "adminLevel1": 1517,
+    "adminLevel2": 1518,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1761,
+    "longitude": 1762,
+    "key": 1763,
+    "label": 1764,
+    "shortLabel": 1765
+  },
+  "Aix-en-Provence",
+  "13090",
+  "43.5298424",
+  "5.4474738",
+  "fr~provence-alpes-cote-dazur~bouches-du-rhone~aix-en-provence",
+  "Aix-en-Provence, Provence-Alpes-Côte d'Azur",
+  "Aix-en-Provence (13)",
+  "aix-en-provence",
+  {
+    "id": 319,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1768,
+    "position": 1745,
+    "slug": 1777,
+    "key": 1774,
+    "label": 1775,
+    "shortLabel": 1769,
+    "postalCode": 1770,
+    "locality": 1769,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1769,
+    "postalCode": 1770,
+    "adminLevel1": 1529,
+    "adminLevel2": 1771,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1772,
+    "longitude": 1773,
+    "key": 1774,
+    "label": 1775,
+    "shortLabel": 1776
+  },
+  "Clermont-Ferrand",
+  "63000",
+  "Puy-de-Dôme",
+  "45.7774551",
+  "3.0819427",
+  "fr~auvergne-rhone-alpes~puy-de-dome~clermont-ferrand",
+  "Clermont-Ferrand, Auvergne-Rhône-Alpes",
+  "Clermont-Ferrand (63)",
+  "clermont-ferrand",
+  {
+    "id": 1779,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1780,
+    "position": 1757,
+    "slug": 1789,
+    "key": 1786,
+    "label": 1787,
+    "shortLabel": 1781,
+    "postalCode": 1782,
+    "locality": 1781,
+    "isCountry": 20
+  },
+  26,
+  {
+    "street": 19,
+    "locality": 1781,
+    "postalCode": 1782,
+    "adminLevel1": 1623,
+    "adminLevel2": 1783,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1784,
+    "longitude": 1785,
+    "key": 1786,
+    "label": 1787,
+    "shortLabel": 1788
+  },
+  "Brest",
+  "29200",
+  "Finistère",
+  "48.3905283",
+  "-4.4860088",
+  "fr~bretagne~finistere~brest",
+  "Brest, Bretagne",
+  "Brest (29)",
+  "brest",
+  {
+    "id": 49,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1791,
+    "position": 319,
+    "slug": 1801,
+    "key": 1798,
+    "label": 1799,
+    "shortLabel": 1792,
+    "postalCode": 1793,
+    "locality": 1792,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1792,
+    "postalCode": 1793,
+    "adminLevel1": 1794,
+    "adminLevel2": 1795,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1796,
+    "longitude": 1797,
+    "key": 1798,
+    "label": 1799,
+    "shortLabel": 1800
+  },
+  "Tours",
+  "37000",
+  "Centre-Val de Loire",
+  "Indre-et-Loire",
+  "47.3900474",
+  "0.6889268",
+  "fr~centre-val-de-loire~indre-et-loire~tours",
+  "Tours, Centre-Val de Loire",
+  "Tours (37)",
+  "tours",
+  {
+    "id": 328,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1803,
+    "position": 1779,
+    "slug": 1812,
+    "key": 1809,
+    "label": 1810,
+    "shortLabel": 1804,
+    "postalCode": 1805,
+    "locality": 1804,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1804,
+    "postalCode": 1805,
+    "adminLevel1": 1610,
+    "adminLevel2": 1806,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1807,
+    "longitude": 1808,
+    "key": 1809,
+    "label": 1810,
+    "shortLabel": 1811
+  },
+  "Amiens",
+  "80000",
+  "Somme",
+  "49.8941708",
+  "2.2956951",
+  "fr~hauts-de-france~somme~amiens",
+  "Amiens, Hauts-de-France",
+  "Amiens (80)",
+  "amiens",
+  {
+    "id": 86,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1814,
+    "position": 49,
+    "slug": 1823,
+    "key": 1820,
+    "label": 1821,
+    "shortLabel": 1815,
+    "postalCode": 1816,
+    "locality": 1815,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1815,
+    "postalCode": 1816,
+    "adminLevel1": 1599,
+    "adminLevel2": 1817,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1818,
+    "longitude": 1819,
+    "key": 1820,
+    "label": 1821,
+    "shortLabel": 1822
+  },
+  "Limoges",
+  "87000",
+  "Haute-Vienne",
+  "45.8354243",
+  "1.2644847",
+  "fr~nouvelle-aquitaine~haute-vienne~limoges",
+  "Limoges, Nouvelle-Aquitaine",
+  "Limoges (87)",
+  "limoges",
+  {
+    "id": 410,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1825,
+    "position": 328,
+    "slug": 1834,
+    "key": 1831,
+    "label": 1832,
+    "shortLabel": 1826,
+    "postalCode": 1827,
+    "locality": 1826,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1826,
+    "postalCode": 1827,
+    "adminLevel1": 1529,
+    "adminLevel2": 1828,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1829,
+    "longitude": 1830,
+    "key": 1831,
+    "label": 1832,
+    "shortLabel": 1833
+  },
+  "Annecy",
+  "74000",
+  "Haute-Savoie",
+  "45.8992348",
+  "6.1288847",
+  "fr~auvergne-rhone-alpes~haute-savoie~annecy",
+  "Annecy, Auvergne-Rhône-Alpes",
+  "Annecy (74)",
+  "annecy",
+  {
+    "id": 289,
+    "metaTitle": 19,
+    "metaDescription": 19,
+    "description": 19,
+    "location": 1836,
+    "position": 86,
+    "slug": 1845,
+    "key": 1842,
+    "label": 1843,
+    "shortLabel": 1837,
+    "postalCode": 1838,
+    "locality": 1837,
+    "isCountry": 20
+  },
+  {
+    "street": 19,
+    "locality": 1837,
+    "postalCode": 1838,
+    "adminLevel1": 1541,
+    "adminLevel2": 1839,
+    "country": 423,
+    "countryCode": 1508,
+    "latitude": 1840,
+    "longitude": 1841,
+    "key": 1842,
+    "label": 1843,
+    "shortLabel": 1844
+  },
+  "Perpignan",
+  "66000",
+  "Pyrénées-Orientales",
+  "42.6985304",
+  "2.8953121",
+  "fr~occitanie~pyrenees-orientales~perpignan",
+  "Perpignan, Occitanie",
+  "Perpignan (66)",
+  "perpignan",
+  {
+    "flags": 19,
+    "jobApplications": 1847,
+    "jobApplicationsLoaded": 20
+  },
+  [],
+  {
+    "toast": 1849
+  },
+  {
+    "active": 20,
+    "position": 1850,
+    "icon": 19,
+    "iconSet": 1851,
+    "type": 530,
+    "title": 530,
+    "message": 530,
+    "timeout": 1852,
+    "closeable": 308,
+    "onConfirm": 19,
+    "onCancel": 19,
+    "confirmText": 1853,
+    "cancelText": 1854
+  },
+  "bottom-center",
+  "far",
+  3000,
+  "Oui",
+  "Non",
+  {
+    "categories": 1856,
+    "categoryBySlugMap": 1857,
+    "categoriesLocale": 19
+  },
+  [],
+  {}
+]

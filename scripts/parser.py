@@ -5,7 +5,7 @@ import spacy
 from bs4 import BeautifulSoup
 from typing import List, Dict, Any, Set
 from pathlib import Path
-from common import BASE_DIR, CONFIG_DIR, DATA_DIR
+from common import BASE_DIR, CONFIG_DIR, DATA_DIR, NORMALIZED_JOBS_PATH
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -89,7 +89,7 @@ def calculate_score(extracted_skills: Dict[str, List[str]], user_skills: List[st
     return round((len(matched_skills) / len(all_job_skills)) * 100, 2)
 
 def run_filtered_parser(
-    raw_path: Path = DATA_DIR / "raw_jobs.json",
+    raw_path: Path = NORMALIZED_JOBS_PATH,
     keywords_path: Path = CONFIG_DIR / "keywords.json",
     profile_path: Path = CONFIG_DIR / "my_profile.json",
     output_path: Path = DATA_DIR / "parsed_jobs.json"
@@ -111,7 +111,7 @@ def run_filtered_parser(
         clean_desc = clean_html(job.get("description", ""))
         full_clean_text = f"{job.get('title', '')} {clean_desc}"
         
-        is_french = "freework" in job.get("id", "").lower()
+        is_french = job.get("source") == "free-work" or "freework" in job.get("id", "").lower()
         lang = "fr" if is_french else "en"
         
         # 1. Niveau 1 : Dictionnaire
@@ -132,6 +132,7 @@ def run_filtered_parser(
             "location": job.get("location"),
             "url": job.get("url"),
             "published_at": job.get("published_at"),
+            "source": job.get("source"),
             "extracted_skills": extracted_skills,
             "total_skills_count": sum(len(v) for v in extracted_skills.values()),
             "matching_score": score
