@@ -1,0 +1,45 @@
+
+name: Job Market Analyzer CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python-check:
+    name: Python Syntax Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check Python syntax
+        run: |
+          python -m compileall -q api frontend scripts
+
+  docker-compose-check:
+    name: Docker Compose Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create CI environment file
+        run: |
+          cat > .env <<'EOF'
+          POSTGRES_DB=job_market
+          POSTGRES_USER=job_user
+          POSTGRES_PASSWORD=ci_test_password
+          POSTGRES_HOST=postgres
+          POSTGRES_PORT=5432
+          EOF
+
+      - name: Validate Docker Compose
+        run: docker compose config -q
