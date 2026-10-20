@@ -1,56 +1,81 @@
 # Job Market Analyzer
 
-Prototype Python qui collecte des offres d'emploi IT depuis les API Remotive et Jobicy, ainsi que les pages Free-Work, puis extrait des compétences et calcule un score de correspondance avec `config/my_profile.json`.
+Application d'analyse d'offres avec collecte depuis Remotive, Jobicy et Free-Work, stockage PostgreSQL, extraction de compétences, analyse de CV et matching par profil.
 
-## Structure
+## Pipeline de collecte
 
-- `scripts/scraper.py` : collecte Remotive et Jobicy.
-- `scripts/web_scraper.py` : collecte Free-Work.
-- `scripts/normalizer.py` : convertit les offres des trois sources vers un schéma commun.
-- `scripts/parser.py` : extrait les compétences depuis les offres normalisées.
-- `scripts/common.py` : chemins du projet, identifiants déterministes et déduplication.
-- `config/` : dictionnaire de compétences et profil candidat.
-- `data/` : fichiers JSON locaux générés (ignorés par Git).
+Le service `pipeline` de Docker Compose lance une collecte à son démarrage, puis toutes les six heures. Il exécute les étapes suivantes :
 
-## Installation
+1. collecte Remotive, Jobicy et Free-Work avec retries HTTP sur les erreurs temporaires ;
+2. déduplication et sauvegarde du dernier lot brut dans `data/raw/latest_jobs.json` ;
+3. normalisation dans `data/processed/normalized_jobs.json` ;
+4. UPSERT des offres dans PostgreSQL avec la clé `(source, external_id)` ;
+5. analyse des descriptions depuis PostgreSQL et enregistrement dans `job_analysis` ;
+6. persistance des compteurs de cette exécution dans `pipeline_runs`.
 
-Depuis la racine du projet, crée et active un environnement virtuel :
+Jobicy utilise sa pagination par curseur. Remotive renvoie les résultats correspondant au filtre dans une seule réponse et fournit un compte de vérification. Free-Work est paginé jusqu'au nombre de résultats déclaré ou à la limite configurée.
 
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
+Le worker détient un verrou PostgreSQL pendant toute l'exécution afin d'éviter deux pipelines simultanés. Une erreur sur une source est journalisée ; les sources disponibles peuvent poursuivre le cycle, qui sera marqué `partial`. Si aucune source ne fonctionne ou si le volume total est inférieur au seuil, le chargement est annulé et l'exécution passe en échec.
+
+### Configuration
+
+Créer un fichier `.env` local (ne pas le committer) avec au minimum :
+
+```dotenv
+POSTGRES_DB=job_market
+POSTGRES_USER=job_user
+POSTGRES_PASSWORD=un_mot_de_passe_fort
 ```
 
-Sous macOS/Linux, active-le avec `source .venv/bin/activate`. Installe ensuite les dépendances :
+Options du pipeline :
+
+```dotenv
+PIPELINE_INTERVAL_HOURS=6
+PIPELINE_RUN_ON_START=true
+PIPELINE_MIN_JOBS=1
+HTTP_RETRIES=3
+HTTP_RETRY_BACKOFF=1
+JOBICY_PAGE_SIZE=100
+JOBICY_MAX_PAGES_PER_FILTER=10
+FREEWORK_MAX_PAGES_PER_KEYWORD=10
+```
+
+Démarrer les services :
 
 ```bash
-python -m pip install -r requirements.txt
+docker compose up -d --build
 ```
 
-Le parseur utilise spaCy. Pour activer l'extraction NLP, installe les modèles anglais et français :
+Lancer un cycle ponctuel :
 
 ```bash
-python -m spacy download en_core_web_sm
-python -m spacy download fr_core_news_sm
+docker compose run --rm pipeline python -m scripts.pipeline --once
 ```
 
-Sans ces modèles, l'extraction par dictionnaire fonctionne, mais l'extraction NLP est désactivée et un avertissement est journalisé.
+Consulter les dernières exécutions : `GET http://localhost:8000/operations/pipeline/runs`. Les journaux détaillés sont accessibles avec `docker compose logs -f pipeline`.
 
-## Exécution
+## Lancer localement
 
-Depuis la racine du projet, exécute les étapes dans cet ordre :
+Créer un environnement virtuel, installer `requirements.txt`, démarrer PostgreSQL et définir ses variables de connexion dans `.env`. Puis lancer un cycle ponctuel :
 
 ```bash
-python scripts/scraper.py
-python scripts/web_scraper.py
-python scripts/normalizer.py
-python scripts/parser.py
+python -m scripts.pipeline --once
 ```
 
-Les collecteurs conservent les données brutes dans `data/raw_jobs.json`. La normalisation écrit le modèle commun dans `data/processed/normalized_jobs.json`. Le parseur lit ce fichier et écrit les compétences extraites et le score actuel dans `data/parsed_jobs.json`. Les chemins sont résolus depuis l'emplacement du projet, pas depuis le répertoire courant.
+Lancer uniquement les collecteurs et la normalisation reste possible avec les scripts `scripts/scraper.py`, `scripts/web_scraper.py` et `scripts/normalizer.py`. Le worker planifié s'exécute dans Docker Compose.
 
-Les fichiers JSON produits dans `data/` sont des données locales et ne sont pas suivis par Git.
+## API et interface
 
-## Suite envisagée
+- API FastAPI : `http://localhost:8000` (documentation OpenAPI sous `/docs`).
+- Interface Streamlit : `http://localhost:8501`.
+- L'API accepte l'analyse de CV PDF/DOCX et le matching à la demande pour un profil.
 
-Une base PostgreSQL, une API, une interface et des méthodes de recherche sémantique sont des pistes futures ; elles ne sont pas implémentées dans l'état actuel.
+## Données et opérations
+
+- `data/raw/latest_jobs.json` : lot brut de la dernière exécution.
+- `data/processed/normalized_jobs.json` : lot normalisé correspondant.
+- `jobs` : offres courantes, identifiées par `(source, external_id)`.
+- `job_analysis` : compétences extraites et description nettoyée.
+- `pipeline_runs` : statut et compteurs d'exécution, source par source.
+
+La migration de `jobs.external_id` remplit cette colonne depuis les IDs historiques, puis ajoute une contrainte d'unicité sur `(source, external_id)`. Si la base existante contient déjà plusieurs annonces pour la même paire, la migration échoue volontairement afin qu'elles soient examinées au lieu d'en supprimer silencieusement.

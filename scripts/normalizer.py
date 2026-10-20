@@ -11,10 +11,11 @@ from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
 
-from common import BASE_DIR, DATA_DIR, canonicalize_url, deduplicate_jobs, stable_job_id
+from common import BASE_DIR, DATA_DIR, canonicalize_url, deduplicate_jobs, external_id_for, stable_job_id
 
 NORMALIZED_FIELDS = (
     "id",
+    "external_id",
     "title",
     "company",
     "location",
@@ -124,6 +125,7 @@ def _base_normalize(job: Dict[str, Any], source: str, title: Any, company: Any,
                     employment_type: Any = None) -> Dict[str, Any]:
     normalized_url = canonicalize_url(_text(url))
     job_id = _text(job.get("id")) or stable_job_id(source, normalized_url, title, company)
+    external_id = _text(job.get("external_id")) or external_id_for(source, job_id)
     normalized_location = _text(location)
     skills = job.get("skills")
     if not isinstance(skills, list):
@@ -131,8 +133,9 @@ def _base_normalize(job: Dict[str, Any], source: str, title: Any, company: Any,
     clean_skills = list(dict.fromkeys(_text(skill) for skill in skills if _text(skill)))
     return {
         "id": job_id,
+        "external_id": external_id,
         "title": _text(title),
-        "company": _text(company) or "Inconnue",
+        "company": _text(company),
         "location": normalized_location,
         "description": _description(description),
         "url": normalized_url,

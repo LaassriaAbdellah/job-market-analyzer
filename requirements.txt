@@ -1,10 +1,38 @@
+
+# ==========================================
+# JOB MARKET ANALYZER - DEPENDANCES
+# ==========================================
+
+# Collecte des offres et Web Scraping
 requests==2.31.0
+APScheduler==3.10.4
 beautifulsoup4==4.12.3
-spacy==3.8.4
-# Dépendances prévues pour les prochaines étapes (non utilisées par le pipeline actuel)
+
+# Data Processing et Analytics
 pandas==2.2.1
-sqlalchemy==2.0.28
+numpy
+plotly
+
+# Base de donnees PostgreSQL
 psycopg2-binary==2.9.9
-python-telegram-bot==21.0.1
-streamlit==1.32.0
 python-dotenv==1.0.1
+
+# API FastAPI
+fastapi
+uvicorn[standard]
+email-validator
+python-multipart
+
+# NLP et Matching semantique
+spacy==3.8.4
+sentence-transformers
+
+# Extraction des CV PDF et Word
+PyMuPDF
+python-docx
+
+# Interface Streamlit
+streamlit
+
+# Tests automatises
+pytest

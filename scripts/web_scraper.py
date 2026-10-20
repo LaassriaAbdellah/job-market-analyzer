@@ -2,15 +2,16 @@
 
 import json
 import logging
+import os
 import time
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
-from common import BASE_DIR, DATA_DIR, canonicalize_url, deduplicate_jobs, stable_job_id
+from common import BASE_DIR, DATA_DIR, create_http_session, canonicalize_url, deduplicate_jobs, stable_job_id
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -25,6 +26,7 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
     "Referer": "https://www.google.com/",
 }
+HTTP = create_http_session()
 
 
 class NuxtPayloadDecoder:
@@ -95,23 +97,46 @@ def _find_jobs_search(value: Any) -> List[Dict[str, Any]]:
     return []
 
 
-def extract_freework_jobs(html: str) -> List[Dict[str, Any]]:
-    """Parse and decode the __NUXT_DATA__ application state from a response."""
+def extract_freework_search(html: str) -> Dict[str, Any] | None:
+    """Decode the matching Nuxt search object, including its pagination metadata."""
     soup = BeautifulSoup(html, "html.parser")
     script = soup.find("script", id="__NUXT_DATA__", attrs={"type": "application/json"})
     if script is None:
         logging.warning("Réponse Free-Work sans script __NUXT_DATA__.")
-        return []
+        return None
     try:
         payload = json.loads(script.string or script.get_text())
         decoded = NuxtPayloadDecoder(payload).decode()
     except (json.JSONDecodeError, ValueError, RecursionError) as error:
         logging.error("Impossible de décoder __NUXT_DATA__ Free-Work : %s", error)
-        return []
-    jobs = _find_jobs_search(decoded)
-    if not jobs:
+        return None
+    result: Dict[str, Any] | None = None
+
+    def find_search(value: Any) -> None:
+        nonlocal result
+        if result is not None:
+            return
+        if isinstance(value, dict):
+            for key, child in value.items():
+                if key.startswith("jobs-search-") and isinstance(child, dict) and isinstance(child.get("jobs"), list):
+                    result = child
+                    return
+            for child in value.values():
+                find_search(child)
+        elif isinstance(value, list):
+            for child in value:
+                find_search(child)
+
+    find_search(decoded)
+    if result is None:
         logging.warning("Aucune section jobs-search-* trouvée dans __NUXT_DATA__.")
-    return [job for job in jobs if isinstance(job, dict)]
+    return result
+
+
+def extract_freework_jobs(html: str) -> List[Dict[str, Any]]:
+    """Parse and decode the jobs array from Nuxt's application state."""
+    search = extract_freework_search(html)
+    return [job for job in search.get("jobs", []) if isinstance(job, dict)] if search else []
 
 
 def _clean_html(value: Any) -> str:
@@ -174,23 +199,35 @@ def normalize_freework_record(job: Dict[str, Any], keyword: str) -> Dict[str, An
 
 
 def scrape_freework_broad_tech(
-    keywords: List[str], max_pages_per_keyword: int = 2, request_delay: float = 1.5
+    keywords: List[str], max_pages_per_keyword: int | None = None, request_delay: float = 1.5,
+    errors: Optional[List[str]] = None,
 ) -> List[Dict[str, Any]]:
     """Collect Free-Work listings from Nuxt state and deduplicate across searches."""
     logging.info("--- DÉMARRAGE DE LA COLLECTE STRUCTURÉE FREE-WORK ---")
     scraped_jobs: List[Dict[str, Any]] = []
+    successful_pages = 0
+    page_limit = max_pages_per_keyword or max(1, int(os.getenv("FREEWORK_MAX_PAGES_PER_KEYWORD", "10")))
     for keyword in keywords:
-        for page in range(1, max_pages_per_keyword + 1):
+        pages_succeeded = 0
+        total_items = None
+        for page in range(1, page_limit + 1):
             url = f"{FREEWORK_ROOT}/fr/tech-it/jobs"
             try:
-                response = requests.get(
+                response = HTTP.get(
                     url,
                     params={"query": keyword, "page": page},
                     headers=HEADERS,
                     timeout=10,
                 )
                 response.raise_for_status()
-                found_jobs = extract_freework_jobs(response.text)
+                search = extract_freework_search(response.text)
+                if search is None:
+                    raise ValueError("Payload Nuxt absent ou invalide.")
+                successful_pages += 1
+                found_jobs = [job for job in search.get("jobs", []) if isinstance(job, dict)]
+                pages_succeeded += 1
+                if isinstance(search.get("totalItems"), int):
+                    total_items = search["totalItems"]
                 valid_jobs = []
                 for source_job in found_jobs:
                     job = normalize_freework_record(source_job, keyword)
@@ -209,12 +246,24 @@ def scrape_freework_broad_tech(
                     "Free-Work '%s' page %s : %s trouvées, %s valides, %s doublons.",
                     keyword, page, len(found_jobs), len(valid_jobs), duplicate_count,
                 )
+                if total_items is not None and (not found_jobs or page * len(found_jobs) >= total_items):
+                    break
+                if not found_jobs:
+                    break
                 if request_delay > 0:
                     time.sleep(request_delay)
             except requests.RequestException as error:
                 logging.error("Erreur HTTP Free-Work pour '%s' page %s : %s", keyword, page, error)
+                if errors is not None:
+                    errors.append(f"recherche '{keyword}', page {page}: {error}")
             except (ValueError, TypeError, KeyError) as error:
                 logging.error("Erreur de lecture Free-Work pour '%s' page %s : %s", keyword, page, error)
+                if errors is not None:
+                    errors.append(f"recherche '{keyword}', page {page}: {error}")
+        if pages_succeeded == 0:
+            logging.error("Aucune page Free-Work valide pour la recherche '%s'.", keyword)
+    if keywords and successful_pages == 0:
+        raise RuntimeError("Toutes les requêtes Free-Work ont échoué.")
     logging.info("Collecte Free-Work terminée : %s offres uniques.", len(scraped_jobs))
     return scraped_jobs
 

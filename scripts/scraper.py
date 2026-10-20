@@ -1,9 +1,10 @@
 import json
 import logging
+import os
 import requests
 from pathlib import Path
-from typing import List, Dict, Any
-from common import BASE_DIR, DATA_DIR, deduplicate_jobs, stable_job_id
+from typing import List, Dict, Any, Optional
+from common import BASE_DIR, DATA_DIR, create_http_session, deduplicate_jobs, stable_job_id
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -14,17 +15,30 @@ HEADERS = {
         "Chrome/122.0.0.0 Safari/537.36"
     )
 }
+HTTP = create_http_session()
 
-def fetch_remotive_tech_jobs(categories: List[str]) -> List[Dict[str, Any]]:
+
+def _require_job_payload(payload: Any, source: str) -> List[Dict[str, Any]]:
+    if not isinstance(payload, dict) or not isinstance(payload.get("jobs"), list):
+        raise ValueError(f"Réponse {source} invalide : propriété 'jobs' absente ou incorrecte.")
+    return [job for job in payload["jobs"] if isinstance(job, dict)]
+
+def fetch_remotive_tech_jobs(categories: List[str], errors: Optional[List[str]] = None) -> List[Dict[str, Any]]:
     """Récupère les offres pour plusieurs catégories Tech sur Remotive."""
     all_jobs = []
+    failed_categories = []
     for cat in categories:
-        url = f"https://remotive.com/api/remote-jobs?category={cat}"
+        url = "https://remotive.com/api/remote-jobs"
         try:
             logging.info(f"Scraping Remotive - Catégorie : '{cat}'...")
-            response = requests.get(url, headers=HEADERS, timeout=10)
+            response = HTTP.get(url, params={"category": cat}, headers=HEADERS, timeout=20)
             response.raise_for_status()
-            raw_jobs = response.json().get("jobs", [])
+            payload = response.json()
+            raw_jobs = _require_job_payload(payload, "Remotive")
+            if payload.get("job-count") is not None and int(payload["job-count"]) != len(raw_jobs):
+                raise ValueError(
+                    f"Remotive annonce {payload['job-count']} résultats, {len(raw_jobs)} reçus pour '{cat}'."
+                )
             
             for job in raw_jobs:
                 job_url = job.get("url")
@@ -38,40 +52,84 @@ def fetch_remotive_tech_jobs(categories: List[str]) -> List[Dict[str, Any]]:
                     "published_at": job.get("publication_date"),
                     "description": job.get("description", "")
                 })
-        except Exception as e:
+        except (requests.RequestException, ValueError, TypeError) as e:
+            failed_categories.append(cat)
+            if errors is not None:
+                errors.append(f"catégorie {cat}: {e}")
             logging.error(f"Erreur Remotive pour la catégorie '{cat}' : {e}")
+
+    if categories and len(failed_categories) == len(categories):
+        raise RuntimeError("Toutes les requêtes Remotive ont échoué.")
+    if failed_categories:
+        logging.warning("Remotive incomplet, catégories en échec : %s", ", ".join(failed_categories))
             
     return all_jobs
 
-def fetch_jobicy_tech_jobs(industries: List[str]) -> List[Dict[str, Any]]:
+def fetch_jobicy_tech_jobs(industries: List[str], errors: Optional[List[str]] = None) -> List[Dict[str, Any]]:
     """Récupère les offres pour plusieurs industries Tech sur Jobicy."""
     all_jobs = []
+    failed_industries = []
+    page_limit = max(1, int(os.getenv("JOBICY_MAX_PAGES_PER_FILTER", "10")))
+    page_size = min(200, max(1, int(os.getenv("JOBICY_PAGE_SIZE", "100"))))
     for ind in industries:
-        url = f"https://jobicy.com/api/v2/remote-jobs?industry={ind}&count=20"
+        cursor = None
+        seen_cursors = set()
+        pages_read = 0
         try:
-            logging.info(f"Scraping Jobicy - Industrie : '{ind}'...")
-            response = requests.get(url, headers=HEADERS, timeout=10)
-            response.raise_for_status()
-            raw_jobs = response.json().get("jobs", [])
-            
-            for job in raw_jobs:
-                job_url = job.get("url")
-                all_jobs.append({
-                    "id": f"jobicy_{job['id']}" if job.get("id") is not None else stable_job_id("jobicy", job_url, job.get("jobTitle"), job.get("companyName")),
-                    "title": job.get("jobTitle"),
-                    "company": job.get("companyName", "Inconnue"),
-                    "category": ind,
-                    "location": job.get("jobGeo", "Non spécifiée"),
-                    "url": job.get("url"),
-                    "published_at": job.get("pubDate"),
-                    "description": job.get("jobDescription", "")
-                })
-        except Exception as e:
-            logging.error(f"Erreur Jobicy pour l'industrie '{ind}' : {e}")
+            while pages_read < page_limit:
+                params = {"industry": ind, "count": page_size}
+                if cursor:
+                    params["cursor"] = cursor
+                logging.info("Scraping Jobicy - Industrie '%s', page %s...", ind, pages_read + 1)
+                response = HTTP.get(
+                    "https://jobicy.com/api/v2/remote-jobs", params=params, headers=HEADERS, timeout=20
+                )
+                response.raise_for_status()
+                payload = response.json()
+                raw_jobs = _require_job_payload(payload, "Jobicy")
+                if payload.get("success") is False:
+                    raise ValueError(f"Jobicy indique un échec : {payload.get('error', 'erreur inconnue')}")
+
+                for job in raw_jobs:
+                    job_url = job.get("url")
+                    all_jobs.append({
+                        "id": f"jobicy_{job['id']}" if job.get("id") is not None else stable_job_id(
+                            "jobicy", job_url, job.get("jobTitle"), job.get("companyName")
+                        ),
+                        "title": job.get("jobTitle"),
+                        "company": job.get("companyName"),
+                        "category": ind,
+                        "location": job.get("jobGeo"),
+                        "url": job_url,
+                        "published_at": job.get("pubDate"),
+                        "employment_type": job.get("jobType"),
+                        "description": job.get("jobDescription", ""),
+                    })
+
+                pages_read += 1
+                next_cursor = payload.get("nextCursor")
+                if not next_cursor:
+                    break
+                if next_cursor in seen_cursors:
+                    raise ValueError(f"Jobicy a renvoyé un curseur répété pour '{ind}'.")
+                seen_cursors.add(next_cursor)
+                cursor = next_cursor
+            if pages_read == page_limit and cursor:
+                logging.warning("Jobicy : limite de %s pages atteinte pour '%s'.", page_limit, ind)
+        except (requests.RequestException, ValueError, TypeError) as e:
+            failed_industries.append(ind)
+            if errors is not None:
+                errors.append(f"industrie {ind}: {e}")
+            logging.error("Erreur Jobicy pour l'industrie '%s' : %s", ind, e)
+
+    if industries and len(failed_industries) == len(industries):
+        raise RuntimeError("Toutes les requêtes Jobicy ont échoué.")
+    if failed_industries:
+        logging.warning("Jobicy incomplet, industries en échec : %s", ", ".join(failed_industries))
             
     return all_jobs
 
-def run_broad_tech_collector(limit: int = 100) -> List[Dict[str, Any]]:
+def run_broad_tech_collector(limit: int | None = None) -> List[Dict[str, Any]]:
     """Collecte globale des offres Informatique (Dev, AI, Data, DevOps)."""
     logging.info("--- DÉMARRAGE DE LA COLLECTE INFORMATIQUE GLOBALE ---")
     
@@ -84,7 +142,9 @@ def run_broad_tech_collector(limit: int = 100) -> List[Dict[str, Any]]:
     all_jobs.extend(fetch_jobicy_tech_jobs(jobicy_inds))
     
     # Déduplication par ID unique
-    unique_jobs = list({job["id"]: job for job in all_jobs}.values())[:limit]
+    unique_jobs = deduplicate_jobs(all_jobs)
+    if limit is not None:
+        unique_jobs = unique_jobs[:limit]
     
     logging.info(f"Collecte terminée : {len(unique_jobs)} offres IT brutes récupérées.")
     return unique_jobs
@@ -108,5 +168,5 @@ def save_raw_jobs(jobs: List[Dict[str, Any]], filepath: Path = DATA_DIR / "raw_j
     logging.info("Fichier '%s' enregistré : %s offres uniques.", output_path, len(unique_jobs))
 
 if __name__ == "__main__":
-    jobs = run_broad_tech_collector(limit=100)
+    jobs = run_broad_tech_collector()
     save_raw_jobs(jobs)

@@ -1,21 +1,124 @@
+
 services:
 
+  # ==========================================
+  # 1. BASE DE DONNÉES POSTGRESQL
+  # ==========================================
   postgres:
     image: postgres:17
     container_name: job_market_postgres
 
     environment:
-      POSTGRES_DB: job_market
-      POSTGRES_USER: job_user
-      POSTGRES_PASSWORD: job_password
+      POSTGRES_DB: ${POSTGRES_DB:?Set POSTGRES_DB in .env}
+      POSTGRES_USER: ${POSTGRES_USER:?Set POSTGRES_USER in .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
 
     ports:
-      - "5432:5432"
+      - "127.0.0.1:5432:5432"
 
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
     restart: unless-stopped
 
+  # ==========================================
+  # 2. PIPELINE DE COLLECTE PLANIFIÉ
+  # ==========================================
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: job_market_pipeline
+    init: true
+    command: python -m scripts.pipeline
+
+    env_file:
+      - .env
+
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      PIPELINE_INTERVAL_HOURS: ${PIPELINE_INTERVAL_HOURS:-6}
+      PIPELINE_RUN_ON_START: ${PIPELINE_RUN_ON_START:-true}
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+  # ==========================================
+  # 3. BACKEND FASTAPI
+  # ==========================================
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: job_market_api
+
+    command: >
+      python -m uvicorn api.main:app
+      --host 0.0.0.0
+      --port 8000
+
+    env_file:
+      - .env
+
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+
+    ports:
+      - "8000:8000"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+  # ==========================================
+  # 4. FRONTEND STREAMLIT
+  # ==========================================
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: job_market_frontend
+
+    command: >
+      python -m streamlit run frontend/app.py
+      --server.address 0.0.0.0
+      --server.port 8501
+      --server.headless true
+
+    env_file:
+      - .env
+
+    environment:
+      API_URL: http://api:8000
+
+    ports:
+      - "8501:8501"
+
+    depends_on:
+      - api
+
+    restart: unless-stopped
+
+# ==========================================
+# 5. STOCKAGE PERSISTANT
+# ==========================================
 volumes:
   postgres_data:
