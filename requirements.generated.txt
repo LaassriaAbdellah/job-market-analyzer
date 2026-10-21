@@ -1,0 +1,9 @@
+psycopg2==2.9.10
+psycopg2_binary==2.9.9
+pytest==9.1.1
+python_docx==1.2.0
+sentence_transformers==6.1.0
+spacy==3.8.4
+spacy==3.8.16
+streamlit==1.56.0
+streamlit==1.32.0

@@ -189,13 +189,19 @@ def load_normalized_jobs(
         with conn.cursor() as cursor:
             # Serialize this loader so insert/update counters remain accurate across workers.
             cursor.execute("SELECT pg_advisory_xact_lock(hashtext('job-market-jobs-upsert'));")
-            execute_values(
-                cursor,
-                "SELECT source, external_id FROM jobs WHERE (source, external_id) IN %s",
-                identities,
-                template="(%s, %s)",
-            )
-            existing = set(cursor.fetchall())
+            existing = set()
+            identity_batch_size = 100
+            for offset in range(0, len(identities), identity_batch_size):
+                identity_batch = identities[offset:offset + identity_batch_size]
+                execute_values(
+                    cursor,
+                    "SELECT source, external_id FROM jobs WHERE (source, external_id) IN (%s)",
+                    identity_batch,
+                    template="(%s, %s)",
+                )
+                # execute_values executes each page separately; collect every page's rows
+                # before the next SELECT replaces the cursor result.
+                existing.update(cursor.fetchall())
             execute_batch(
                 cursor,
                 query,
@@ -216,7 +222,7 @@ def start_pipeline_run() -> UUID:
         with conn.cursor() as cursor:
             cursor.execute(
                 "INSERT INTO pipeline_runs (id, status) VALUES (%s, 'running');",
-                (run_id,),
+                (str(run_id),),
             )
     return run_id
 
@@ -240,7 +246,7 @@ def finish_pipeline_run(run_id: UUID, status: str, stats: Dict[str, Any], errors
                     Json(stats.get("collected_source_counts", {})),
                     Json(stats.get("source_counts", {})),
                     Json(errors),
-                    run_id,
+                    str(run_id),
                 ),
             )
 
